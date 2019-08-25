@@ -1,0 +1,7 @@
+1. Video presentation on https://cloudmade.com/ page is low quality.
+2. Top images on https://cloudmade.com/solutions/predictive-learning-system/ https://cloudmade.com/solutions/connected-car/ https://cloudmade.com/solutions/car-driver-analytics/ https://cloudmade.com/solutions/map-data-enrichment/ pages are blurry when default page zoom is set to 125% on 1600x900 screen.
+3. Redundant 'Android' word in 'Android ADB' text in https://kiev.hh.ua/vacancy/25110946 vacancy information - ADB stands for Android Debug Bridge and without the abbreviation text in the vacancy info is Android Android Debug Bridge.
+4. Music could be added to the video on https://cloudmade.com/solutions/connected-car/ page.
+5. #black-arrow > span is overlapping 'Find Out More' button text on https://cloudmade.com/solutions/predictive-learning-system/ https://cloudmade.com/solutions/car-driver-analytics/ https://cloudmade.com/solutions/map-data-enrichment/ pages and 'Watch video' button text on https://cloudmade.com/solutions/connected-car/ page when page is scrolled down and up and default page zoom is set to 125% on 1600x900 screen.
+6. Minor - 'Find Out More' button text on https://cloudmade.com/solutions/predictive-learning-system/ https://cloudmade.com/solutions/car-driver-analytics/ https://cloudmade.com/solutions/map-data-enrichment/ pages has upper cased each word - but 'Watch video' button text on https://cloudmade.com/solutions/connected-car/ page has only first word in upper case.
+7. Idea - create first-person 3D animation or video demonstrating real life usage scenarios.

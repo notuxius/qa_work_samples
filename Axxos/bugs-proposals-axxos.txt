@@ -1,0 +1,21 @@
+Good day, i sent resume on QA position, plus i was exploring your homepage and here's what i found at first glance:
+
+1. No image on http://axxos.com/solutions/axxos-oee/axxos-analyze/ page on screen resolutions above 768px.
+
+2. Right sidebar ('Follow Us', 'News', etc) is missing on some pages - this may be intentional for some pages - but for example there is alot of empty space on the right side on this page http://axxos.com/axxos/contact-us/ - that could be fulfilled with sidebar.
+
+3. 'About GDPR' footer link leads to swedish version of the site.
+
+4. 'Solutions' -> AXXOS OEE -> 'Andon' footer link leads to 404 page - and the 404 page is in swedish version of the site.
+
+5. 'Tjänster' -> 'Molntjänst' footer http://axxos.se/tjanster/Molntjanst/ link leads to 404 page.
+
+6. 'Om AXXOS' top main menu link is not fitting into website's main container by width if Firefox browser and overflowing to new line, screenshot - https://www.dropbox.com/s/4hzbbq5lw96rhrq/om-axxos-menu-link.png?dl=0 .
+
+7. Sublinks in 'AXXOS OEE' footer section in swedish version of the site don't have indent, screenshot - https://www.dropbox.com/s/vc609c9hn0le4is/swe-version-no-indent.png?dl=0 - but there is an indent in enlish version, screenshot - https://www.dropbox.com/s/8blpvjbm89exprr/eng-version-slight-indent.png?dl=0 . 
+
+8. '(obligatorisk)' parts of fields captions aren't translated into english in 'Let’s keep in touch!' section on http://axxos.com/axxos/contact-us-2/ page.
+
+9. There is no instructions of where to get a password for the demopage - http://axxos.com/demopage/ - and should there be a password? - maybe it's better to grand access for the demonstation without any passwords - or with password like 'demo' or 'admin' - for quick accessing to the demonstation for potentional customers.
+
+10. Footer links not filling horizontal space optimally on screen resolutions below 768px, screenshot - https://www.dropbox.com/s/khsf96dfcadqrbg/not-opt-space-usage-footer-links.png?dl=0

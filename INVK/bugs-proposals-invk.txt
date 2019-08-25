@@ -1,0 +1,97 @@
+Technical specification instructions for the task are ambiguous (unless this was intended). So i tested the dashboard itself firstly and then i wrote process of testing for the dashboard features. 
+
+
+Technical specification 'QA Tester Assignment.docx' file bugs/proposals:
+
+1. Technical specification has minor bug - in text 'Create a dummy account and workspace in podio with dummy apps and put the results inside the app.' - which says create two or more apps and put results inside just one of them.
+
+2. Instructions for the task are ambiguous (unless this was intended).
+
+
+General bugs/proposals for whole dashboard:
+
+1. All dates in dashboard are expired.
+
+2. Set different background colors for rows with different priorities - for example if priority is 1 set background color with that priority to something like red, if 3 - to something like yellow and if 5 - to something like green - with large transparency level - for less distraction with color - but enough for quick recognition..
+
+3. Inconsistent fonts/styles across tabs.
+
+
+'HOME' tab bugs/proposals:
+
+1. Inconsistent styling of fonts ('Select your name first:' is in bold, 'Then click the desired section:' is regular font) - 'inconsistent-styling-of-fonts.png' screenshot.
+
+
+'New Projects' tab bugs/proposals:
+
+1. 'To be released' column text is not fitting in header slightly - 'column-text-is-not-fitting-in-header.png' screenshot.
+
+2. 'Prio' column has inappropriate data (date in format 'd-Mmm-yyyy') instead of priorities numbers (5 and 4) - 'column-has-inappropriate-data.png' screenshot.
+
+3. Absence of 'Ticket created' 'Feature title' 'Finish date' 'Hours spent' 'To be approved' columns compared to 'Raw new features'.
+
+
+'Raw new features' tab:
+
+1. Inconsistent dates formats in 'Ticket created' column - 'dd Mmm yyyy' vs 'mm/dd/yyyy' formats - and 'dd Mmm yyyy' dates formats in other columns - 'inconsistent-dates-formats.png' screenshot.
+
+2. Reasonability of using 'All clients' column - is there any benefit of using 'All clients' column?
+
+3. Inappropriate name for 'Select_name' column - suggestion to use something like 'First name' or 'Name' or 'Client name' - 'inappropriate-name-for-select_name-column.png' screenshot.
+
+4. 'Planned Start date' column text is not fitting in header slightly - 'column-text-is-not-fitting-in-header-2.png' screenshot.
+
+5. Inconsistent use of capitalization in 'Planned Start date' column header text - capital 'S' in second word - all other headers text have no capitals in words other than first word - or remove word 'Planned' at all - to be consistent with 'Finish date' column (which is without word 'Planned') - same for 'New Projects' tab.
+
+6. Redesign column header styling - after sorting rows in column on certain criteria - the headers borders remain in place - but the headers text are sorted in column and change their positions according to sorting (Google Sheets bug?) - 'redesign-column-header-styling.png' and 'redesign-column-header-styling-2.png' screenshots.
+
+7. Convert 'Hours spent' column into time 'hh:mm' format - reason - current format with floating numbers are not so clear - time 'hh:mm' format will be more readable - plus if one row from the 'Hours spent' column have 4 decimals - 19.1667 - then some code that displays or inserts time values has a bug in it and not rounding properly decimals into 2 numbers after dot like in other rows in that column. Also after such changes column could be renamed into 'Time spent' - 'convert-hours-spent-column.png' screenshot.
+
+8. Reasonability of using 'Ready' column - is there any reason of using 'Ready' column - if there is 'To be released' column with possible 'RELEASED' text?
+
+9. Reasonability of using 'To be approved' column - is there any reason of using 'To be approved' column with possible 'REPORTED' text - if there is 'Approved to do' column with possible 'APPROVED' text?
+
+10. Column headers could be renamed for better clarity:
+
+	1) 'Approved to do' into 'APPROVED';
+	2) 'In progress' into 'DOING';
+	3) 'To be tested' into TESTING;
+	4) 'To be released' into 'RELEASED'.
+	
+	
+Process of testing actual features in dashboard:
+I would test all features in next order:
+
+	1) Retention Podio flows;
+	2) Evaluation Survey rework;
+	3) Format PDF creation;
+	4) Sent Email status: "opened/not opened" read tracking option;
+	5) Create 4 pages on our server which re-direct to social network links;
+	6) NL Dashboard for data analyst;
+	7) PODIO: full tutorials (apps, scripts, flows, rules);
+
+Reasons:
+
+	1) these features have highest priorities (from top to bottom);
+	2) these features were approved (by product owners?);
+	3) these features are not testing right now (by other testers?); 
+
+
+Bugs/proposals for main homepage - https://www.invk.nl/ :
+
+1. Convert text into links in the footer in 'De contactgegevens' column - for better SEO and UX:
+
+	1) convert 'Landgoed Trompenburg Zuidereinde 43 1243 KK 's-Graveland' text into 'ADRES & ROUTE' anchor link to https://www.invk.nl/contact page;
+	2) convert 'info@invk.nl' text into 'mailto:' link;
+	3) convert '+31 88 0666160' into 'tel:' link.
+
+2. Not needed dutch language dropdown at the top right corner of the page - as there is no other language to choose.
+
+3. Translate site into english - some quotes on site are in english.
+
+4. Empty quote on https://www.invk.nl/membership page - from the left side of 'De sectoren Het Nederlands Instituut voor Kennisoverdracht is actief in verschillende sectoren. Als voorbeelden noemen wij zorg, onderwijs, gemeenten, juridisch en enkele sectoren binnen het MKB.' text - 'empty-quote.png' screenshot.
+
+5. 'HET CONTACT' main menu link and 'DUTCH' dropdown are not fitting in main menu div on mobile resolutions below and including 769px device width - 'link-and-dropdown-are-not-fitting.png' screenshot.
+
+
+Link to screenshots folder - https://www.dropbox.com/sh/o2006uliltu2jpc/AADUuGQ33l6t3VkkTU9k3c07a?dl=0

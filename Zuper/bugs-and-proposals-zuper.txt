@@ -1,0 +1,41 @@
+Bugs and proposals found so far for your main website: 
+1. Five 404 errors for website resources: 
+1) 404 Not Found	http://getzuper.com/images/1488288753_select-arrow-drop-down.png 
+style: .widget-form .select-outer select 
+2) 404 Not Found	http://getzuper.com/fonts/glyphicons-halflings-regular.eot 
+style: @font-face 
+3) 404 Not Found	http://getzuper.com/fonts/glyphicons-halflings-regular.woff 
+style: @font-face 
+4) 404 Not Found	http://getzuper.com/fonts/glyphicons-halflings-regular.svg 
+style: @font-face 
+5) 404 Not Found	http://getzuper.com/fonts/glyphicons-halflings-regular.ttf 
+style: @font-face 
+
+2. Translate into english description on Google Play app page (same may be for App Store - not tested).
+3. Some images and text over images is not translated from english in german version of the site - 'not-translated-text-1.png' 'not-translated-text-2.png' 'not-translated-text-3.png' 'not-translated-text-4.png' screenshots.
+4. Use 'Google Play' and 'App Store' badges buttons in localized german versions ('Jetzt bei Google Play' and 'Laden im App Store' badges in german version of the site).
+5. Footer text is not translated into english in english version of the site - 'not-translated-footer-text.png' screenshot.
+6. Language links ('EN' and 'DE' links) are shifted from other text in top main navigation menu - 'shifted-link-1.png' and 'shifted-link-2.png' screenshots.
+7. When you're in english version of the site - http://getzuper.com/index2.html - after clicking on upper left 'Zuper' home link - site is loading in german version.
+8. MailChimp subscribers forms (forms on 'Zuber News' (Nachrichten) and 'Exclusive Access' (Exklusiven Zugang) top navigation links) - have mix of english and german text in them - 'mix-of-english-and-german-1.png' 'mix-of-english-and-german-2.png' screenshots.
+9. Bottom right conversation widget is not translated into german language - 'not-translated-widget-1.png' and 'not-translated-widget-2.png' screenshots.
+10. If selected english version of the site - initial bottom right conversation widget greeting message - 'Pssst Wir verraten es dir hier zuerst: zuper bietet dir bald auch tolle Angebote, mit denen du noch mehr sparen kannst. Hol' dir die App! 
+Wenn Du Fragen zur App, zu zuper oder Kritik und Anregungen hast, stehen wir dir hier zur Verfügung' can be in english language too.
+Link to screenshots folder - https://www.dropbox.com/sh/hec4qv3no23c8vm/AADIl_I9cVKBSA7GTdXbuM0Ua?dl=0
+Time spent - about an hour.
+
+
+
+Hi. I tested login screen of the Zuper app on Android:
+
+1. I'm currently have Android 4.4 device - when trying to install the app from Google Play - the error message saying that the app is not compatible with my device appears - without further ability to install app from Google Play - this is probably Google Play bug and needs testing on various minimum Android versions devices. I manually downloaded and installed apk with the app.
+
+2. Text in 'Privacy policy' page on login screen is not translated into english.
+
+3. Text in 'Terms of service' page on login screen is not translated into english.
+
+4. Do not display text 'NONE' near password if no password was entered.
+
+5. I have UX improvement ideas for login screen.
+
+Time spent - 15 min.

@@ -1,0 +1,37 @@
+Here are bugs and proposals for http://www.techstudio.tv/ page at first sight:
+
+1. On http://www.techstudio.tv/careers/ page - 
+"JOB TITLE", "LOCATION" and "PUBLISHED" table headers sections are not clickable - but with mouse cursor in pointer style when hovering over them - misleading for users.
+
+2. On http://www.techstudio.tv/careers/ page - 
+no need in dropdown with 'No additional info' text - because there is not additional info for every job in job table. 
+
+3. On http://www.techstudio.tv/careers/ page - jobs table is
+too small vertically - creating bad UX for users - 3-too-small-vertically-jobs-table.png screenshot.
+
+4. Jobs table style colors (grey, black, orange) is not matching with other website style colors (blue, white, green).
+
+5. 404 error page has overlapping text and no style in form at the top of the page - 5-techstudio-404-page-overlapping-text screenshot.
+
+6. Facebook and Twitter links in the footer are just links to Facebook and Twitter homepages - which is meaningless - i think these links can be converted into Facebook and Twitter Techstudio page links.
+
+7. On http://www.techstudio.tv/#contact_demo page - there is hard to read errors text.
+
+8. On http://www.techstudio.tv/about-us/ page - should be extended to include info about company itself - and not only a brief description about technology - for better SEO and for customers reference.
+
+9. On http://www.techstudio.tv/#contact_demo page - on mobile resolution - error 'One or more fields have an error. Please check and try again.' text div is shifted to the right side - 9-error-text-div-is-shifted-to-the-right-side screenshot.
+
+10. 404 Not Found error for http://fonts.googleapis.com/ link - <link rel='dns-prefetch' href='//fonts.googleapis.com' /> - on homepage.
+
+11. On http://www.techstudio.tv/faq/ page - in 'Technical Questions' tab - there are only 'Lorem ipsum' text dropdowns.
+
+12. On http://www.techstudio.tv/faq/ page - there is no text in 'Service Related' and 'Questions' tabs.
+
+
+Screenshots are attached.
+
+
+
+
+
+

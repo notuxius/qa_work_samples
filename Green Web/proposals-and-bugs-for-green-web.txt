@@ -1,0 +1,17 @@
+Here is some list with proposals and bugs that i made for your main page (tested on android 480px width in firefox, yandex browser and in firefox, chromium on desktop):
+
+1. What is the name of the company? - is it 'GreenWeb' (without space, in title) or 'Green Web' (with space, on site).
+2. No favicon for site - both on mobile and desktop.
+3. Small lines with the lower part of video on main page - screenshots #1 and #2.
+4. Bugs in page navigation on the right side - one of them on #3 screenshot.
+5. Use different font for links of the projects - 'thevigio.com' and 'printtime.com.au'.
+6. On mobile - green rectangle shifted to the right on top of main page, 'Последние проекты' shifted to the right too, background behind green rectangle is shaking a little bit when you scroll page down.
+7. On mobile - link text of the projects (like 'thevigio.com' and 'printtime.com.au') is overlapping project name on project's photo.
+8. No links for 'Спецзалізобетон' and 'DTP cloud' projects - both on mobile and desktop.
+9. On mobile - tel link is only on last telephone number (066) - other numbers don't.
+10. Disable tel links on desktop? How to call from desktop? - add skype and/or viber links instead.
+11. Add link like 'Take me there!' or make link from address text itself (make link from 'Киев, проспект П. Григоренко, 20 23 этаж, офис 140' text) with opening (google, yandex or openstreet) maps with studio address - both on mobile and on desktop.
+12. Add mailto link to 'info@greenweb.com.ua' address - below 'Нечепуренко Денис / Руководитель проектов' text on top of the main page on desktop.
+13. Add 'Нечепуренко Денис / Руководитель проектов' with email address link 'info@greenweb.com.ua' on mobile version of the site.
+14. Add vk.com and facebook links both to mobile and desktop versions of main page.
+15. Logo in facebook is not like the one in main page or in vk. 

@@ -1,0 +1,41 @@
+Hi VK team, here you can see my observations and thoughts on main website with new interface:
+
+
+1. Some times text 'Go up' on the left side splits in two in firefox on VK Jobs page - 'https://new.vk.com/jobs' - i didn't noticed it in chromium - screenshots #1, #2, #3.
+
+    1.1 text with job titles is not translated (e.g. in ukrainian and english).
+    
+    
+2. When i logged in from firefox - the site showed me new design notification and when i logged in from chromium after that - it showed me  notification about new design once again - but i (the user) already saw and acknowledged it.
+
+
+3. On 'Conversations' page - 'https://new.vk.com/im' - 'Showing all conversations' in new (not classic) interface displayed as a link with cursor becoming pointer but clicking on it does nothing - screenshot #4.
+
+    3.1 to the right of 'Showing all conversations' - gear icon shows menu when i hover mouse over it, but menu doesn't showing (or showing just for a second) when i'm clicking on it and immediately after that hover out of the gear icon. Probably showing menu action should be done on click event on gear icon. It's for consistency reasons too - for example when you hover over rightmost top profile name - menu (with 'My profile', 'Edit', 'Settings', 'Help', 'Logout' items) doesn't showing - you have to click on it to see the menu (same for top music button and top notify button).
+    
+    3.2 link to 'Conversations' page in left sidebar can be signed with the same name - 'Conversations' - it's 'Messages' now - for consistency (and same for groups - 'https://new.vk.com/groups' and 'Communities').
+    
+    
+4. I have a friend request - when i clicked on 'Friends' link on the left sidebar - i saw 'New' tab with person that wants to be my friend i approved him but announcement in top notification button didn't disappeared and it displays friend request that i already recognized and on next to 'New' tab - 'Pending' tab - indicates new friend that i already added (and it's not pending anymore).When i click on 'Pending' tab - it disappears (along with 'New' tab) and only tab that is left - 'Outgoing' tab. The announcements in top notification button and in the 'Pending' tab have to vanish automatically or make cleaner interface just with 'Followers' div block. Screnshots #5, #6.
+
+
+5. Ability to use squared icons instead of circled icons on profile and group avatars in 'My Settings'.
+
+
+6. Fix position of left sidebar with option in to unfix it in 'My Settings' - for quick access to sidebar items and more rational use of space.
+
+
+7. Useless search field when there is nothing to search for (like when there are no blocked apps or no blocked users) here - A) 'https://new.vk.com/settings' -> 'General' -> 'View blocked apps' and here - B) 'https://new.vk.com/settings?act=blacklist'. Screenshots #7, #8.
+    
+    7.1 in A) case when you type something in search field - text 'You have not blacklisted any apps yet' didn't disappear.
+    
+    7.2 in B) case when you type something in search field - text 'Your blacklist is empty...' disappears and didn't showing once again when search field is empty.
+
+
+8. When clicked on top music button - there is useless white layer on the bottom of the songs list - it does not displays anything. Screenshot #9.
+
+
+9. Notification 'Somebody tried to access your account through Firefox..' showed me when i logged in through Firefox and that 'somebody' was me. Additional info: before that i logged in through Chromium, verification code through phone was enabled - i clicked on 'Resend verification code' a couple of time because i didn't get the code but received it in a short time after that.
+    
+    
+10. When i tried to login through QupZilla and i was logged in through Firefox and Chromium - they both showed me notification 'Somebody tried to access your account through Safari..' - browser detection needs improvement. Screenshot #10.

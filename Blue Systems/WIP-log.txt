@@ -1,0 +1,2856 @@
+CURRENT:
+Could you please add more info about your system? Distribution, Qt/Frameworks/Plasma versions, video card and drivers, presence of additional monitor(s), other non-standard setup
+sitter openqa questions
+watch users in bugs.kde.org?
+
+
+
+
+Operating System: KDE neon Developer Edition
+KDE Plasma Version: 5.15.80
+KDE Frameworks Version: 5.54.0
+Qt Version: 5.11.2
+Kernel Version: 4.15.0-42-generic
+
+on a terminal:
+
+gdb plasma-discover
+run
+# you make it freeze, then press ctrl+C when it's frozen
+thread apply all bt
+# this will output the backtrace which you can copy and paste in here.
+
+
+
+
+
+netrunner debian:
+open in firefox file links:
+svg firefox inkscape save krita
+psd firefox krita save gwenview
+pdf firefox inkscape save okular - pdf.js used in rolling kdegraphics-thumbnailers is present in rolling not enabled by default in dolphin settings
+
+no preview for pdf files in dolphin adding kdegraphics-thumbnailers and check box in dolphin general -> previews settings enables previews
+
+grub isn't localized
+
+sddm no current user name and password field selected
+sddm theme is partially localized
+
+ita filter ok firefox thunderbird not localized
+fra filter ft
+I tested ~10 installs with localizations/regions and in one install i saw this issue with lists
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+discover:
+if there is update from flatpak firefox it's displayed as one update of selecting updates page - other updates are displayed
+
+size by sorting is calc on remainig down size - it's wrong when discover crashes - no recovery
+
+updates partial shows first time then flashes and shows second time list updates page
+
+other package manager update pamac rolling - discover tray icon update after timeout? 
+
+increasing width middle apps list revealing animation should
+
+is there some interval on checking updates if there are currentl not updated updates list?
+
+add fade in or slide animation when selecting apps/addons in categories when selec0ting particlar app
+
+
+
+
+
+
+
+
+
+
+
+
+
+add source button for flatrepo and flatpak links adding shows double entries in flathub source list - maybe use '--if-not-exists' option for internal flatpak command - clicking on install button on double entry app from flatref shows that it's already installed
+
+supertuxcart reviews 8 aren't scrollable by touchpad 1080p screen bottom default sized panel fullscreen discover window
+ 
+hover tooltip for top right app/addons sort order dropdown can be more informative sort: rating -> Sort by user ratings
+
+if there are no deps - don't display 'Show deps' link - if there are no deps - for example 'libkf5idletime5' package 'libkf5purpose5'
+
+possibly somehow mark autoselected checkboxes in when changing checkboxes in updates page - for example latte -> latte plasmoid _> latte shell
+
+gpl v2 licence in about page opens text that cannot scroll page with touchscreen or even open it in browser same as licences in app info
+
+clicking left click on discover updates -> view updates opens discover but not updates page same right click see updates
+
+clicking darktable simple scan licence returns 404 page
+
+add swipe gesture for photo change
+
+don't hide left/right arrow for photo change
+
+increase size of left/right arrows for photo change
+
+add informative popup message wneh make default changing source - i don't know what it does
+
+shrink text from right left side add source flatpak
+
+sorry nothing found text when clicking on sources list kde neon
+
+touch screen drag down and hold applications from the top - blinking of the apps list - but no blinking if drag up from the bottom
+
+add option for auto download updates
+
+add option for autoremove unrequired dependencies
+
+add orphans page to the left side near installed
+
+resetting of arrangement of app by rating by name
+
+add circle arrows when checking for updaates adn up arrow when updates are in progreess tray icon
+
+wish - after updates - 'no updates' text could be like 'update successful' and if plasma components was update this text could be complemented with 'restart computer to apply updates'
+
+
+
+should not as for password if 'dependency resolution failed'
+
+
+no transaction canceled for flatpak pack
+
+
+
+pass prompt for flatpak packages?
+
+
+fade effect after cancel of transaction install remove
+
+
+when other process is installing packages (command line) - after pressing 'install' button - discover prompts for pass, shows installing progress and then shows 'remove' button - but package isn't installed - though the 'update' section displays 'cannot obtain lock' error message
+
+
+not interrupting logout/restart upon updates?
+
+fetching updates without progress if prev update process was interrupted? - after timeout 'the system is up to date' wrong message
+
+how good discover is in tolerating of connection interruption?
+
+no Transaction canceled for flathub packages?
+
+9 test when in updates window and new updates arrived - without installing prev update - how would app behaves?
+
+
+don't display launch button for plasma addons apps
+
+Binary Clock and Calendar command not found when clicking on homepage link
+
+
+
+
+
+
+
+netrunner rolling:
+no dispays kcm osd upon startup with connect ext display - present in debian + shot
+
+add and enable ntpdate for time sync once per boot - when using dual boot with windows
+
+rolling: You are missing the following 32-bit libraries, and Steam may not run:
+libgtk-x11-2.0.so.0
+libgdk_pixbuf-2.0.so.0 error when launching steam from netrunner repo
+
+autostart yakuake showing session restoring
+
+page not found on desktop readme 2018 8 release 
+
+usb writing software on download page needs update?
+
+comments and generic name needs to be updates in calamares netrunner branding package - and in others?
+
+cursor theme adwaita sometimes - upon hovering titlebar, gtk apps
+
+iso files could eject itself after installation in virtualbox
+
+debug session isn't working? systemd-bootchart isn't shipping anymore with systemd package
+
+desktop folder internationalization not used/working because of installation  of some netrunner package into hardcoded 'Desktop' folder?
+
+app image launcher package add alias for lower case executible
+
+script for auto pasting system info into bugs kde comments with unfolding - and folded by default - widget
+
+theme netrunner black not found if launch grub-customizer from terminal
+
+manjaro-browser-settings-native conflict with netrunner firefox setting
+
+merge default-settings-autostart and netrunner-settings-autostart ?
+
+add widget that will scan certain bugs upon certain interval and display notification in sys tray about status change???
+
+modify about-extended to display current branch
+
+imwheel - disable click for side buttons to work
+
+two sound applets after installing
+
+add repo packages with wayland and x11 manjaro tools profiles
+
+no icon for device notifier
+
+inv https://github.com/syncreticlinux
+
+blurred images in calamares - retest
+
+no previews for apps in icons-only task manager - effects?
+
+netrunner wheel wallpaper isn't setting after l&f change with use desktop layout setting enabled for netrunner blue and black x - rolling theme sets the default wallpapers depicted in l&f setting window preview - https://bugs.kde.org/show_bug.cgi?id=337757
+
+c9 session timeout appeared upon restarting - live session - existing?
+
+propose eur keyboard instead of us by default
+
+audio volume win7 is displayed both as widget and in tray? - after installation/updates?
+
+win7 audio mixer to big speed when changing volume with touchpad two finger scrolling - imwheel?
+
+cursor change in chromium/firefox compared to titlebar
+
+nomad firewall kaos + aur package https://github.com/maui-project/maui-firewall
+
+
+
+
+
+
+
+xwininfo and move cursor changes to "+" indicaiting X11 session
+
+pacman -Rns $(pacman -Qtdq) - remove orphans
+
+git config credential.helper store
+
+git config --global user.email "notuxius@gmail.com"
+git config --global user.name "Alexander Mentyu"
+
+
+
+
+https://github.com/blue-systems/netrunner-releases/issues
+https://github.com/blue-systems/plasma-5.14/issues
+
+
+
+https://gitlab.manjaro.org/profiles-and-settings/manjaro-kde-settings/activity
+https://gitlab.manjaro.org/tools/development-tools/manjaro-tools/activity
+https://gitlab.manjaro.org/tools/development-tools/manjaro-tools.git
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/thias/glim
+
+
+
+https://phabricator.kde.org/project/board/283/
+
+
+https://phabricator.kde.org/tag/neon_openqa/
+
+
+https://community.kde.org/Plasma/Wayland_Showstoppers
+
+
+
+http://arch.netrunner.com/ISO/
+https://images.plasma-mobile.org/iso/
+
+
+qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.showInteractiveConsole
+
+
+
+
+
+sddm-greeter --theme /usr/share/sddm/themes/breeze/
+
+
+
+
+
+git clone https://anongit.kde.org/elisa.git
+cd elisa
+patch -p1 < D15777.diff
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+
+/etc/systemd/timesyncd.conf
+[Time]
+NTP=0.arch.pool.ntp.org 1.arch.pool.ntp.org 2.arch.pool.ntp.org 3.arch.pool.ntp.org
+FallbackNTP=0.pool.ntp.org 1.pool.ntp.org 0.fr.pool.ntp.org
+
+timedatectl set-ntp true 
+
+
+
+
+https://userbase.kde.org/KDE_System_Administration/PlasmaDesktopScripting#Running_Scripts
+
+
+
+alias falkon='falkon -platform wayland'
+
+
+
+https://forum.kde.org/viewforum.php?sid=5d00aa5ac126487292c79e6695d9bf21&f=83
+
+
+
+lspci -nn | grep '\[03'
+
+
+
+https://github.com/psifidotos/Latte-Dock/wiki/How-to-Report-Crashes
+
+
+
+
+
+
+
+https://github.com/calamares/calamares/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen
+
+
+
+
+
+
+
+konsole -e 'bash -c "/home/not/plasma-wayland-testing-manjaro-tools-profile/iso-profiles/netrunner/plasmawaylandtest/desktop-overlay/usr/bin/print-sys-info -wsx"'
+
+
+
+
+
+QT_QPA_PLATFORM=xcb 
+
+WAYLAND_DEBUG=1
+
+repo-add customlocalrepo.db.tar.gz isowriter-1.2.2-1-x86_64.pkg.tar.xz
+yay -Sl customlocalrepo
+
+
+buildiso:
+time is counting not for process time but also includes possible suspend time
+
+build and shutdown/suspend script idea
+
+add support for custom local repos
+
+script force unmount all live/desktop... sfs
+
+add offline detection for buildiso script
+
+script choose mirror based on location - like in calamares? - add script into prepare testing config
+
+check free space + overhead before building + in order not to see error if there is low space:
+xorriso : FAILURE : Image size 1545181s exceeds free space on media 166698s
+libisofs: MISHAP : Image write cancelled
+xorriso : NOTE : -return_with SORRY 32 triggered by problem severity FAILURE
+
+buildiso iso - squashfs doesn't prevents power saving suspend
+
+do not search for iso-profiles folder in thrash folder
+
+
+
+command center:
+bash installer for both official and testing profiles
+
+fix common issues connect to wifi timeout, write permission to ntfs drives
+
+remove footer from down photos list page
+
+info about absence of internet in wallpaper tab
+
+make a smaller main icon
+
+localization files
+
+make window not resizeable
+
+less transparent background for latest popular curated in walls page
+
+remove pacman cache button replace it with screen settings + icons
+
+remove virt desktops + icons
+
+tranfer all elements to ui labels top links
+
+downlaod buttons' text is invisible in breeze dark lnf
+
+duplicate walls after pressing load more
+
+in about tab - links to forum news and kinfocenter arch manj wikis + buildiso
+
+double click on any wall to down and apply - or single
+
+auto load more in walls - like in discover
+
+import export all configurations
+
+add transitions between popular curated switch in wallpaper tab - fad
+
+download wallpapers packs top - netrunner walls
+
+disable resize cursor and maximize title button
+
+rename systemd deamon button into systemd
+
+set 'set wallpaper' button to grey after it's pressing
+
+translations
+
+make github tw fb icons bigger colour? and on cust page only
+
+rename page1,2,3 into semantic names custpage wallpage aboutpage...
+
+download and set wallpaper in one button
+
+buildiso integration
+
+about page with short description and links to forums help pages
+
+top links - github facebook twitter
+
+
+
+
+manjaro tools wayland iso profile:
+build official rolling isos
+
+script has to update itself if installed in /usr/bin folder or in any case
+
+backup/restore current profile settings
+
+update readme
+
+test in vbox?
+
+makepkg -j9 set in script for compiling with all cores COMPRESSXZ=(xz -c -z - -T0) let "a = $(nproc) + 1" echo $a
+
+separate just backup and redownload defaut options
+
+make script not except options and build existing profile again
+
+use printf were possible
+
+backup instead of redownload? with -b option?
+
+don't redownload on first time download from github - just copy?
+
+disallow usage of arguments - options without "-" passed to script
+
+psi - add support for neon wayland version
+
+alternative wayland version check - if internet is absent
+
+three echos instead of one if internet is absent
+
+add plasma-sdk
+
+separate shell scripts from profile ptc psi
+
+ask for which profile to build right from the ptc script
+
+add gnome-keyring for skype?
+
+remove binary files from history
+
+// build() {
+// 	cd "$pkgname-$pkgver"
+// 	./configure --prefix=/usr
+// 	make
+// }
+// 
+// check() {
+// 	cd "$pkgname-$pkgver"
+// 	make -k check
+// }
+
+create package for ptc script
+
+use manjaro-printer metapkg? print-manager
+
+echo grep && sed status checks
+
+create single calamares slide with testing info? svg?
+
+# addgroups="video,audio,power,disk,storage,optical,network,sys,lp,scanner,wheel"
+
+test rngd status on live on installed systems
+
+ptc ask for bulding right now of profile after preparations
+
+three last commands only when profiles is downloaded: ptc script
+Current build - desktop packages and systemd services were not modified
+
+ptc pull instead of delete existing git repo folder?
+
+remove qwebview
+
+add desktop file for ptc
+
+check if files was created with sudo? ptc
+
+check for existence of all files in ptc script
+
+all variables in ${var} ptc
+
+manjaro tools configuration file current user's home? ptc
+
+revert packages script
+
+collect all warnings script after buildiso
+
+88 chars width? - default konsole window width
+
+present build is showing even when there is no profile downloaded
+
+ping best server before adding using it in best_server_match variable
+
+https://stackoverflow.com/questions/11958369/replace-only-if-string-exists-in-current-line
+
+also change iso label to NRWMROLL in manjaro tools conf file with minimal build?
+
+make autologin: false in profile.conf work again - autologin into wayland
+
+replace all strings with variables - manjaro tools configuration file with $target_file variable - ptc script
+
+put all steps into functions and call them by arguments - ptc script
+
+enable firefox settings package?
+
+test kde wallet blowfish... prompt on wifi connection
+
+start buildiso inside ptc script with updating of the script, updating mirrors, parameters etc
+
+alternative virtual software?
+
+force usage of breeze cursor?
+
+virtualbox live iso android images plasma mobile integrated?
+
+update check script for prepare testing config script
+
+Ubuntu no longer offers an opportunity to set a swap partition. A swap file is now automatically created for you which is a maximum of 2GB or 5% of free disk space (an Ubuntu implementation
+
+GRUB has been replaced with systemd-boot and a tool called kernelstub
+
+ptc -o -a with || &&
+
+test gitignore for installed live systems .old kate-swp files
+
+virtualbox shared folders support? - live packages?
+
+more try excepts - better echos only if command 100% will be executed
+
+add message about not writable dest conf dir - launched with sudo buildiso - and abort
+
+force overwrite of existing profile folder?
+
+investigate ranking mirrors on live/installed systems
+
+try first launch buildiso and then prepare script and vise versa on live and installed system
+
+check if mirror is available in prepare testing config script
+
+change build mirror in manjaro tools conf - with unstable repos - pacman-mirrors reflector alike
+
+create desktop file for ptc
+
+rename ptc into prepare-testing-environment?
+
+ptc add arraws into echo - same as in buildiso script
+
+cleanup lsb_release_file and os_release_file vars from echo?
+
+install manjaro tools on desktop packages
+
+add prepare testing config script into autostart? - iso-profiles.conf modification? with checking if it was  # initially modified already
+
+test multiland install of prepare script on installed/live systems
+
+impove sed substitution in prepare testing config file sed 's|\.0|\.|' with regex - https://www.tutorialspoint.com/unix/unix-regular-expressions.htm
+
+ssh server - alredy present?
+
+all todos in script into issues
+
+break long lines
+
+build server - https://circleci.com/add-projects/gh/notuxius
+
+rename? divide sddm autologin into sddm file and calamares module config file
+
+debug:
+add into /bin/buildiso
+trap "set +x; sleep 0.0001; set -x" DEBUG; export PS4='+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'
+
+investigate kde manjaro/kaos packages
+
+add calamares-wayland into netrunner repo - for installing into autologin into wayland by default
+
+use grep/sed and write into .bashrc - in fix wayland app script instead of bash variables - also for xhost - launch before plasma?
+
+add >extra in desktop packages for extra packages? - create script
+
+enable color in pacman by default
+
+entering wrong password hangs - investigate logs - existing bug?
+
+try to install on real hardware in efi mode
+
+eject iso disk after installing
+
+do not display updates on live system?
+
+investigate https://github.com/manjaro/iso-profiles/commits/master/manjaro/kde
+
+add eng lang packs
+
+remove non-network local connections from access control list upon logout? xhost -local: there is xhost command in ~.bashrc on installed system
+
+transfer all issues from txt files into github
+
+grub settings isn't applying GRUB_TIMEOUT=5 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" GRUB_DISTRIBUTOR?
+
+kate opening root files in normal mode and then trying to save them after password prompt isn't working
+
+looks like there is sometimes chanse to autologin into Xorg
+
+use patch instead of bash sed?
+
+https://wiki.archlinux.org/index.php/Imwheel
+
+https://wiki.archlinux.org/index.php/GRUB#Configuration
+
+change build version-> test in kinfocenter
+
+add KSystemLog KSysGuard and etc in desktop-items script
+
+add replace current scripts with scripts in packages into issues
+
+unify look and feel x and wayland
+
+minimal packages bash/python/c++ script enable/disable - # minimal-packages-switch
+
+disable of squashing of sfs?? for faster building
+
+use [ -r ] instead of eval echo?
+
+checkout sddm config manjaro kde - https://github.com/manjaro/iso-profiles/blob/master/manjaro/kde/desktop-overlay/etc/sddm.conf
+
+AppStream system cache was updated, but problems were found: Metadata files have errors: /usr/share/app-info/xmls/core.xml.gz, /usr/share/app-info/xmls/extra.xml.gz, /usr/share/app-info/xmls/community.xml.gz
+
+installing netrunner-settings-sddm...
+sed: can't read etc/sddm.conf: No such file or directory
+sed: can't read etc/sddm.conf: No such file or directory
+
+wayland debug session with logs on desktop?
+
+journalctl | grep sddm
+
+refine issue file text - login -> credentials and in readme too?
+
+investigate for disabling other netrunner packages
+
+/var/lib/manjaro-tools/buildiso/kde/x86_64/livefs/usr/lib/calamares/modules/grubcfg/main.py - desktop bash script on live system - or c++ qt gui app with various settings toggles?
+in /home/not/Downloads/manjaro-tools-profile/shared/netrunner/live-overlay/etc/skel/Desktop/folder - test with various lang?
+
+
+mount sfs:
+sudo mount -o loop /var/lib/manjaro-tools/buildiso/kde/iso/netrunner/x86_64/desktopfs.sfs /run/mount/ -t squashfs
+sudo mount -o loop /var/lib/manjaro-tools/buildiso/kde/iso/netrunner/x86_64/livefs.sfs /run/mount/ -t squashfs
+
+
+create transfer assembled isos into Netrunner Rolling Wayland Testing ISOs folder and monitor if there is already iso file in that folder -
+transfer existing iso into Older folder - and if there are more than 10 isos remove older once + possibly monitor out folder /var/cache/manjaro-tools/iso/netrunner/kde/ for new isos in folders
+
+prepare testing config.sh as c++ qt app?
+
+add -x parameter for debug
+
+with persistence calamares displays out of space error on desktopfs unpacking
+
+show hidden files in dolphin
+
+use 4 virtual desktops
+
+use 4 activities - xorg
+
+add kdocker?
+
+try calamares post install module - https://github.com/calamares/calamares/tree/master/src/modules
+
+use default wallpaper in new breeze theme - lock screen and sddm
+
+inconsistent installed and live themes/configurations/app launcher
+
+grub-customizer not launching - profile config problem? - solution for running from console with sudo - xhost +si:$USER:root
+
+possible change iso folder to osdn.net?
+
+disable quiet boot - not working on live? - also add into installed desktop overlay?
+
+create add link to forums wayland
+
+/usr/share/manjaro-tools/iso-profiles/ - config profiles files
+
+/home/not/.config/manjaro-tools/manjaro-tools.conf - config manjaro tools files
+
+/var/cache/manjaro-tools/iso/netrunner/kde/ - iso files
+
+/var/lib/manjaro-tools/buildiso/kde/ - working files
+
+/usr/lib/os-release - change first part of iso name - ID=netrunner -> ID=netrunner-wayland - grub isn't installing
+
+https://wiki.manjaro.org/index.php?title=Manjaro-tools
+https://wiki.manjaro.org/index.php?title=Build_Manjaro_ISOs_with_buildiso
+
+overwrite iso profile directory - for not copying and replacing files in /usr/share/manjaro-tools/iso-profiles/ directory
+kate /usr/lib/manjaro-tools/util-iso.sh 412:
+check_requirements(){
+
+    run_dir=/home/not/Downloads/manjaro-tools-profile/
+
+    cd $run_dir
+
+    echo $PWD
+
+git clone https://github.com/notuxius/manjaro-tools-profile.git
+
+mtools - errors during iso build:
+( 5/15) Configuring pacman-mirrors ...
+.: WARNING https://wikipedia.org '<urlopen error [Errno -2] Name or service not known>'
+.: WARNING https://github.com '<urlopen error [Errno -2] Name or service not known>'
+.: WARNING https://bitbucket.org '<urlopen error [Errno -2] Name or service not known>'
+.: WARNING Internet connection appears to be down
+.: INFO Mirror ranking is not available
+.: INFO Mirror list is generated using random method
+.: INFO Writing mirror list
+
+use wayland only - without Xorg?
+
+use https://github.com/user-none/KDocker
+
+mtools - whiteclassica cursor theme on gtk apps after changing lnf to other than default
+
+mtools - error during build:
+bsdcpio: Failed to set default locale
+
+use same grub-theme-live-netrunner both in live and desktop packages? + root packages
+
+mtools add autoselection of latest kernel in /home/not/.config/manjaro-tools/manjaro-tools.conf with mhwd-kernel -l and sed/awk - without 'rt' string
+
+add build instructions
+
+mtools - add faq and issues readme that i had
+
+mtools - look for errors in console upon building
+
+mtools - one shared file isn't needed?
+
+manjaro tools - iso has isoinfo -d -i /var/cache/manjaro-tools/iso/netrunner/kde/2018.01/netrunner-kde-2018.01-stable-x86_64.iso - MJRO2018 label
+
+
+
+
+
+
+
+
+
+
+devel ideas/info:
+
+usb writer fork kaos + aur package + remove top left image + system icons sometime not load after sudo password +
+system notification upon errors/completion + verification progressbar + wayland launch not working
+create app that will copy prod name and component name from bugzilla after copying bugzilla url to clipboard
+
+duplicate rows in reporting and mon files
+
+not visited links that are present on wayland issues search page but not in rep and mon files
+
+new wayland issues applet - similar to gmail applet
+
+glim multibootusb https://glee.thias.es/GLIM#GRUB_Live_ISO_Multiboot 
+https://wiki.archlinux.org/index.php/Multiboot_USB_drive#Using_GRUB_and_loopback_devices
+https://github.com/thias/glim
+
+add commented/uncommented packages echos instead of whole file - packages toggle scripts
+
+packages files - autoformat comments with vertically even comments in each section ##
+
+checkout utils - https://github.com/specialworld83 - freezedry?
+
+mint backup tool - checkout https://github.com/linuxmint/mintbackup
+
+inotifywatch plasma widget
+
+f3 key goes into dolphin not in konsole in htop app when konsole is embeded in dolphin
+
+iso dolphin plugin to boot virtualbox on iso double click in dophin
+
+scan AUR and KCP for top packages - check of they aren't available - display results in report
+
+script for scanning page with wayland pages where there is no my email - for subscribing to relevant not commented wayland bugs
+
+display a couple lines up and down with found keywords like wayland notuxius@gmail etc 
+
+rearrange components in txt files descending acording to number of occurances in bugtracker 
+
+scrappy full prod/comp names
+
+scrappy scanning website bugs.kde.org all scripts with delays for not to load them to much 
+
+scrappy script for organizing bugs to unform with bugs.kde.org product/component text + additional section with forums links bugs and others
+
+in scrappy script use input instead of hard coded url?
+
+script for auto updating local distros' isos
+
+scan page for components occurance count:
+
+https://bugs.kde.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=ASSIGNED&bug_status=REOPENED&columnlist=product%2Ccomponent%2Cassigned_to%2Cbug_status%2Cresolution%2Cshort_desc%2Cchangeddate%2Copendate%2Cbug_severity&field0-0-0=product&field0-0-1=component&field0-0-2=keywords&field0-0-3=alias&field0-0-4=short_desc&field0-0-5=status_whiteboard&field0-0-6=content&list_id=1513400&order=opendate%20DESC%2Cbug_status%2Cpriority%2Cassigned_to%2Cbug_id&query_format=advanced&type0-0-0=substring&type0-0-1=substring&type0-0-2=substring&type0-0-3=substring&type0-0-4=substring&type0-0-5=substring&type0-0-6=matches&value0-0-0=wayland&value0-0-1=wayland&value0-0-2=wayland&value0-0-3=wayland&value0-0-4=wayland&value0-0-5=wayland&value0-0-6=%22wayland%22 
+
+scan page for words 'could you post/add/paste/enter here output of, etc.
+
+create organization in github for devel ideas implementation
+
+script for arranging by alphabet product/components in reporting files
+
+copy current product/component into clipboard from current page in browser
+
+copy current url into clipboard from current page in browser
+
+show duplicate urls in reporting/monitoring files
+
+script for detecting new isos and comparing versions of isos on https://files.kde.org/neon/images/neon-devedition-gitunstable/current/
+https://sourceforge.net/projects/kaos-test/files/iso/
+
+python manual if net is present - launch readme online else launch local version 
+
+widget for switching between wayland and x11 plasma kde???
+
+xkill c++ widget - https://forum.kde.org/viewtopic.php?f=91&t=101946
+
+detect if you're running wayland or x - loginctl show-session `loginctl|grep not|awk '{print $1}'` -p Type
+
+kquitapp5 plasmashell && kstart5 plasmashell &> /dev/null
+
+
+plasmashell -platform xcb
+
+
+inotifywatch -r
+
+
+
+valgrind dolphin 2> log.txt
+
+
+debug plasma:
+switch to a TTY (or ssh in from another computer)
+run "sudo gdb --pid `pidof plasmashell`"
+
+when that loads type
+
+set logging on
+set pagination off
+bt
+then quit
+
+you should then find a file called gdb.txt in that directory.
+
+
+sudo gdb --pid $(pidof plasmashell)
+
+sudo gdb --pid `pidof kwin_wayland` 2>&1 | tee kwin3.gdb  
+thread apply all bt
+
+
+
+
+
+
+
+configure plasma:
+~/.config/plasma-org.kde.plasma.desktop-appletsrc
+
+test notifications:
+notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information
+
+
+kwin restart:
+kwin_wayland --replace
+
+
+kwin support info:
+qdbus org.kde.KWin /KWin supportInformation
+
+
+
+change to unstable repos:
+sudo pacman-mirrors --api --set-branch
+
+
+report outdated packages:
+https://forum.manjaro.org/t/manjaro-specific-packages-which-need-an-update/
+
+
+
+
+
+plasma-wayland: 
+kaos downloading isn't cancelling + other files?, manjaro kde is displayed as redir url - plasma integration notification - after time third download dissapears - view all downloads not working - but clicking on notif works - custom down manager? + don't fold notification after click on it?
+
+add notification settings near 'disable all sound' button in notifications kcm - wish
+
+window unminimizing after password prompt appear discover pass
+
+ksmserver - ui - keep above windows are overlapping log out dialog
+
+insync window isn't launching with Lauch button after installing deb through Discover from insync website - same for remove button
+
+
+Logout isn't pausing/cancelling from apps with unsaved data Logout canceled by '/usr/bin/kate' 
+
+
+sometimes lock screen is desaturated/frozen after wakeup
+
+power button should also suspend system in lock screen
+
+previews are not clicable in wayland icon-only task manager - tooltips working?
+
+brightness change in tray slider from autoadjusted on below 10%
+
+task manager hangs when reordering tasks of same app instance in popup.
+
+no choose output in sddm screen if display was connected via hdmi while in sddm without enterring in any session x11 or wayland
+
+cannot login into wayland session with connected projector via hdmi - after connecting via hdmi login screen is displayed immediately
+
+no confirmation dialog if files were changed and not saved before logout
+
+meta shortcut bug wayland? minimizeall desktop widget assign key starting with meta
+
+blur effects menus translucency menu in effects - in chromium after each rmb click menu from translucent becomes full opaque for a split second and fades out
+
+kcm mouse - no tab for bottom buttons help defaults ok
+
+kcm mouse - pointer speed slider has very narrow first jump while moving it from most left position
+
+kcm mouse - the slowest speed of mouse pointer is to slow on flat acceler
+
+after default button was pressed interface is no longer resizible kscreen kcm
+
+Previews do not have time to appear if Compositor speed is set to very slow on X11
+Empty panel and previews do not have time to appear if Compositor speed is set to very slow on Wayland - releated bug https://bugs.kde.org/show_bug.cgi?id=358610
+
+Mouse wheel switching is not working in:
+Cover and Flip Switch
+
+no preview for breeze dark switch - wayland too?
+
+back task switch is not switching from first keypress - forward does - wayland?
+
+kdewallet select wallet highlight after tab switching access control
+
+switching to existing session doesn't work in wayland
+
+pointer + other type cursor when hovering over type to search in kickoff
+
+steam main cannot be resized?
+
+touchscreen bugs on bugs.kde.org
+
+Flickering title bar in dolphin when dragging titlebar from maximzed position down
+
+widget removed tooltip overlaps remove/modify popup of other widgets on the right side 
+
+spectacle after multiple meta+print keypresses - Shift+PrtSc causes same multiple amount of fullscreen shots
+
+keyboard input not working in remote input
+
+kdeconnect wayland crashes on moving remote cursor - after some delay?
+
+calamares enter key doesn't working to press button - only space - wayland? - virtualbox? -  enter works only on last dialog - done isn't working with space and with return press
+
+calamares tab key order wrong
+
+calamares previous keyboard layout isn't restoring after choosing different layout upon installation process
+
+missellection of right click menu item open with in dolphin wayland - hover on empty space in second level of right click menu - sort by when it's appears in upper part not lower
+
+wayland session hangs when using copy/cut shortcut before keyboard layout switch - eng/ukr/rus layouts
+
+framework-knotifications:
+
+notificationi about critical level isn't displayed if battery level was < 5%
+
+only sound and no notification if battery level was at 7% (< 10%)
+
+before session startup isn't working in autostart -> script in wayland?
+
+fn+meta press for more than 1,2 or  3+ seconds bug sometimes
+
+brightness jump mouse wheel on tray icon autolowered if low battery
+
+advanced power managerment default isn't acctive
+
+if shutdown -h now was selected as command to critical level notification - the notification should be displayed before selected critical level (5%) before 60sec
+
+if shutdown -h was selected as command to critical level notification - settings window can displayed
+
+no notification for low battery if was charging and unplugged from energy source on low battery (<10%) ELAN0650:01 04F3:304B
+
+long tap for right click on touchscreen
+
+context menu isn't dissapearing after taping on same window - Night Color - if upon appearance of menu Night Color window has been moved - the menu stays
+
+if defaults button apply changes instantly or after closing settings window breeze window decoration + actions
+
+animation speed click on slider instant move from right to left compositor
+
+horizontal resize type cursor dolphin after zoom change wishlist
+
+shifted tooltips/widgets after moving to diff screen edges panel with autohide?
+
+panel oversized vertically after moving to different edges of autohiding panel
+
+logout is too slow sometimes
+
+double entry configure layout or no entry for keyboard tray settings right click when changing layouts
+
+right click menu in tray is displayed under tooltips - horizontal panel
+
+wrong sized entries in app menu after logout login with auto hide panel and moving it from left vertical to bottom position
+
+can't resize wayland windows with alt right click on neon
+
+plasma creash after ctrl c in non latin layout? in xwayland? chromium after startup ssh
+
+https://bugs.kde.org/show_bug.cgi?id=397577 ssh test
+
+test rdp work under wayland - https://bugs.kde.org/show_bug.cgi?id=377911
+
+https://bugs.kde.org/show_bug.cgi?id=393804 virt manager
+
+kickoff - delayed drugging of items in favorites
+
+window decoration window get behind window after applying any theme
+
+http://www.jgrulich.cz/2018/03/06/screen-sharing-in-plasma-wayland-session/
+
+https://www.phoronix.com/scan.php?page=news_item&px=KDE-Plasma-Wayland-Screen-Share
+
+clicking on tooltip test on x and wayland
+
+kwin - https://bugs.kde.org/show_bug.cgi?id=393639
+
+octopi aur update bottom dropdown isn't visible behind bottom panel - test on x
+
+https://bugs.kde.org/show_bug.cgi?id=389144 - retest
+
+latte - crash on exit - related? https://bugs.kde.org/show_bug.cgi?id=385628
+
+https://bugs.kde.org/show_bug.cgi?id=391229
+
+kwin - maximizing of windows glitching after changing main panel screen edge
+
+csd? gtk? not moving/resizing properly after moving/resizing
+
+csd plasma crashed when moving gtk3 window
+
+panel changing from always visible to auto hide shifts current options menu
+
+panel - autohiding panel not transfers to other screen edge - sometimes?
+
+inline rename after dragging files from dolpin to desktop panel
+
+crash of plsama upon drag and drop to the panel - no drkonqi?
+
+desktop icons aren't visible when moving them on desktop
+
+panel - drag cursor upon hovering on panel - after dragging in/out of dolphin?
+
+virtual desktops aren't adding with desktop widget virtual desktops kcm
+
+tooltip for panel hamburger menu is not displaying upon hovering on it
+
+fullscreen window is setting to non-fullscreen size when hovering over panel applets in panel editing mode
+
+https://bugs.kde.org/show_bug.cgi?id=382698 right/middle click on maximize test touch and mouse
+
+yakuake isn't fully horizontally fitting if panel is on the left side? - posiiton also isn't changing in settings - right after pressing apply
+
+yakuake sling popup animations only applied to the first appearance/disappearance - then fadein/out animation is applied
+
+https://bugs.kde.org/show_bug.cgi?id=386086 https://firefox-flatpak.mojefedora.cz/
+
+krdc https://bugs.kde.org/show_bug.cgi?id=162723 test in wayland
+
+https://bugs.kde.org/show_bug.cgi?id=200776 krdc
+
+Do not update contents of Network widget when user is entering password?
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+calamares:
+links don't open through kio client
+
+
+
+
+
+
+kdeconnect:
+
+if there is do not disturb mode on telephone - also don't display notification on pc with settings to toggle it on/off
+
+if dnd mode is on send ping should notify about it on pc
+
+multiple windows open if reply button was clicked on multiple telegram/other? messages
+
+add feature to send player to fullscreen/unfullscreen
+
+don't double ring on find my phone - when phone is already ringing from incoming call
+
+dolphin hangs when phone is locked/not in range?
+
+offer to retry transfer files over wifi if cable transfer was interrupted and vice verse
+
+lock background isn't updating on mobile after pc player close
+
+notification about call should not dissapear after timeout - but after end of incomming call
+
+
+
+
+
+
+
+
+
+
+
+
+
+investigate:
+https://bugs.kde.org/describecomponents.cgi?product=dolphin
+https://bugs.kde.org/describecomponents.cgi?product=konsole
+https://bugs.kde.org/describecomponents.cgi?product=yakuake
+https://bugs.kde.org/describecomponents.cgi?product=systemsettings
+
+https://bugs.kde.org/buglist.cgi?component=core&list_id=1508804&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=effects-desktop-grid&list_id=1508806&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=effects-present-windows&list_id=1508807&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=effects-tabbox&list_id=1508808&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=effects-various&list_id=1508809&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=effects-window-management&list_id=1508810&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=general&list_id=1508812&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=glx&list_id=1508813&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=input&list_id=1508814&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=libinput&list_id=1508816&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=multihead&list_id=1508817&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=platform-drm&list_id=1508819&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=platform-x11-standalone&list_id=1508823&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=rules&list_id=1508824&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=scene-opengl&list_id=1508825&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=scene-xrender&list_id=1508827&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=scripting&list_id=1508828&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=scripts&list_id=1508829&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=tabbox&list_id=1508830&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=virtual-keyboard&list_id=1508832&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=wayland-generic&list_id=1508833&product=kwin&resolution=---
+https://bugs.kde.org/buglist.cgi?component=xrandr&list_id=1508836&product=kwin&resolution=---
+
+https://bugs.kde.org/describecomponents.cgi?product=kdelibs
+https://bugs.kde.org/describecomponents.cgi?product=kio
+https://bugs.kde.org/describecomponents.cgi?product=kio-extras
+https://bugs.kde.org/describecomponents.cgi?product=KScreen
+https://bugs.kde.org/describecomponents.cgi?product=Powerdevil
+https://bugs.kde.org/describecomponents.cgi?product=plasma-nm
+https://bugs.kde.org/describecomponents.cgi?product=Bluedevil
+https://bugs.kde.org/describecomponents.cgi?product=Breeze
+https://bugs.kde.org/describecomponents.cgi?product=HIG
+https://bugs.kde.org/describecomponents.cgi?product=KAccounts
+https://bugs.kde.org/describecomponents.cgi?product=KSystemLog
+https://bugs.kde.org/describecomponents.cgi?product=Phonon
+https://bugs.kde.org/describecomponents.cgi?product=Plasma%20Workspace%20Wallpapers
+https://bugs.kde.org/describecomponents.cgi?product=Systemd%20KCM
+https://bugs.kde.org/describecomponents.cgi?product=Touchpad-KCM
+https://bugs.kde.org/describecomponents.cgi?product=artwork
+https://bugs.kde.org/describecomponents.cgi?product=drkonqi
+https://bugs.kde.org/describecomponents.cgi?product=kactivitymanagerd
+https://bugs.kde.org/describecomponents.cgi?product=kde-gtk-config
+https://bugs.kde.org/describecomponents.cgi?product=kdeconnect
+https://bugs.kde.org/describecomponents.cgi?product=kded-appmenu
+https://bugs.kde.org/describecomponents.cgi?product=kdeplasma-addons
+https://bugs.kde.org/describecomponents.cgi?product=kdesudo
+https://bugs.kde.org/describecomponents.cgi?product=krunner
+https://bugs.kde.org/describecomponents.cgi?product=kscreenlocker
+https://bugs.kde.org/describecomponents.cgi?product=ksysguard
+https://bugs.kde.org/describecomponents.cgi?product=ksystraycmd
+https://bugs.kde.org/describecomponents.cgi?product=kwallet-pam
+https://bugs.kde.org/describecomponents.cgi?product=kwalletmanager
+https://bugs.kde.org/describecomponents.cgi?product=plasma-browser-integration
+https://bugs.kde.org/describecomponents.cgi?product=plasma-integration
+https://bugs.kde.org/describecomponents.cgi?product=storageservicemanager
+https://bugs.kde.org/describecomponents.cgi?product=user-manager
+https://bugs.kde.org/describecomponents.cgi?product=khotkeys
+https://bugs.kde.org/describecomponents.cgi?product=kmix
+
+
+frameworks-attica:	Access to Open Collaboration Services servers.
+frameworks-baloo:	Baloo is responsible for File Searching and Indexing. This framework includes balooctl, balooshow, baloosearch, baloo_file, baloo_file_extractor, etc.
+frameworks-bluez-qt:	Qt wrapper for BlueZ 5 DBus API
+frameworks-frameworkintegration:	The Qt 5 QPA plugin.
+frameworks-kactivities:	Library to access the activities daemon
+frameworks-kactivities-stats:	Library for accessing the usage data collected by the activities system
+frameworks-kapidox:	Toolkit to assist building API documentation using Doxygen
+frameworks-karchive:	Qt 5 addon providing access to numerous types of archives
+frameworks-kauth:	KAuth
+frameworks-kbookmarks:	KBookmarks
+frameworks-kcmutils:	KCMUtils
+frameworks-kcodecs:	Plugins allowing Qt applications to access further types of images
+frameworks-kcompletion:	KCompletion
+frameworks-kconfig:	KConfig
+frameworks-kconfigwidgets:	KConfigWidgets
+frameworks-kcoreaddons:	KCoreAddons provides classes built on top of QtCore to perform various tasks such as manipulating mime types, autosaving files, creating backup files, generating random sequences, performing text manipulations such as macro replacement, accessing user information and many more.
+frameworks-kcrash:	KCrash
+frameworks-kdbusaddons:	KDBusAddons
+frameworks-kdeclarative:	KDeclarative
+frameworks-kded:	Kded Framework
+frameworks-kdelibs4support:	KDELibs4Support
+frameworks-kdesignerplugin:	Plugin to load KDE widgets into QtDesigner
+frameworks-kdesu:	KDE Su
+frameworks-kdewebkit:	Webkit
+frameworks-kdnssd:	KDNSSD
+frameworks-kdoctools:	DocTools
+frameworks-kemoticons:	Emoticon library
+frameworks-kfileaudiopreview:	frameworks-kfileaudiopreview
+frameworks-kfilemetadata:	kfilemetadata framework
+frameworks-kglobalaccel:	frameworks-kglobalaccel
+frameworks-kguiaddons:	frameworks-kguiaddons
+frameworks-kholidays:	The KHolidays library for regional holiday information
+frameworks-khtml:	frameworks-khtml
+frameworks-ki18n:	KDE I18n Library
+frameworks-kiconthemes:	frameworks-kiconthemes
+frameworks-kidletime:	KIdleTime
+frameworks-kimageformats:	KImageFormats
+frameworks-kinit:	kinit
+frameworks-kio:	KIO
+frameworks-kirigami:	Framework that provides a QML based component set for building multiplatform mobile applications conforming to the KDE mobile User Interface Guidelines
+frameworks-kitemmodels:	KItemModels
+frameworks-kitemviews:	KItemViews
+frameworks-kjobwidgets:	frameworks-kjobwidgets
+frameworks-kjs:	KJS
+frameworks-kjsembed:	KJSEmbed
+frameworks-kmediaplayer:	KMediaPlayer
+frameworks-knewstuff:	KNewStuff
+frameworks-knotifications:	KNotifications
+frameworks-knotifyconfig:	KNotifyConfig
+frameworks-kpackage:	kpackage framework
+frameworks-kparts:	KParts
+frameworks-kpeople:	kpeople framework
+frameworks-kplotting:	KPlotting
+frameworks-kpty:	KPTY
+frameworks-kross:	Kross
+frameworks-krunner:	The KRunner frameworks (library). Use the product "krunner" for the application.
+frameworks-kservice:	KService
+frameworks-ktexteditor:	KTextEditor Framework
+frameworks-ktextwidgets:	KTextWidgets
+frameworks-kunitconversion:	KUnitConversion
+frameworks-kuserfeedback:	Framework for collecting feedback from application users via telemetry and targeted surveys.
+frameworks-kwallet:	KWallet
+frameworks-kwayland	KWayland provides a Qt-style Client and Server library wrapper for the Wayland libraries. Do not report bugs about applications on Wayland on this product. Do not report bugs about running Plasma Wayland on this product.
+frameworks-kwidgetsaddons:	KWidgetsAddons
+frameworks-kwindowsystem:	KWindowSystem library (for bugs against the Window Manager use product kwin)
+frameworks-kxmlgui:	KXMLGui
+frameworks-kxmlrpcclient:	KXmlRpcClient
+frameworks-modemmanager-qt:	Qt wrapper for ModemManager API
+frameworks-networkmanager-qt:	Qt wrapper for NetworkManager API
+frameworks-plasma:	Plugin based UI runtime used to write primary user interfaces, it's the framework which Plasma Desktop is based upon
+frameworks-prison:	Framework for barcode generation
+frameworks-purpose:	Purpose is a framework that offers the possibility to create integrate services and actions on any application without having to implement them specifically.
+frameworks-qqc2-desktop-style:	QStyle theme for QtQuickControls2
+frameworks-solid:	Solid
+frameworks-sonnet:	Sonnet
+frameworks-syntax-highlighting:	Syntax highlighting framework
+frameworks-threadweaver:	ThreadWeaver
+
+https://bugs.kde.org/describecomponents.cgi?product=Active
+https://bugs.kde.org/describecomponents.cgi?product=Discover
+https://bugs.kde.org/describecomponents.cgi?product=Falkon
+https://bugs.kde.org/describecomponents.cgi?product=Spectacle
+https://bugs.kde.org/describecomponents.cgi?product=ark
+https://bugs.kde.org/describecomponents.cgi?product=kate
+https://bugs.kde.org/describecomponents.cgi?product=kdevelop
+https://bugs.kde.org/describecomponents.cgi?product=kdevplatform
+https://bugs.kde.org/describecomponents.cgi?product=kdev-python
+https://bugs.kde.org/describecomponents.cgi?product=knotes
+https://bugs.kde.org/describecomponents.cgi?product=konversation
+https://bugs.kde.org/describecomponents.cgi?product=korganizer
+https://bugs.kde.org/describecomponents.cgi?product=akregator
+https://bugs.kde.org/describecomponents.cgi?product=krdc
+https://bugs.kde.org/describecomponents.cgi?product=krfb
+https://bugs.kde.org/describecomponents.cgi?product=krename
+https://bugs.kde.org/describecomponents.cgi?product=krita
+https://bugs.kde.org/describecomponents.cgi?product=krusader
+https://bugs.kde.org/describecomponents.cgi?product=ktorrent
+https://bugs.kde.org/describecomponents.cgi?product=kwave
+https://bugs.kde.org/describecomponents.cgi?product=lattedock
+https://bugs.kde.org/describecomponents.cgi?product=okteta
+https://bugs.kde.org/describecomponents.cgi?product=okular
+https://bugs.kde.org/describecomponents.cgi?product=partitionmanager
+https://bugs.kde.org/describecomponents.cgi?product=plasma-mycroft
+https://bugs.kde.org/describecomponents.cgi?product=plasma-pa
+https://bugs.kde.org/describecomponents.cgi?product=ring-kde
+https://bugs.kde.org/describecomponents.cgi?product=sweeper
+https://bugs.kde.org/describecomponents.cgi?product=telepathy
+https://bugs.kde.org/describecomponents.cgi?product=umbrello
+https://bugs.kde.org/describecomponents.cgi?product=valgrind
+https://bugs.kde.org/describecomponents.cgi?product=valkyrie
+https://bugs.kde.org/describecomponents.cgi?product=wacomtablet
+https://bugs.kde.org/describecomponents.cgi?product=Akonadi
+https://bugs.kde.org/describecomponents.cgi?product=kdialog
+https://bugs.kde.org/describecomponents.cgi?product=kfind
+https://bugs.kde.org/describecomponents.cgi?product=kfontview
+https://bugs.kde.org/describecomponents.cgi?product=kleopatra
+https://bugs.kde.org/describecomponents.cgi?product=khelpcenter
+https://bugs.kde.org/describecomponents.cgi?product=kinfocenter
+https://bugs.kde.org/describecomponents.cgi?product=kmenuedit
+https://bugs.kde.org/describecomponents.cgi?product=trojita
+https://bugs.kde.org/describecomponents.cgi?product=zanshin
+https://bugs.kde.org/describecomponents.cgi?product=kget
+https://bugs.kde.org/buglist.cgi?component=general&list_id=1507285&product=neon&resolution=---
+https://bugs.kde.org/buglist.cgi?component=Live%2FInstall%20images&list_id=1507286&product=neon&resolution=---
+https://bugs.kde.org/buglist.cgi?component=Packages%20Dev%20Edition%20%5Bstable%5D&list_id=1507287&product=neon&resolution=---
+https://bugs.kde.org/buglist.cgi?component=Packages%20Dev%20Edition%20%5Bunstable%5D&list_id=1507288&product=neon&resolution=---
+https://bugs.kde.org/buglist.cgi?component=Packages%20User%20Edition&list_id=1507289&product=neon&resolution=---
+calligraactive:	The QML based UI for the Calligra suite.
+calligraauthor:	A specialized writer's tool which is part of the Calligra Suite.
+calligrachart:	Calligra Chart Generator
+calligracommon:	General Calligra problems
+calligraflow:	Calligra Flowcharting Software. Previously known as Kivio
+calligraformula:	Calligra Formula Editor shape and application (previously kformula)
+calligragemini:	Calligra Office for 2:1 devices
+calligramobile:	Mobile Office a unified UI for Calligra applications (Words, Stage and Tables)
+calligraplan:	Project planning and management for the Calligra Suite
+calligraservices:	This product gathers all the admin requests for calligra services, ie buildbot and websites.
+calligrasheets:	Calligra Sheets Spreadsheet application (formerly Tables or KSpread)
+calligrastage:	Calligra Stage Presentation Program (formerly known as KPresenter)
+calligrawords:	Calligra Words word-processing application
+
+
+
+
+bugzilla:
+https://bugs.kde.org/describecomponents.cgi?product=bugs.kde.org
+move app dashboard from addons into plasma general
+
+
+
+
+
+https://bugs.kde.org/show_bug.cgi?id=393804 virt manager
+
+custom shortcuts - gestures https://bugs.kde.org/show_bug.cgi?id=343383
+
+
+
+
+
+plasmashell:
+default icons when launching pinned wine apps from task manager
+
+selection dropdown after swithcing of tab in widgets style
+
+vpn connection if available even if wifi was shutted down and there is not ethernet or other connection method available
+
+network manager applet - if secondary connection is in place vpn - but there is internet discover says there is no internet 
+
+bad font colors in pim settings explorer plasma dark
+
+vault - wrong version installed error when encfs package was previously removed - show encfs not installed instead
+
+0ms in cpu monitor is redundant - making widget useless
+
+overlay three dots where there are add more widgets buttons - after pressing on that button and hovering panel items - then close of appeared popup - popup dissapears
+
+pin to task manager/panel - right click on icon virtualbox -> open vm manager doesn't work
+
+retest logout with multiple opened tabs in dolphin and konsole
+
+authentificaiton requiered window should be above 'above other window' windows
+
+second level of right click open with menu not fitting vertically and is hovered by bottom panel
+
+no error upon logging out after removing kauth package - and after locking screen - error about locking is displayed
+
+hamburger menu isn't dissapearing after subsequent click on it in audio volume applet - creating various weird behavior
+
+if desktop effects system settings module is opened - compositor settings module says 'this configuration section is already opened in system settings module' and vice versa
+
+systray arrow popup is hovering tray popup window content
+
+flickering of desktop/icons when changing windows/activities
+
+blurred widget text when moving widgets on desktop
+
+folder settings / configure desktop -> wallpaper - apply dialog without any changes in window when switching to other tab in the settings window
+
+retest low wifi https://bugs.kde.org/show_bug.cgi?id=392627
+
+retest crash when changing wifi https://bugs.kde.org/show_bug.cgi?id=392529
+
+ability to copy the notificaiton text when notification is gone (in the middle)
+
+retest https://bugs.kde.org/show_bug.cgi?id=391936
+
+retest scaling gtk3 https://bugs.kde.org/show_bug.cgi?id=392288
+
+test bluetooth https://bugs.kde.org/show_bug.cgi?id=392278
+
+bluetooth don't display fix it when bluetooth is powered down - when it was powered on after this notification
+
+try to reproduce https://bugs.kde.org/show_bug.cgi?id=392135
+
+if there is ">" "<" sings in filename - recent docs in right click app menu isn't launching - docs - libreoffice
+
+file type options -> embeded - are konqueror options needed?
+
+retest hanging process https://bugs.kde.org/show_bug.cgi?id=106290
+
+new session is starting too long - retest not in netrunner rolling
+
+test zooming with keyboard https://bugs.kde.org/show_bug.cgi?id=246426
+
+test num lock on startup https://bugs.kde.org/show_bug.cgi?id=183602
+
+retest accurate session restore after crash https://bugs.kde.org/show_bug.cgi?id=223285
+
+test cate through portal https://bugs.kde.org/show_bug.cgi?id=386385
+
+thumbnail.so process takes to much cpu - when downloading movie through torrent?
+
+investigate further with remote access - https://bugs.kde.org/show_bug.cgi?id=377335
+
+retest with ssh https://bugs.kde.org/show_bug.cgi?id=359066
+
+https://bugs.kde.org/show_bug.cgi?id=378010 - try to copy large file ~10G and see CPU usage
+
+https://bugs.kde.org/show_bug.cgi?id=380008 - test with ibus installed
+
+retest rename after 5.13 - t1 -> t1 test test
+
+retest https://bugs.kde.org/show_bug.cgi?id=384031 after 5.13
+
+retest pixalated previews https://bugs.kde.org/show_bug.cgi?id=376848 after 5.13
+
+investigate scaling (konsole  discover issues) after 5.13
+
+start new instance right click not starting new instance in dolpin - wayland? system settings
+
+find existing issue add attachment 'ux-hover-options-widget-issue'
+
+investigate natural/reverse scrolling https://bugs.kde.org/show_bug.cgi?id=389972
+
+test meta key after suspends https://bugs.kde.org/show_bug.cgi?id=391322 - ongoing
+
+investigate hard disk space usage widget with points 87-91 plus https://bugs.kde.org/show_bug.cgi?id=351851 in vertical panel
+
+desktop widget appears in wrong place after undoing it's removal? - retest
+
+widgets are appearing in not precise drop place after dragging them from 'add widgets' dialog + also after usual dragging
+
+try to move widgets from add widgets dialog in ubuntu 17.10 - existing?
+
+partially user switcher desktop widget is shifted to the right after started moving the widget + shot - no on hd 4400??
+
+new session is starting to long - netrunner?
+
+
+baloo - is there a clear cache GUI button? - for example for something like this command balooctl clear * && balooctl disable && balooctl enable - reddit question - https://www.reddit.com/r/kde/comments/9siwdg/desktop_search_brings_up_blank_items_unable_to/
+test heavy hdd usage in plasma from time to time - baloo
+baloo service some times uses to much cpu 100% of single core?
+The process for the baloosearch protocol died unexpectedly. investigate ctrl+f in dolphin
+
+grouping widget isn't working?
+
+plasma very often crashing when trying to move panel to other edge - still reproducible - no crash info from dr konqi
+
+notifications are on 0% in audio volume settings notifications - but notfications sounds seems to be at 100% - not applying right away?
+
+wish - Unite all keyboard shortcuts modules into one: Global, Custom, Standard Shortcuts
+
+wish - add wifi turn on off on-screen notification - like for volume keyborad settings
+
+wish - 'warning new session' window could have 'do not show this message again' checkbox - upon creating new session
+
+wish - there can be a checkbox for do not prompting for password upon sessions switch in 'Advanced' tab in 'SDDM Logic Screen' settings module if Auto Login checkbox is active.
+
+after created new session - returning to prev session has strange behavior - when you switch to prev session - firstly is shows session as it was leaved and after ~1sec sddm login window is displayed
+
+in 'SDDM Login Screen' settings module - top 'Select Login Theme' is relevant only for 'Theme' tab - but it's not relevant for 'Advanced' tab - it could be changed to something like - 'Configure Advanced Settings'
+
+game in window and panel to the left bug mouse hovering tasks in panel - which game? - try brainout
+
+panel changed size when moving it to another side manjaro kde - virtualbox
+
+there is sometimes a small bottom (top, left, right) gap after moving Panel - composition enabled?
+
+wish - ux enhancements for 'create a new activity' window:
+    1. 'Name' field could be focused after appearance of 'create a new activity' window.
+    2. tab key could jump from name to description field - currently it jumps to 'Create' button.
+
+retest for immutability entry in file - https://bugs.kde.org/show_bug.cgi?id=359919
+
+selection in dropdown menus not selects all entries that start from searchable letter in formats, keyboard models
+
+wish - if searching for some system settings supermenu - then display it's submenus in search results - e. g - if you search for 'Removable Storage' (or 'Removable') than display 'Device Actions', 'Digital Camera' and 'Removable Devices' in search results
+
+question - what does 'relogin after quit' do in sddm settings?
+
+there a keyboard brightness slider in 'battery and brightness' widget - but there is no keyboard highlight on current laptop - retest on some other laptop without keyboard highlight
+
+wish - long click on panel elements can enable their drag func - same as for desktop widgets
+
+alt+d,s shortcuts aren't working after right click on panel widgets - possibly related to https://bugs.kde.org/show_bug.cgi?id=361054 - sometimes working - investigate
+
+widget aren't continue to drag when dragging them from panel to desktop - they drop right after mouse leaves panel area upon panel item drag to desktop event - possibility exesting bug
+
+wish - hard disk io monitor - widget could detect if hard disk tools are installed for system monitor and lauch system monitor with hard disk tools tab active on double click on hard disk io monitor widget
+
+investigate search results for "/" (other symbols) in kicker/krunner, etc.
+
+wish - focus - some info text with explanation in changing of plasma focus behavior could be on the right side from focus stealing prevention dropdown
+
+wish - alt+ right click could resize desktop widgets - same as for panel widgets - alt + left click works for moving them
+
+alt +d,r + other shortcut not working (existing bug?)
+
+wish - redisplay 'add widgets' window after downloaded new widgets and closed 'get new widgets' window
+
+activitybar - can switch activities in bar on mousedown and long press - until handlers appearance - but there no switching of activities - only in bar
+
+wish - display 'no touchscreen detected' in touchscreen settings window if screen don't support touch - similar to bluetooth
+
+test memory leak https://bugs.kde.org/show_bug.cgi?id=368838
+
+try with flatpak https://bugs.kde.org/show_bug.cgi?id=391628
+
+test high cpu usage https://bugs.kde.org/show_bug.cgi?id=386846 with this code:
+'''
+
+import QtQuick 2.9
+
+Item {
+    width: 200
+    height: 200
+
+    property Rectangle curRect: rect1
+    property Rectangle otherRect: rect2
+
+    Rectangle {
+        id: rect1
+        anchors.fill: parent
+        color: "red"
+    }
+
+    Rectangle {
+        id: rect2
+        anchors.fill: parent
+        color: "blue"
+        opacity: 0
+    }
+
+    ParallelAnimation {
+        id: animation
+
+        OpacityAnimator {
+            target: curRect
+            from: 0
+            to: 1
+            duration: 2000
+        }
+
+        OpacityAnimator {
+            target: otherRect
+            from: 1
+            to: 0
+            duration: 2000
+        }
+    }
+
+    MouseArea {
+        anchors.fill: parent
+        onClicked: animate()
+    }
+
+    function animate() {
+        animation.stop()
+        swapRectangles()
+        animation.start()
+    }
+
+    function swapRectangles() {
+        var t = curRect
+        curRect = otherRect
+        otherRect = t
+    }
+}
+'''
+
+retest with numpad + https://bugs.kde.org/show_bug.cgi?id=87458
+
+retest mouse navigation with numpad on/off https://bugs.kde.org/show_bug.cgi?id=140935
+
+try users with various lang https://bugs.kde.org/show_bug.cgi?id=207731
+
+retest proxy https://bugs.kde.org/show_bug.cgi?id=180048
+
+retest several id https://bugs.kde.org/show_bug.cgi?id=180687
+
+test multimedia keys https://bugs.kde.org/show_bug.cgi?id=296724
+
+increase open with ux - show app on partial search instantly
+
+retest https://bugs.kde.org/show_bug.cgi?id=390344 with usb 2 partitions
+
+possibly test in fedora https://bugs.kde.org/show_bug.cgi?id=389751
+
+empty thrash right click menu item for desktop should not be active when thrash is empty
+trash not displayed as empty on desktop in some cases - retest
+
+tab navigation in widget style window is not in order - test keyboard navigation on all widgets/windows
+
+bug when moving files to trash if disk is full - retest
+
+retest device notifier appearance after insertion of device and waking up of notebook
+
+'focus follows mouse' could be renamed into 'focus follows cursor' because cursor could be moved without mouse but with touchpad/trackpoint, etc.
+
+touchpad enabled/disabled notification when switching users
+touchpad was disabled message appears after changing tty back to tty1 (xorg) and on user switching
+
+there is a possibility to create a user without a password in 'User Manager' - but one cannot login in SDDM with created user without a password - or user without password isn't displayed currently?
+
+user manager app launcher menu entry isn't adding to the Favorites
+
+second created user isn't showing in user manager sometimes?
+
+icon for second created user if choosed from gallery - is set to default one in sddm and in kickoff
+
+kwin scripts entry isn't launching directly from menu - only from system settings - netrunner? manjaro - neon is working
+
+changing offer shutdown options hides some of leave menu entries - retest
+
+
+no sound icon indication for app that currently playing audio after alternative panel change - icons-only - task manager - existing?
+
+Unable to enter user name in 'User Manager' for the second time if it's was incorrect before applying changes
+    1. Open 'System Settings' -> 'Account Details' -> 'User Manager'.
+    2. Enter any wrong user name in the first field (for example - a digit).
+    3. Enter any real name.
+    4. Press 'Apply'.
+    Actual:
+    First field with user name cannot be changed and user isn't created.
+    Expected:
+    Error message, user name field stays editable.
+
+chromium is not set as default app from the first time?
+
+touchpad click me text reappear after second click on click me button
+
+
+
+
+
+
+
+compositor:
+compositor settings and desktop effects system settings window are related to each other and aren't launching if one of them is launched - the configuration section is already opened...
+
+retest with working present windows https://bugs.kde.org/show_bug.cgi?id=375921 - retest in vm
+
+present windows effect bug on highlighting one window after delay in clicking on app icon - after showing info tips for selected app and then clicking on it's icon
+
+settings module isn't fully rendered when opened window in system settings and separate window? - this conf section is already opened + shot
+
+can't find locale/region stadarts in app launcher - but they can be found in system settings
+
+keyboard layout osd is showed on alt layout switch but not on regular layout switch
+
+noticed also 'widget unlocked' - https://bugs.kde.org/show_bug.cgi?id=387589 for 'press and hold widgets...' in desktop settings
+
+top cashew isn't placed correctly when moving panel to the top - test with various panel heights
+
+google chrome is crashing if launched upon logging out
+
+task manager is almost unusable in vertical panel upon certain panel widths + shot
+
+test other lists with checkboxes for checking/unchecking checkboxes with spacebar
+
+checkboxes in a list isn't visible when list row is active - theme issue breeze? - holydays in digital clock settings
+
+find and test all touchscreen related bugs
+
+meta keybaord launching the virtualbox and host's menu at once
+
+changing volume by hotkeys minimized/switches current opened steam game
+
+
+
+
+
+
+
+lock screen:
+don't display percentages when there are disabled in power panel widget/tray icon
+
+wrong displayed time - when changing time in digital clock settings
+
+
+
+
+
+
+panel:
+also i noticed similar issue for reaching options of panel widgets that have narrow width (especially for those that represented in one icon) 'ux-hover-options-widget-issue' screenshot - https://bugs.kde.org/show_bug.cgi?id=358930
+
+virtual box launching instances and hover preview bugs
+
+wine apps have pixelated previews
+
+start adding windgets after any key press after click on right hamburger menu - usability
+
+unminimize animation appears from task manager after minimizing all windows https://bugs.kde.org/show_bug.cgi?id=381242
+
+impovements to the hamburger menu - search for widgets after pressing hamburger menu - start typing with with keyboard - same as for desktop
+
+if widget isn't presents localy - search for it in get new widgets automatically
+
+not fully visible right widget control panel when resizing widget to the right side of the screen - https://bugs.kde.org/show_bug.cgi?id=379888
+
+do not show task manager changing animation if apps changed (closed launched) and panel is set to autohiding - display just static app tasks that left not their animation upon showing the panel
+
+find duplicate of https://bugs.kde.org/show_bug.cgi?id=385607 bottom right black rectangle empty spaces
+
+panel doesn't autohides when alternatives menu appears
+
+invoke only one Alterantives menu - there is possibility to invoke multiple of them - if clicked on Alternatives menu on the Panel - without closing of previous Alternatives menu
+
+panel doesn't use compositor settings for appearance/dissapearance effects and appears/dissapears instantly
+
+panel autohide glitches if on the left side with disabled compositor - related kwin bug https://bugs.kde.org/show_bug.cgi?id=380476 fixes it
+
+Mouse cursor cannot move to the very bottom of the screen in game menu when Panel is set to autohide and located at the bottom xonotic 0.8.2-1 GLX related https://bugs.kde.org/show_bug.cgi?id=382912 compsitor disabled
+
+panel is shown when is set to autohide in dota 2 game compositor disabled
+
+Can reproduce appearance of bottom autohiding panel when in Big Picture mode after starting and quitting a steam game - after game exits and you click on the Big Picture window the Panel still will be revealing related https://bugs.kde.org/show_bug.cgi?id=375460
+
+panel not returning into most bottom possition when changing it's edge
+
+
+
+icons-only task manager:
+Settings for 'General' -> 'Maximum rows/columns' don't apply immediately after pressing 'Apply' button - checkbox behavior
+
+preview show timer isn't resetting upon adding new instances of selected app
+
+preview windows have no horizontal scrolling - when they don't fit into horizontal screen space
+
+can be multiple times right clicked on apps icons - without hiding of prev appeared menus
+
+plus sign doesn't always appear - okular instances
+
+right click - change desktop -right click menu persists - alternatives?
+
+
+
+task manager:
+number for multiple instances of same app don't fit into left click (on panel) popup
+
+
+
+
+
+
+icon applet:
+https://bugs.kde.org/show_bug.cgi?id=376938 - try nfs storage - https://wiki.archlinux.org/index.php/NFS#Installation
+
+
+
+global menu:
+menu in title dissapears when moving from shared folders to usb in devices in launched virtualbox instance
+click selection should follow cursor hover - not stay on prev clicked global menu item in panel
+view menu is'n clickable in vlc, usermenu in kile in panel widget
+https://bugs.kde.org/show_bug.cgi?id=390695
+isn't showing for yakuake
+when switching yakuake to fast - all global widget panel menu items are highlighted
+apps' menus aren't returning after disabling of global menu
+test when global menu will work https://bugs.kde.org/show_bug.cgi?id=390271 https://bugs.kde.org/show_bug.cgi?id=390368
+test when gm will work https://bugs.kde.org/show_bug.cgi?id=389228
+test when gm will https://bugs.kde.org/show_bug.cgi?id=391451
+test when https://bugs.kde.org/show_bug.cgi?id=390177
+https://bugs.kde.org/show_bug.cgi?id=391334
+https://bugs.kde.org/show_bug.cgi?id=378770
+test lo with global menu https://bugs.kde.org/show_bug.cgi?id=391868
+https://bugs.kde.org/show_bug.cgi?id=391647
+https://bugs.kde.org/show_bug.cgi?id=389333
+https://bugs.kde.org/show_bug.cgi?id=384873 - not relevant?
+https://bugs.kde.org/show_bug.cgi?id=379841
+
+
+
+activity switcher:
+sometimes Meta+Q shortcut fails + video
+
+down arrow selects first activities for second press not from first in activities widget
+
+application's window isn't transfering immediately to another activity after selecting activity in application's window right click menu + also leaving window rendering issue
+closing of activities selection right click submenu + shot + video?
+
+https://bugs.kde.org/show_bug.cgi?id=382802 - add comment for right click menu bug + activity-switcher-3-application-window-isnt-transfering-immediately
+
+speed of switching activities effect doesn't take into account compositor settings - activity pager/switcher - related https://bugs.kde.org/show_bug.cgi?id=256994
+
+
+kickoff:
+
+verical positioned panel kicker navigation with arrow keys are broken compared to horizontal position with kicker 
+
+https://bugs.kde.org/show_bug.cgi?id=387034 retest
+
+https://bugs.kde.org/show_bug.cgi?id=369740 retest
+
+unable to search once again after pasting test (with ligatures?) deleting it and searching/pasting once again (and again?)
+
+add to favorites on middle click wish
+
+
+
+krunner:
+no error if running wrong/non-existing app
+
+
+
+
+calendar:
+almost always not fitting into bottom panel at very big panel height
+
+
+
+battery monitor:
+1 no icon for desktop widget
+
+desktop widget popup not fitting text fully (scaling)
+
+95% for two betteries when fully charged - not accurate
+
+
+
+
+image wallpaper:
+Sometimes 'Apply' button isn't enabling after changing 'Wallpaper Type' in Folder View Settings  - https://bugs.kde.org/show_bug.cgi?id=375949 ?
+
+test https://bugs.kde.org/show_bug.cgi?id=387341#c9
+
+https://bugs.kde.org/show_bug.cgi?id=341143 investigate
+
+
+
+
+pager:
+there is possibility to move chromium/chrome window (when it's using non-system titlebar) behind the screen view when moving preview window behind pager preview window in pager + same for other windows?
+
+chromium/chrome non-system titlebar moving in pager prev bug
+
+buttons in window flicker upon prev/next desktop change with keyboard shortcut
+
+background flickers upon activity changing - with blue selected solid color
+
+wish - add fade in/out effects on windows dis/appearing
+
+right click on pager stops working
+
+current virtual desk is indistinguishable in oxygen look and feel
+
+investigate scroll:
+https://bugs.kde.org/show_bug.cgi?id=388353
+https://bugs.kde.org/show_bug.cgi?id=297853
+
+
+SFD: search for duplicates:
+https://bugs.kde.org/show_bug.cgi?id=362738
+https://bugs.kde.org/show_bug.cgi?id=355466
+https://bugs.kde.org/show_bug.cgi?id=366136
+https://bugs.kde.org/show_bug.cgi?id=355466
+https://bugs.kde.org/show_bug.cgi?id=361449
+https://bugs.kde.org/show_bug.cgi?id=360891
+https://bugs.kde.org/show_bug.cgi?id=360856
+https://bugs.kde.org/show_bug.cgi?id=359534
+https://bugs.kde.org/show_bug.cgi?id=368981
+https://bugs.kde.org/show_bug.cgi?id=349946
+
+https://bugs.kde.org/show_bug.cgi?id=365071
+
+https://bugs.kde.org/show_bug.cgi?id=178369
+
+https://bugs.kde.org/show_bug.cgi?id=344706
+https://bugs.kde.org/show_bug.cgi?id=346181
+
+https://bugs.kde.org/show_bug.cgi?id=391639
+
+https://bugs.kde.org/show_bug.cgi?id=390110 - https://bugs.kde.org/show_bug.cgi?id=320612
+
+https://bugs.kde.org/show_bug.cgi?id=380887 - https://bugs.kde.org/show_bug.cgi?id=379117
+
+https://bugs.kde.org/show_bug.cgi?id=335725
+
+
+
+
+desktop containment:
+in right activities widget background picture is scaled but on the desktop it's scaled and croped
+
+not consistent paste action on middle/right click on the desktop
+
+there is a margin on top? left/right sides when moving widgets to the edge - but there is no margin to the bottom - when panel is at the top
+
+test in vm rosa https://bugs.kde.org/show_bug.cgi?id=365166
+
+test https://bugs.kde.org/show_bug.cgi?id=347471
+
+couldn't get access to desktop configuration - after changing mouse key configuration - possible?
+
+file section is blinking when renaming long file name with scrollbar and dragging scrollbar position
+
+
+digital clock:
+most of calendar issues in bugzilla are digital clock issues?
+
+retest 15.11 - https://bugs.kde.org/show_bug.cgi?id=363106
+
+related to https://bugs.kde.org/show_bug.cgi?id=388322 :
+wrong time is set upon changing of time zone - even upon changing the same timezone in adjust date and time -> time zone
+digital clock settings -> time zones section isn't updating according to changes in adjust date and time -> time zone
+digital clock settings -> time zone - improve info popup upon disabling the local time zone
+
+
+
+folder:
+https://bugs.kde.org/show_bug.cgi?id=386441 - investigate with philips hue
+
+trashing bugs - undo trash right menu, file appears in wrong place after restoring from thrash - also appearing in default (not prev) place on the desktop
+
+future position of dragged item could be displayed on the table while dragging it
+
+buggy scrollbar - when place tiny icon on bottom left corner of the desktop and then increase icon size
+
+panel widget becomes very small after changing panel position and view mode for folder view (on very high or very wide panel)
+
+1. created foo, bar and dirs folders
+2. first item in home folder is selecting with one press of down arrow
+3. after entering into foo folder - first item in the folder isn't selected with down arrow - only with up arrow
+4. if currently there are more than two items in folder - items aren't selecting with up arrow
+5. in bar folder - dir1 folder isn't selecting with down arrow key - only dir2
+6. in bar folder - after entering into dir2 folder and returning to bar folder - right arrow key selects dir3 folder instead of dir2 folder
+
+test nfs share creation https://bugs.kde.org/show_bug.cgi?id=376949
+
+nfs in remote: https://bugs.kde.org/show_bug.cgi?id=158963
+
+nfs test responsivness https://bugs.kde.org/show_bug.cgi?id=211416
+
+related https://bugs.kde.org/show_bug.cgi?id=362369 to the https://bugs.kde.org/show_bug.cgi?id=353564 comment
+
+
+
+
+look and feel:
+themes aren't installing
+
+
+
+desktop toolbox:
+dissapearance of toolbox when dragging it to the edge of the bottom/top panel - retest
+
+wish - add scroll on desktop toolbox to switch activities functionality - with openinng 'Activities' widget
+
+
+device notifier:
+error during importing pictures in gwenview from kde neon flash drive
+
+try https://bugs.kde.org/show_bug.cgi?id=355258 with nfs shares
+
+https://bugs.kde.org/show_bug.cgi?id=363932 test with luks ignore
+
+wish -add checkbox for not open popup when device is plugged out
+
+
+
+
+media player applet:
+seek bar resets position afte closing of other unused player
+
+after switching to same player - when two of them launched - for a split of a second searchbar resets to initial position
+
+
+
+kicker:
+submenu isn't showing if moving mouse cursor to fast
+
+desktop session entries aren't displayed in kicker menu - like 'logout' 'new session' - but they're displayed in dashboard/launcher
+
+retest - can't run command line app by pressing enter - only single entry is kicker search results?
+
+infinite backspace press - try search for "lock" entry in menu and then delete it with backspace
+
+cannot run shell command with enter key - qzdl for example
+
+change highlighted searched app with first up/down arrows keypress
+
+wish - add autocomplete when typing the previously entered command like in krunner
+
+
+
+
+ktorrent:
+when downloading magnet link from chromium - DHT is not enabled notification can be accomplishment with go to settings button
+
+ktorrent isn't downloading magnet links
+
+
+
+
+app dashboard:
+1 after searching for suspend and trying to move it to Favorites - it doesn't moved and suspend action was triggered after mouse button release - retest with other actions/shortcuts
+2 lock shortcut in 'System actions' is using different icons compared to 'Favorites' menu - colored and monochrome
+
+
+
+desktop dashboard:
+https://bugs.kde.org/show_bug.cgi?id=386546 retest when right click create file will work
+
+
+
+system settings:
+acount details - retest module upon search and regular - in right side menu
+
+usability - return key press on left side items not working
+
+no 'Apply Settings - The settings of the current module have changed. Do you want to apply the changes or discard them?' warning dialog after selecting other settings' section with arrow keys - but there is warning message when selection other settings' section with mouse click - and double warning (input devices)
+
+retest crashing of systemsettings upon deleting text search field
+
+to much bottom space in systemsettings left column +
+
+
+Selecting 'Emotions' KCM displays that there are changes in this KCM in title bar
+Asterisk near 'Emotions' text appears it System Settings title bar for short period and then disappears
+
+
+default button doesn't sets shortcut keys to defaults
+
+look and feel, desktop theme, configure the audio volume system settings modules aren't displaying their contents
+
+second search in systemsettings upon re-search only first characted is entered
+
+
+kde menu editor:
+failed to start error message when starting kcachegrind with ctrl alt ] shortcut - but it starts normally from menu
+
+
+runners:
+3search for result assynchroniusly without need to press enter key
+4no icons in applictions search results
+5test folder and star tabs
+6is it possible to start searching right after cursor hovering over widget?
+7not only show - but also hide widget after click on it
+8redo context menu - delete item isn't needed + add icons into menu - same like in kate
+recently launched with icons of correcponding tab
+9no icons in search results
+10display info in nothing found
+11if text was pasted with primary selection middle mouse button it cannot be deleted when?
+12if text was pasted with primary selection middle mouse button there is blinking cursor when?
+Enter key can search for current text - but not launch recently used results
+
+
+weather widget:
+rename weather widget into weather forecast for not colliding with weather widget - plasma5-applets-weather-widget - into bugzilla category?
+1 on initial launch if widget isn't set up - left click could bring location options - not empty widget menu like now
+2 wish - 'Run the associated application' menu entry could be renamed to - 'Open web page in a browser'
+3 wish - there can be 'locate' button somewhere in the 'weather station' settings tab - similarly to redshift control widget
+it stops working/not displaying value in panel - only on hover - retest
+
+sometimes location settings are lost between logouts/restarts - sometimes
+
+
+
+
+
+neon:
+https://bugs.kde.org/show_bug.cgi?id=392155 retest
+
+https://bugs.kde.org/show_bug.cgi?id=391965
+
+second os netrunner rolling isn't loading after installing of kde neon
+
+neon docker test?
+
+https://bugs.kde.org/show_bug.cgi?id=391782 test by default
+
+
+
+
+kdevelop:
+retest pasting and freezing of app - https://www.youtube.com/channel/UCqAnBlp5RrpzoNLXHf6XUsA/videos?sort=p&view=0&flow=grid text - when scaling set to 1.1
+
+password for root when renamed folder of currently opened file - retest
+
+
+koranizer:
+plasma freezes upon removing of todo event without starting date - ram memory was full in other case - retest
+
+
+
+
+kio:
+not relevant 'move here' action after dragging link from browser
+
+
+
+partitionmanager:
+crash when quitting app if before starting partmanager - one of the drives was busy - and stayed busy upon the quit
+
+
+
+kmix:
+there is sound feedback after muting sound - when headphones/speaker are plugged in - but there's no sound feedback when headpnones/speaker are unplugged
+
+sound feedback after unmutting sound is cutted off/not full
+
+noise when inserting headphones t440s
+
+
+
+falkon:
+to many bookmarks result inability to read/navigate through them bookmarks_9_19_18.html
+
+
+
+kwin:
+do not invoke screen edge windows switching when selecting text with left click in browser - Chromium/Falkon
+
+question mark in titlebar (double) click and click on window decorations settings
+
+xrender doesn't have vsync support
+
+Firefox/kdevelop isn't remembering fullscreen status - only size between sessions ???
+
+in chromium while moving tab <2> sometimes in titlebar - move slightly vertically outside horizontal line with tabs - kwin
+
+No notification dialog window when trying to change activity for certain application and there is already a force to particular activity rule for that application
+steps:
+1. Set app rule to force to particular activity (Alt+F3 menu -> More Actions -> Special Application Settings...)
+2. Try to change activity in Alt+F3 menu for the app.
+actual:
+Alt+f3 menu dissapears without any notifications
+expected:
+notification appears
+
+related to activity switcher compositor settings bug https://bugs.kde.org/show_bug.cgi?id=256994
+
+wierd behavior of titlebar when moving shaded windows to the edges
+
+
+
+I was able to fix this behavior by:
+creating a new "Window Rule" for Chromium and in the
+    "Appearance & Fixes"
+tab checking
+    "No title bar and frame"
+and setting it to
+    "Apply Initially": "No" .
+
+
+
+
+
+
+dolphin:
+contents isn't updating (italic text) after replacing links with files with same name
+
+usability - use middle mouse click and drag for copying - left for moving - and right for context menu
+
+add ability to click on right side panel left edge and auto set width - just like in table headers
+
+bad usability when entering address by hand - multiple issues
+
+root actions - cannot copy two folders at same time?
+
+root actions - could have permission for overwriting existing files in the destination
+
+isn't remembering tabs? after second launches
+
+esc on editable address leads to blank address field
+
+retest crash on downloading alot of files simultaneously
+
+tooltip wan't displaying for toolbar
+
+retest red trash icon if trash is empty - delete/resore files from thrash
+
+Trashing files confirmation bug - checkbox in settings
+
+Wrong message at the bottom of the GHNS window - after overwrite existing file confirmation.
+
+add separate confimation setting for 'emptying trash' in settings window - currently there is only 'move to trash' confirmation
+
+investigate empty move/delete action in 'notifications' widget - mtp??
+
+right click on zip file - open with dolphin crash - ark wasn't installed?
+
+can't remount/view just unmounted drive in dolphin - retest - not always reproducible - there is bug with mount error
+
+do not hide additional elements panel (when not enough width - right arrow) on mouse leave event - only after mouse click
+
+too large to be trashed info text in dolphin could dissapeare when prev selected for trashing files were deleted
+
+gray interface after returning from download new services menu? after delay and not using of app/in background?
+
+open iso file with gnome disks image writer by default opens kate editor
+
+
+
+plasma-nm:
+1 After restarting from console of NetworkManager applet doesn't appeared in system tray - command used - 'sudo service network-manager restart' - recheck.
+2 don't immediately display changing in vpn connection state after session resume
+3 plasma could give error if no openvpn and network-manager-openvpn are installed when trying to launch vpn throught network manager
+4 change vpn icon in network manager - from lock to http://www.iconarchive.com/download/i91417/icons8/windows-8/Network-Vpn.ico - for distinguishing it from secured wifi - and if there are secured wifi connection and through vpn - then display both icons in network manager
+
+
+
+okular:
+process isn't ended after closing multiple opened instances with pdf files http://help.adobe.com/en_US/Acrobat/9.0/Samples/flatform.pdf from firefox
+
+
+
+
+ksysguard:
+102% in sys load tab when resizing window
+
+
+
+
+
+konsole:
+1 ctrl shift c/v shortcuts input just Ctrl+C and Ctrl+V key into konsole (without Shift key)
+
+
+
+ark:
+open with program isn't remembered - docx files
+
+if file was deleted/modified - ark could display warning popup about changes - just like in kate
+
+
+
+frameworks-knewstuff
+1 https://bugs.kde.org/show_bug.cgi?id=385858 - recheck in netrunner rolling
+2 addons installation progress/completeness could be displayed in 'Notifications' tray icon widget.
+3 widgets install is broken in neon currently
+4 if adding tab in ksysguard  and not waited for process to end - tab will not be installed
+
+
+
+
+
+isoimagewriter:
+1 check new bugs https://bugs.kde.org/buglist.cgi?component=general&list_id=1476173&product=isoimagewriter&resolution=---
+2 no error upon writing 0mb iso file from partially downloaded file in Firefox
+3 wish - show notification about completion in Notifications widget not in app itself - focus stealing issue
+
+
+spectacle:
+existing file is't overwriting
+
+https://bugs.kde.org/show_bug.cgi?id=389999 with spectacle?
+
+
+file already exists dialog when saving file directly to mtp device bug
+
+permission denied after exporting into GIMP and trying to save in tmp spectacle location
+
+
+telepathy
+1 google account connected but 'go online' button isn't starting hanouts messanger - retes
+
+
+
+
+kontact crashing:
+1
+org.kde.pim.kidentitymanagement: IdentityManager: There was no default identity. Marking first one as default.
+*** KMail got signal 11 (Exiting)
+*** Dead letters dumped.
+KCrash: crashing... crashRecursionCounter = 2
+KCrash: Application Name = kontact path = /usr/bin pid = 30995
+KCrash: Arguments: /usr/bin/kontact
+Segmentation fault
+
+
+
+sddm:
+1 autologin isn't working in SDDM even if checked in Login Screen settings
+
+
+
+
+kate:
+Not responding if closing multiple instances of kate - grouping when full wayland
+don't save document - crash plasma - stat plasma - open not saved files with dialog recover - open kate once again without click on recover dialog in other kate instance - click recover on other instance - try to close this instance
+delay in enterring password prompt shows unable to save file false error 
+5 test session restore for previous position of cursor for each file - only first file restores cursor position?
+kate misplaced tooltip sometimes investigate
+1 tabs' order are not saving with session save functionality
+2 no session restore future after killing the editor
+3 strange behavior in 'view difference' functionality after trying to close unsaved file modified elsewhere
+4 poor readable fonts in find field after/upon kate theme change - investigate - not Reproducible currently
+5 strange behavior of kate with unsaved files when switching between activities
+6 number of sessions in manage session window after changing number of opened tabs in session and saving session
+7 google insync drive - file changed issue?
+
+
+dr konqi:
+install debug symbols never ends - when installed after crash but before window with install symbols loads? - existing?
+
+login button isn't active when pressed report bug with disabled interner - then in the middle of generating report enabled - and vice versa -            test more
+
+test ability to send reports if app crashed and dr konqi was opened before connecting to internet
+
+dr Konqi crashed upon reloading of crash information
+
+1 too long for login attempt with wrong credential when reporting app crash
+2 requesting installation of missing debug symbols packages aren't installing debug symbols after some timeout - already exists??
+3 duplicates search func isn't working?
+4 prevent session logout when dr konqi launched - if some app crashed upon login
+
+crash report isn't showing when last checkbox for it checked after crash report sent
+
+
+redshift control:
+https://github.com/kotelnik/plasma-applet-redshift-control :
+1 wish - no icon for advanced tab in setting window - test breeze/dark/other icon theme
+
+enterring gamma settings module will cause redshift control widget to disable
+
+
+
+
+latte dock:
+a ton of bugs with latte dock and panel widget + https://bugs.kde.org/show_bug.cgi?id=375423
+
+
+
+
+report upstream manjaro:
+strange 'permission denied' error message when you change some setting and reject the password prompt (e.g. you press esc) in 'Account Details'. ??
+
+
+
+
+octopi:
+two password prompts when pacman lock file is present upon updating of system
+
+Octopi add 'pkgfile' search by file dependency
+Add 'pkgfile' package as a dependency - for 'Search' -> 'By file' functionality working properly.??
+
+optimizing of space tabs related issues with button??
+
+add 'Cancel transaction' button in 'Attention There is a pending transaction' window - for canceling transaction and quitting???
+
+Display warning message for 'News' tabs if there was some kind of error??
+ability to stop syncronizing database in Output tab - there may be some edge cases when program is not progressing from 'Synchronizing databases...' message
+
+[Suggestion] Use Polkit instead of gksu/kdesu??
+KDE su (5.36) hangs after entering wrong/empty password with very long responce delay. Related upstream bug - https://bugs.kde.org/show_bug.cgi?id=292176 and somehow - https://bugs.kde.org/show_bug.cgi?id=377528  ??
+
+retest konsole isn't dissapearing after installing aur package trizen/yaourt
+
+could take popup input password once before building/downloading (aur) packages - not in the middle of installing them - and not reprompt for password after some time
+
+
+
+virt-manager:
+https://bugs.kde.org/show_bug.cgi?id=390617
+
+
+
+
+firefox:
+1 monitor crash report after starting of a new session
+
+
+
+dropbox:
+1 autostart bug checkbox
+2 not starting in new session
+3 no icon recheck - activies/compositor/virt desktop/other?
+4 icon blended with some other icon - investigate
+
+
+skype:
+1 tray icons dissapeared after activies/compositor/virt desktop/othervirtual desktop switching?
+
+
+
+kshutdown:
+tray icons dissapeared after activies/compositor/virt desktop/other?
+
+test kshutdown with plasma notifications https://bugs.kde.org/show_bug.cgi?id=355921
+
+test kshutdown with plasma if there are some unsaved files
+
+
+
+telegram:
+retest drag and drop of images and text - tested netrunner roll, neon unst - both widget and desktop - https://bugs.kde.org/show_bug.cgi?id=382443#add_comment
+
+
+
+
+thunerbird:
+No 'Busy Cursor' and no 'Taskbar Notification' when clicking on links in Thunderbird with their launch in Firefox
+
+
+kgpg:
+https://bugs.kde.org/show_bug.cgi?id=129672 retest
+
+
+freefilesync:
+retest https://bugs.kde.org/show_bug.cgi?id=392327
+
+
+
+docs:
+test various app with different locales documentation loading with f1 key https://bugs.kde.org/show_bug.cgi?id=359822
+
+comment/close irrelevant issues
+
+
+gzdoom:
+https://bugs.kde.org/show_bug.cgi?id=389298
+
+
+
+
+
+
+
+
+OLDER----------------------------------------->:
+
+
+
+
+ideas:
+script for entering info like qt version, frameworks version, kernel, distribution and other placeholders like Reproducibility, Information about the crash, Backtrace...
+
+the survey among people for best distro idea
+
+brainstorm pair testing - with developer video conference testing?
+
+unify test cases with auto testing on bugs.kde.org
+
+
+
+
+
+
+
+nuvola player + integration apps??
+yaourt -S nuvolaplayer nuvola-app-soundcloud nuvola-app-spotify nuvola-app-google-play-music nuvola-app-yandex-music --noconfirm
+limoo-git ??
+flowblade ??
+anbox ??
+gitter ??
+rslsync (ex:BitTorrent Sync) ??
+boomaga-qt5 ??
+ramme ??
+trello-bin ??
+yarock-qt5 ??
+mpc-qt-git ??
+coolreader3-git??
+screentranslator??
+kde-servicemenus-thunderbird-attachment ?
+kde-servicemenus-pdf ??
+kde-servicemenus-lprinter-qt ?
+kde-servicemenus-pastebinit ?
+kf5-servicemenus-md5sha1calc ?
+bundle dropbox when it will be available in repo (and in live sys) with dropbox-plasma-dark-icons package + add it to repo + add dropbox-plasma-light-icons package into repo too - cause default dropbox icon is pixelated in sys tray (for me).??
+15. Bundle chromium with chromium-widevine package for watching with Encrypted Media Extensions (EME) Content Decryption Module (Netflix etc.) - and add it into repo???
+kde-servicemenus-pdf ?
+kde-servicemenus-pastebinit ??
+kf5-servicemenus-md5sha1calc ??
+kde-servicemenus-newfolderwithselection ?
+Disable all system sounds by default??
+The case for this is let's say users is listening music/audiobook while making some activity - notifications sounds may annoy them???
+12. No entry for 'Plasma Services' upon search in 'Application Menu'??
+21. Review 'Plasma Search' KRunner plugins - do we need for example 'Activities', 'Date and Time', 'Dictionary', 'Instant Messaging', 'OpenStreetMap with Marble', 'Unit Converter' and 'Web Shortcuts' + screenshots???
+
+create file with issues instead of issues list - and add link into comment https://github.com/netrunner-rolling/QA/issues/112 ??
+
+iso image - help system + for drag and drop 2 files - image and checksum, ability to verify checksum and get ready for writing, ctrl o keybord shortcuts???
+ability to paste SHA256 checksum while checksum calculating is in progress??
+add 'Paste the SHA256 checksum' field below 'image:' field???
+display 'Open File - ISO Image Writer' popup file selection dialog on program startup??
+kingston drive started with system 0m size??
+isoimage - add verify iso to dolphin service menus??
+
+live:
+26. Ability to boot in text mode from grub
+27. Add secondary keyboard layout into live sys (along with english and english by default) that was chosen in syslinux (F2) and on installed sys (lang chosen in calamares). ??
+5. Launch full-fledged 'System Monitor' (KSysGuard) on Ctrl + Esc shortcut instead of stripped-down 'System Activity'.???
+add firefox and dolphin app shortcuts into Icons-only Task Manager???
+add comment use and modify kaos linux sddm theme it has user/keyboard layout/session select???
+add test lock/logout widget test maybe add into livesys add notes calc widget ??
+8. Add fastest mirror detection and synchronizing of databases upon connecting to internet. ???
+12. Integrate Variety app - change wallpaper once a day (in addition to 'Picture of the Day' Wallpaper functionality) - preconfigure for anonimous login and select image sources like - nature - https://alpha.wallhaven.cc/tag/37 , digital art - https://alpha.wallhaven.cc/tag/479 , fantasy art - https://alpha.wallhaven.cc/tag/853 . It would be great to have different wallpapers on all Nerunner installations (with default wallpaper when offline or on first day), http://peterlevi.com/variety/2014/05/variety-and-kde/ , https://answers.launchpad.net/variety/+question/268006 . ????
+9. Minor - kde system settings package without classic tree view option (like in calculate linux kde). ??
+14. Bundle firefox (and chromium) with beyond australis, video downloadhelper (+ flashgot?), down them all, findbar tweak, https everywhere, privacy badger, speed tweaks (speedyfox) with recommended values and tab mix plus extensions (all preconfigured).??
+add menu test windows 10??
+after adding a widget - panel becomes with normal transparency again - tranparent-add-widgets-2??
+add into repo applets??
+plasma5-applets-todolist??
+plasma5-applets-eventcalendar??
+easystroke??
+
+kfind doesn't update file list after moving found files to trash retest???
+
+kfind is taking to much cpu upon searching home folder
+
+suggestion vision of a perfect distro - wishlist
+i suggest here in comments add your thougts of what will make a perfect distro
+checklist from other distros pros and cons
+use blue theme bluex instead of dark brown/grey/blue by default - task switcher is using bluex theme already
+OpenRC version.
+6. Idea for disabling internal update checking/notification of all apps.
+15. Develop Nurunner Tweaks app (like Lite Tweaks in Lite Linux) - for apps tweaks (and use kaptan for kde tweaks) - or all-in-one Nurunner Control Center with welcome screen.
+advertize android development, gaming, QPhotoRec Qt5 GUI - alternative to Recuva etc. on main site + commercial support + buy subcription??
+4. Build server for nightly isos, dev/git/AUR packages.
+6. Think about more additional nurunner configurations (better plasma integrations, patches etc.) for some applications that can be installed separately (or as dependency, or in meta package). configuration for popular apps??
+7. Idea - make installing apps in more assisted mode. For example you install plex-media-server and you see more tips in console, running plex server interface auto opens in default browser after installing.??
+9. disable border in main panel and in GTK3 CSDs - for faster selection of apps with moving cursor to the most left position of app icon - for less congnitive load of more precise select of apps icon - for faster closing minimizing maximizing GTK3 windows without precise selection of buttons - for faster selection of window buttons with moving cursor to the most top position of GTK3 app window buttons
+- sell t-shorts, cups, mobile straps?
+
+
+11. Set middle mouse click on desktop to 'Switch Window' action by default
+Right click on desktop -> Configure Desktop -> Mouse Actions -> Middle-Button -> Switch Window dropdown
+This will ease of switching between numerous application on more than one virtual desktop. ??
+
+[Suggestion] Tweak Dolphin
+'Details' view mode with added 'Type' column,
+    22px icons size
+    bottom right slider screenshot +  + disable preview + show full path + dolphin enable more root actions dropbox services in options??
+Various gadget to work greatly with netrunner - fitbit, nest...
+5) better integration with various (sport, iot) gadgets, sport bands, watches
+eyes retina scanning https://www.eyelock.com/ for login kde plasma
+
+
+investigate http://tuxdiary.com/tag/favourite-utilities
+
+
+speedup reloading/not reload menu items - refresh after installing annoying
+
+
+BacklightTooler — BacklightTooler is a backlight control tool with brightness auto-adjustment using a webcam. - IDEA
+
+
+[Suggestion] Tweak Firefox
+Do not display Menu (File, Edit, View...) by default
+Installed addons:
+Auto Shutdown NG
+Auto Unload Tab
+Disable HTML5 Fullscreen Alert
+DownThemAll!
+FindBar Tweak
+Hide Caption Titlebar Plus
+Overlay Scrollbars
+Speed Tweaks (SpeedyFox)
+Tab Mix Plus
+Video Speed Controller
+http://softwarebychuck.com/index.html
+
+ktimer
+app seletion list
+
+
+radio button instead of check marks for loop and starr only one
+
+
+krusader doesn't mounts not mounted drives like dolphin
+
+krusader
+
+status/totals bar - navigator bar
+
+
+if files are selected in both panels dragging selected files work only for files selected in current panel
+drop selection in previous panel if other panel was selected?
+keyboard is not showing if in text box existing text was selected with draging and just clicked
+
+
+'brief view' can be just toggle button with on/off state - toggling brief/detail views without separate detail view button - there is not other views to choose from only brief and non brief
+
+
+failed (mtp?) jobs not displayed correctly
+
+
+don't show filename (Editing) window if 'edit file' waring was canceled - now filename (Editing) window is displaying
+
+
+KIOExec - File not found: error after finishining of file operation and pressing 'open' in moving/copying finished notification popup    mtp??
+
+
+Compare by Contents errors  + shot??????
+
+
+wrong files are chosen upon multiple file choose krusader
+
+
+system tray icon aren't properly aligning in vertical panel position
+
+plasma is displaying playing sound source in panel in firefox upon visiting mega.nz folder with audio files
+
+
+dolphin
+cut/copy/paste is not working in non-english cyrrilic keyboard layouts - test in russian
+
+
+open in file manager - duplicate ntries in Device notifier after insearting  of MTP device (mtp: camare: protocols)
+
+
+drkonqi
+credentials aren't remembered in wayland?
+
+display error in konqi window if future comment in bugzilla is bigger than 65535 characters and cannot be posted
+
+wish - isnot always starting - after same crash? when?
+
+test not showing after crashes - https://bugs.kde.org/show_bug.cgi?id=385925
+
+
+calamares autologin on/off retest next/prev screen - final opposite setting of checkbox
+
+
+wish discover - display task progress and status installing removing packages in task button in task manager - like in dolphin for file tranfer operations
+
+
+
+plasma weather widget not loaded with bbcukmet provider after login logout TIME RETRIVING INFO
+
+
+add hardned kernel?
+
+
+nomad-firewall https://github.com/nomad-desktop/nomad-firewall
+
+
+sirikali zuluvera crypt c++/qt alternative
+
+
+krunner applets test
+
+
+groups and find fields not picking up dark theme octopi
+
+
+expand by default file operations in win10 notification bar
+
+
+default meta shorcut isn't working after two launchers?
+
+
+plasma is not remembering maximized state and creates gap between screen edge and panel
+
+
+netrunner:
+1replace standart notification applet with win10
+
+
+applets: paparazzi radio krunners
+1for all - use system widget style - for smoother ingration into plasma if not blue colors is used - like honeycomb
+2some texts not barely visible
+
+
+
+
+Steps to reproduce:
+1. Activate widget and type some text in it.
+
+
+right click menu dissapears in kickoff in search menu strict mouse focus
+
+
+right click menu dissapears strict mouse focus
+
+
+alt tab isn't working mouse focus?
+
+
+search result sometimes hangs in discover - apps section test
+
+
+ch in krunner only chromium is shown https://bugs.kde.org/show_bug.cgi?id=383812
+
+
+user avatar ins't applying in user manager + kickoff
+
+
+plasma crashes after changing screen edge of main panel. Reproducibility almost always.
+
+
+kicker misplaced search field in right side panel position after entering search results Reproducibility almost always. - upon sno results?
+
+kicker is launching when super key is pressed in virtualbox - yakuake is not
+
+
+optimize kicker for right side panel position
+
+
+
+
+click on ktorrent finished torrent notification could reveal ktorrent app with torrent selected
+
+
+discover - change updates into see update in widget + add 'Update All' button into widget with pass prompt and update right from there
+
+
+Think this bug can be separated to several smaller Kicker/Kickoff bugs. Some points are still relevant and some aren't - https://bugs.kde.org/show_bug.cgi?id=357136
+
+
+Here what can be done - in top left/right Panel positions Favorites, Applications... sections can always be at the bottom
+
+
+pressing change there in kate if session is already opened is not changing to existing session - redesign confirmation dialog - with change new buttons
+
+
+https://bugs.kde.org/show_bug.cgi?id=377332
+
+
+delete key sometimes isn't deleting text in kicker when menu is retracted = backspace key
+
+
+https://bugs.kde.org/show_bug.cgi?id=383863 - app crash drkonqi isn't show icon
+
+
+shifted big icon on desktop - cause of panel on right side?
+
+
+multiple windows kate bug clck on task
+
+
+keyboard brightness is displayed but there is no backlight for keyborad
+
+
+session isn't restoring with right apps
+
+
+cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DLIB_INSTALL_DIR=lib \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
+
+
+    retest https://bugs.kde.org/show_bug.cgi?id=383283
+
+
+https://bugs.kde.org/show_bug.cgi?id=377160 enable pim plugins in digital clock
+
+
+after enabling todo plugin in digital clock widget - https://bugs.kde.org/show_bug.cgi?id=375395
+
+
+https://bugs.kde.org/show_bug.cgi?id=384055 retest create crash report
+
+
+https://bugs.kde.org/show_bug.cgi?id=383283 same entries in menu test
+
+
+change animation type easein ease out kirigami
+
+
+sad smiley in open file -all files dialog isoimagewiter
+
+
+top right menu sometimes isn't on it's position when width is changing kirigami???
+
+
+https://bugs.kde.org/describecomponents.cgi?product=plasmashell
+DataEngines 	Plasma Bugs List
+
+
+plasma hanging upon copying files to flash drive retest
+
+
+try unclutter
+
+
+test moonlight

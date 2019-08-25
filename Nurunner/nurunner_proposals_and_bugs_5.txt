@@ -1,0 +1,41 @@
+Hi, community!
+
+1. Move these lists into github issues?
+2. Look at ghetto-skype (skype for web electron app - in development - no video calls, screen sharing for now).
+3. Add to repo: ocenaudio, enpass, plex-media-server, whatsie (whatsapp), messengerfordeskop (facebook), franz (all-in-one), stremio.
+4. Build server for nightly isos, dev/git and aur packages.
+5. Add mirrors for iso downloading to sourceforge, linuxtracker, fosshub? - https://www.fosshub.com/Operating-Systems.html .
+6. Think about more additional nurunner configurations (better plasma integrations, patches etc.) for some applications that can be installed separately (or as dependency, or in meta package).
+7. Idea - make installing apps in more assisted mode. For example you install plex-media-server and you see more tips in console, running plex server interface auto opens in default browser after installing.
+8. Idea - configurations for each user with settings and installed apps (like android profile, korora canvas?). Ability to restore them after reinstalling of nurunner,synchronize them between systems/share your setup etc. Cross distro GUI/CLI utility for settings (just like Calamares but for user configurations), ability to save in cloud/in text file.
+9. Create porteus-like build iso online wizard http://build.porteus.org/ with ability to choose edition like office or game or audio (rt kernel) - with specific packages.
+10. Suggestion - add alternatives to some apps into live iso for example: firefox - chromium, vlc - smplayer, kdevlive - openshot.
+11. No 'radiotray' package in live iso, but there is radiotray mention in 'entertainment' calamares slide.
+12. Minor - on the penultimate slide in calamares - rhombus (nurunner's logo) has a little shift to the right and down compared to the first and the last slide's rhombuses.
+13. Minor - konsole started from octopi ('Run in terminal' in 'Confirmation' window on installing packages) uses different styling then konsole started in the usual way.
+14. Add pamac along with (instead of) octopi into live sys - with 'pamac-tray-appindicator' package - for better kde integration, here is link to video comparison of octopi and pamac - https://www.youtube.com/watch?v=e0crhf0kswo .
+15. Brainstorm custom?/post install software (Antergos/BunsenLabs alike) - with next features:
+    detection for laptop or desktop type pc - remove/add packages for each sys type (battery, wifi detection etc.)
+    ability to install (remove):
+        proprietary/opensource video drivers
+        printing support
+        bluetooth support
+        latest/lts kernel
+        java support - open/oracle jdk
+        flash support - pepper/adobe flash
+        uncomplicated firewall
+        samba
+        additional software
+16. Add nurunner-testing repo into pacman.conf file.
+17. Look at discord, when app will have these features - https://blog.discordapp.com/upcoming-fea...ends-list/ - it can be added into nurunner repo.
+18. Bug in 'Expanding Icons Task Manager' - sometimes there is just app icon remains in the center of the task - text disappears and width of the task stays unchanged - 'part-of-the-bottom-panel-1' screenshot - it's not only on firefox task - on 'part-of-the-bottom-panel-2' screenshot - plus on second panel screenshot - you can see dropbox icon is pixelated - it's not stock icon but stock icon is pixelated too.
+19. What is the name of the distro? - is it 'NuRunner', 'Nurunner' or 'NuRunner Rolling' - there are all of that names in packages descriptions in repos.
+20. Add package nurunner-iso-profile package with nurunner profile for manjaro-tools into repos.
+21. Increase yakuake scrollback lines to 10000 by default.
+22. 'Manage Profiles...' doesn't work in yakuake.
+23. On a barely-supported hardware for Nurunner - x2300 radeon - Nurunner's themes don't display text in some menus but manjaro kde edition does, screenshots: 'manjaro-kde-main-menu', 'nurunner-main-menu', 'nurunner-networks-menu'.
+24. Disable confirmations of rebooting and shutting down in sddm - for consistency with desktop session no confirmation logout.
+25. When you choose session in sddm - sometimes cursor turns into cross.
+26. Ability to boot in text mode from syslinux on live sys (and from grub on installed system?).
+27. Add secondary keyboard layout into live sys (along with english and english by default) that was chosen in syslinux (F2) and on installed sys (lang chosen in calamares).
+28. Add whdd (utility for diagnostic/recovery hdds) in live sys in addition to memtest. 

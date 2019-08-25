@@ -1,0 +1,40 @@
+Greetings!
+
+1. Look at 'etcher' - utility for burning isos into usb/sd drives. Check out it's roadmap - https://github.com/resin-io/etcher/milestones . After adding these features it can be added to repo.
+2. Add boomaga-qt5, smartgit, visual-studio-code, komodo-edit, yarock-qt5, webtorrent-desktop, ring-kde, wire-desktop, skypeforlinux (when it's mature, or ghetto-linux? mentioned before, or even skype in ice-ssb), vivaldi (when starting from console - getting following error - /etc/os-release: line 2: rolling: command not found - review '/etc/os-release' file) and brave packages into repo.
+3. '¿Lost your password?' and '¿Don't have an account?' questions - both starts with inverted question marks in forum login window - like in spanish lang - is this ok? - and if you fail to login - you'll be redirected to this page - https://nurunner.org/forum/member.php - and here link beside password - '(Lost your password?)' - has no inverted question marks.
+4. Look at 'Ultimate Boot CD' distro - http://www.ultimatebootcd.com/ - it has many usefull utilities that can be selected and placed in live iso (and in repos too) in something like 'Additional' menu item in syslinux - for example utilites for wiping cmos, resetting win password, cpu/gpu burn tests, etc. - apps like memtest, hardwire detection tool and whdd can be placed there too.
+5. Launch full-fledged 'System Monitor' (KSysGuard) on Ctrl + Esc shortcut instead of stripped-down 'System Activity'.
+6. Idea for disabling internal update checking/notification of all apps.
+7. Persistent storage option for booting in syslinux.
+8. Add kshutdown app (or other gui shutdown utility) into live sys.
+9. Supply 'System Monitor' with 'Simple Read and Write Hard Disk Information' tab by default from 'Get How New Stuff' (File - Download New Tabs...).
+10. Create cname for http://nurunner.mkxt.net/ that points and emmideatelly redirects to http://nurunner.org/ .
+11. 'Show this dialog on startup?' button doesn't toggling visually in welcome app (but the button actually adds and removes welcome app from autostart) + a lot of - 'Message: console message: file:///usr/share/nurunner-welcome/index.html @1: ReferenceError: Can't find variable: $' - error messages when you launch welcome app from console and when you click 'Show this dialog at startup?' button.
+12. Do not show updates from octopi on live sys - hide octopi entry in sys tray by default on live sys - do you need to know that updates available on live sys?
+13. Allow only one instance of nurunner welcome app, don't launch it by default in live sys - create desktop icon for it.
+14. Add android studio + sdk + apktool + support packages.. for android developement into repo.
+15. Bundle chromium with chromium-widevine package for watching with Encrypted Media Extensions (EME) Content Decryption Module (Netflix etc.) - and add it into repo.
+16. Include htop iotop and iftop by default in live sys
+17. Standart app icon in main menu -> 'System' section and no icon for 'Nurunner Welcome' when you search for it in main menu (and no icon when you add it's shortcut to the desktop too).
+18. 'Nurunner Welcome' app uses netrunner icon (in window and in task manager).
+19. Submit Nurunner to Distrowatch - https://distrowatch.com/dwres.php?resource=submit
+20. Bundle dropbox when it will be available in repo (and in live sys) with dropbox-plasma-dark-icons package + add it to repo + add dropbox-plasma-light-icons package into repo too - cause default dropbox icon is pixelated in sys tray (for me).
+21. Make best firefox (chromium) exp - resolve 'updating addons compatibility' window appearance on startup in live sys - disable some functionality (like in light-firefox), add more privacy addons, more speedup addons, download manager (down them all), save video helper, etc. Think about best experience in other apps too (players, editors, viewers...). 
+22. Too low quality of nurunner's background images in syslinux - noticeable compression artifacts.
+23. No or custom (blue not green from manjaro like now) theme in linux kernel loading progressbar after choosing nurunner menu item in syslinux.
+24. Disable current plasma loading animation with nurunner logo - make it static image - it's lagging a little bit even on i5 cpu.
+25. Checkout Apricity Freezedry - https://twitter.com/ApricityOS/status/76...8981618688 - https://github.com/Apricity-OS/apricity-freezedry .
+26. There are two readmes - one on desktop and one in welcome app - i sugest remove 'Readme' shortcut from desktop and make 'Read Me' in welcome app a link that points to nurunner website's readme (like 'Forums' and 'Get Involved' links) - or rename 'Read Me' in welcome app into 'About' or something - and if Read Me/About will not be a link - make ability to go back from it to the main/home section of the welcome app (maybe add 'Back ' button near current 'Close' button).
+27. Nurunner's logo but 'Netrunner Menu' string on changing panel's widget (clicking on three bottom right lines on the panel in default position)- when you hover over application's menu icon.
+28. Make top left 'Nurunner' text and logo image a link to main site in welcome app.
+29. There's no non-rolling edition of distro - so 'Rolling' text in welcome app (and in systemd welcome message) can be changed to let's say 'Florence' - https://en.wikipedia.org/wiki/100_metres...p_25_women . Further releases can be named as best female runners at different distances.
+30. Replace 'Expanding Icons Task Manager' with 'Icons-only Task Manager' with new instance on middle-click option - tweak desktop theme for it.
+31. Add kgpg, kompare, kcharselect, filezilla, gnome-disk-utility, calibre, vym (with all toolbars enabled by default), redshift, enpass (or other password manager) and maybe some note taking app into live sys.
+32. Enable dropbox, kompare, kgpg dolphin services be default (i like KaOs linux dolphin services).
+33. Change bottom right screen edge behavior from 'Show Desktop' to 'Present Windows - All Desktops'.
+34. Change alt tab visualization to compact (or to breeze).
+35. Boot in verbose mode not in quite.
+36. Add 'kcm-wacomtablet' package in repo and in live sys - gui for wacom tablet drivers.
+37. Add kio-gdrive package into repo and live sys - for accessing google drive from dolphin - when it's become more mature - as for now i can't login into account from it.
+38. 'Could not start process Cannot talk to klaucher: Not connected to D-Bus server' error if you want to save smart report in partitionmanager.

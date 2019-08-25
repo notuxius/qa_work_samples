@@ -1,0 +1,27 @@
+Hi guys.
+
+1. 'A shared library was not found' error in 'User Management' and 'Input Method' sections in sys settings (no kcm modules?), do we need them? for instance we already have 'User Accounts', also 'Input Method' has icon problem - default icon in sys settings and no icon in 'Application Menu' when you type to search for it.
+2. Add a couple of Nurunner, Manjaro, Arch, KDE.. sites to new tab in firefox. Disable suggested sites?
+3. Disable (remove) completely 'Web Shortcuts' in 'System Settings'. They seems not to be working in krunner. Or make them work with FF.
+4. Replace enchant with enchant-pure https://aur.archlinux.org/packages/enchant-pure/ and remove hspell - hebrew lang from 'Spell Checker'.
+5. No Konqueror is installed so we don't need 'Browser Identification' enabled (remove it). Not sure about 'Cookies' and 'Cache' - it's safe to disable (remove) them too?
+6. Do we need 'Emoticons'?
+7. Do we need 'SSL Preferences'?
+8. Duplicate entries for 'About System' when you search for them in 'Application Menu' - they lead to same module.
+9. In tty prompts there are still netrunner and wrong passwords strings.
+10. Add ability to download distro by torrent.
+11. Maybe add 'This website uses cookies to ensure you get the best experience on our website'.
+12. There still some mentions of netrunner in iso. Search for 'netrunner' strings in file names and file contents through whole filesystem and rename them.
+13. Rename package 'gmusicbrowser-netrunner' to nurunner, remove 'plymouth-theme-netrunner' from repo, add 'firefox-ublock-origin'.
+14. You can't get latest distro news and open root terminal in octopi.
+15. Similar (less) functionality in 'Keyboard Settings' (with capital 'S') and in 'Keyboard setting' (with lower 's') modules in sys settings - remove 'Keyboard Settings' (with capital), plus entries with same name - 'Keyboard' when you search for them in 'Application Menu'.
+16. Dolphin - do not prompt for trashing files - just prompt for deleting them. Despite this setting looks turned off in dolphin setting ('Setting' -> 'Configure Dolphin...' -> 'General' -> 'Confirmations') - dolphin still prompts for trashing files by default.
+17. Change iso label from 'NURL2016' to 'NURNYYMM' format (e.g. 'NURN1610').
+18. Replace karbon with inkscape - it has more rich functionality - move towards more qt4 free iso?
+19. Extend 'Launch Feedback' -> 'Startup indication timeout' to 20 sec. reason - when i launch for example libreoffice writer first time from usb live sys - it's indicating launch of the writer, then after 5 sec indicator goes away but i don't see writer launched yet. For users with fairly old machines and USB 2.0 drives - it will be confusing to see no indication of launch for another 10-15 sec and they may start same program for 2 and more times in this period. And if indication will be for 20 sec the chances they start two instances of same program when they see it's loading is much lower.
+20. Replace flash for Firefox with 'pepper-flash' and 'freshplayerplugin' packages.
+21. Use zsh as default shell with some preconfigured plugins for autocompletion, syntax highlighting and grml's config.
+22. Add some packages and their dependencies to nurunner repo - pacaur (alternative to yaourt with minimal user input), teamviewer, teamspeak, telegram-desktop, viber, gitkraken, wps-office, freefilesync, pycharm-community, testdisk-wip (wip - cause it has qphotorec - qt5 gui) and add it to live sys instead of testdisk.
+23. Add load into ram and persistent storage in live sys options.
+
+Thank you. Have a nice day.

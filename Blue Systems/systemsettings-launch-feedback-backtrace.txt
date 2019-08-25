@@ -1,0 +1,69 @@
+Application: System Settings (systemsettings5), signal: Segmentation fault
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Current thread is 1 (Thread 0x7faae9fa3840 (LWP 2247))]
+
+Thread 5 (Thread 0x7faad093f700 (LWP 2255)):
+#0  0x00007faaef6d0204 in read () from /lib/x86_64-linux-gnu/libc.so.6
+#1  0x00007faaecf3c180 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007faaecef691f in g_main_context_check () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007faaecef6df0 in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x00007faaecef6f6c in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x00007faaefbe3d2b in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#6  0x00007faaefb90d0b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#7  0x00007faaef9e00c6 in QThread::exec() () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#8  0x00007faaeeded385 in ?? () from /lib/x86_64-linux-gnu/libQt5Qml.so.5
+#9  0x00007faaef9e9c97 in ?? () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#10 0x00007faaef5c6f2a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+#11 0x00007faaef6deedf in clone () from /lib/x86_64-linux-gnu/libc.so.6
+
+Thread 4 (Thread 0x7faadb5c6700 (LWP 2250)):
+#0  0x00007faaef5cce6c in pthread_cond_wait@@GLIBC_2.3.2 () from /lib/x86_64-linux-gnu/libpthread.so.0
+#1  0x00007faadb8e3bab in ?? () from /usr/lib/x86_64-linux-gnu/dri/i965_dri.so
+#2  0x00007faadb8e38d7 in ?? () from /usr/lib/x86_64-linux-gnu/dri/i965_dri.so
+#3  0x00007faaef5c6f2a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+#4  0x00007faaef6deedf in clone () from /lib/x86_64-linux-gnu/libc.so.6
+
+Thread 3 (Thread 0x7faae2195700 (LWP 2249)):
+#0  0x00007faaf1352e36 in ?? () from /lib64/ld-linux-x86-64.so.2
+#1  0x00007faaf135301c in ?? () from /lib64/ld-linux-x86-64.so.2
+#2  0x00007faaf1358288 in __tls_get_addr () from /lib64/ld-linux-x86-64.so.2
+#3  0x00007faaef9e9016 in ?? () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#4  0x00007faaefbe3c1a in ?? () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#5  0x00007faaecef6379 in g_main_context_prepare () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#6  0x00007faaecef6d7b in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#7  0x00007faaecef6f6c in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#8  0x00007faaefbe3d2b in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#9  0x00007faaefb90d0b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#10 0x00007faaef9e00c6 in QThread::exec() () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#11 0x00007faaefe37545 in ?? () from /lib/x86_64-linux-gnu/libQt5DBus.so.5
+#12 0x00007faaef9e9c97 in ?? () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#13 0x00007faaef5c6f2a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+#14 0x00007faaef6deedf in clone () from /lib/x86_64-linux-gnu/libc.so.6
+
+Thread 2 (Thread 0x7faae8d9e700 (LWP 2248)):
+#0  0x00007faaef6d4739 in poll () from /lib/x86_64-linux-gnu/libc.so.6
+#1  0x00007faaedb32cf7 in ?? () from /lib/x86_64-linux-gnu/libxcb.so.1
+#2  0x00007faaedb3491a in xcb_wait_for_event () from /lib/x86_64-linux-gnu/libxcb.so.1
+#3  0x00007faae9b25519 in ?? () from /lib/x86_64-linux-gnu/libQt5XcbQpa.so.5
+#4  0x00007faaef9e9c97 in ?? () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#5  0x00007faaef5c6f2a in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+#6  0x00007faaef6deedf in clone () from /lib/x86_64-linux-gnu/libc.so.6
+
+Thread 1 (Thread 0x7faae9fa3840 (LWP 2247)):
+[KCrash Handler]
+#6  0x00007faaf0f7daf0 in KQuickAddons::ConfigModule::needsSave() () from /lib/x86_64-linux-gnu/libKF5QuickAddons.so.5
+#7  0x00007faaf10b48db in ?? () from /lib/x86_64-linux-gnu/libKF5KCMUtils.so.5
+#8  0x00007faaefbbb3e0 in QMetaObject::activate(QObject*, int, int, void**) () from /lib/x86_64-linux-gnu/libQt5Core.so.5
+#9  0x00007faad0943d63 in ?? () from /usr/lib/x86_64-linux-gnu/qt5/plugins/kcms/kcm_launchfeedback.so
+#10 0x00007faad0946403 in ?? () from /usr/lib/x86_64-linux-gnu/qt5/plugins/kcms/kcm_launchfeedback.so
+#11 0x00007faaeed090d4 in QV4::QObjectWrapper::setProperty(QV4::ExecutionEngine*, QObject*, QQmlPropertyData*, QV4::Value const&) () from /lib/x86_64-linux-gnu/libQt5Qml.so.5
+#12 0x00007faaeed09e2e in QV4::QObjectWrapper::setQmlProperty(QV4::ExecutionEngine*, QQmlContextData*, QObject*, QV4::String*, QV4::QObjectWrapper::RevisionMode, QV4::Value const&) () from /lib/x86_64-linux-gnu/libQt5Qml.so.5
+#13 0x00007faaeed09f24 in QV4::QObjectWrapper::put(QV4::Managed*, QV4::String*, QV4::Value const&) () from /lib/x86_64-linux-gnu/libQt5Qml.so.5
+#14 0x00007faaeed1ceec in QV4::Runtime::method_storeProperty(QV4::ExecutionEngine*, QV4::Value const&, int, QV4::Value const&) () from /lib/x86_64-linux-gnu/libQt5Qml.so.5
+#15 0x00007faaeed28789 in ?? () from /lib/x86_64-linux-gnu/libQt5Qml.so.5
+#16 0x00007faad00b93bd in ?? ()
+#17 0x00007faac3bc1320 in ?? ()
+#18 0x00007faac3bc1328 in ?? ()
+#19 0x00007faae400bcb0 in ?? ()
+#20 0x0000000000000000 in ?? ()
+[Inferior 1 (process 2247) detached]

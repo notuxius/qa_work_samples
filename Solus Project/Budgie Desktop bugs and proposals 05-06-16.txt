@@ -1,0 +1,24 @@
+Using Manjaro Budgie 16.06-RC and Budgie Desktop 10.2.5
+
+
+BUGS:
+1)Super + Space not changing keyboard layouts when entering password on Screen Lock
+2)Desktop icons -> right click - when you diselecting Keep aligned and click Organize Desktop by Name - icons move to position #1 after when you click Keep aligned once again - icons move to position #2 and after that when you click on Organize Desktop by Name once again - icons move to position #3. This could resolve bug with jumping most bottom icon to the top and partially hovering existing top icons when Keep align check toggling after Organize Desktop by Name clicking
+3)Desktop -> right click - Keep aligned option don't remembering on (selected) state after 'Raven ->  Budgie Settings -> Background -> Desktop Icons' toggling
+4)Tweak Tool (gnome-tweak-tool) -> after changing number of desktops - left click stops working 
+5)Alt + F2 menu -> when menu apeared - launch Budgie Menu - then close Budgie Menu - Alt + F2 menu not closing and Alt + F2 shortcut doesn't working - menu not hiding and don't gets focus
+
+
+ENHANCEMENTS:
+1)Ability to resize Alt + F2 menu
+2)Alt + F2 menu -> when pressing right arrow after entering some text - focus should go to apps below and selects app to the right from the first one (second from the left) and so on (not selecting letter to the right of the enterred text like now)
+3)Alt + F2 menu -> after entering text - what does the three dots on top and below all apps do? - remove them?
+4)Budgie Menu -> select first app for launch for clarifying what will be (what app will be launched) if you press Enter (same as Alt + F2 clearly selects first app for launch)
+5)Alt + F2 menu -> recency-aware app selection (like in KDE's Alt + F2 menu)
+6)On entering text in Budgie Menu and in Alt + F2 menu should search for entered text in Gnome Settings categories too
+7)Alt + F2 menu -> when no text entered display previously launched apps
+8)Ability to move Alt + F2 menu and remember it's position for the next launch. Stick to the center when moving towards center of the screen (like on window sticking to each other now)
+9)Ability to remember window layer and position in right click menu on window title (like in fluxbox) and on right click on app icon in Icon Task List applet (and somewhere else in wm settings)
+10)Add 'Always Below' (not just 'Always On Top' like now) menu item on right click on window title and on right click on app icon in Icon Task List applet
+11)Unify right click menu style on window title and right click menu on app icon in Icon Task List applet - there are slight differece like visibility of checkboxes before 'Always On Top' menu item (or make menus the same)
+12)Ability to display notifications only in 'Raven -> Notifications' widget. In addition to 'Don't show this message again' button on notifications - display 'Dislay all notifications only in Raven' button and new notifications only change Notification applet icon color and notifications displayed only in 'Raven -> Notifications' widget and appropriete setting toggle in 'Raven -> Budgie Setting -> Panel' widget

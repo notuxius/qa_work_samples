@@ -1,0 +1,376 @@
+Flags:
+C - Confirming of already reported issue
+N - Not confirming of already reported issue
+S - Support/moderation providing
+D - Duplicates marking
+R - Resolving/closing the issue
+O - Opening the issue again
+I - Investigating/informed about the issue
+W - Wayland/Reproducible on Wayland issues
+
+Breeze - general:
+https://bugs.kde.org/show_bug.cgi?id=379022 I
+
+plasmashell - general:
+https://bugs.kde.org/show_bug.cgi?id=398273
+https://bugs.kde.org/show_bug.cgi?id=398455 IW
+https://bugs.kde.org/show_bug.cgi?id=398480 IW
+
+plasmashell - generic-wayland:
+https://bugs.kde.org/show_bug.cgi?id=398232 W
+https://bugs.kde.org/show_bug.cgi?id=398264 W
+https://bugs.kde.org/show_bug.cgi?id=398267 W
+https://bugs.kde.org/show_bug.cgi?id=398272 W
+https://bugs.kde.org/show_bug.cgi?id=398364 IW
+https://bugs.kde.org/show_bug.cgi?id=398315 IW
+https://bugs.kde.org/show_bug.cgi?id=398440 SW
+https://bugs.kde.org/show_bug.cgi?id=398471 IW
+https://bugs.kde.org/show_bug.cgi?id=398494 SW
+https://bugs.kde.org/show_bug.cgi?id=398535 W
+https://bugs.kde.org/show_bug.cgi?id=398578 W
+https://bugs.kde.org/show_bug.cgi?id=398672 W
+https://bugs.kde.org/show_bug.cgi?id=398628 CW
+https://bugs.kde.org/show_bug.cgi?id=398829 IW
+https://bugs.kde.org/show_bug.cgi?id=398829 CSW
+
+plasmashell - System Monitor:
+https://bugs.kde.org/show_bug.cgi?id=398522 S
+
+plasmashell - Analogue Clock:
+https://bugs.kde.org/show_bug.cgi?id=396612 I
+
+plasmashell - DataEngines:
+https://bugs.kde.org/show_bug.cgi?id=383423 I
+
+plasmashell - Widget Explorer:
+https://bugs.kde.org/show_bug.cgi?id=398669 CW
+
+plasmashell - Icons-only Task Manager:
+https://bugs.kde.org/show_bug.cgi?id=396100 SW
+https://bugs.kde.org/show_bug.cgi?id=398401 SW
+https://bugs.kde.org/show_bug.cgi?id=397017 I
+https://bugs.kde.org/show_bug.cgi?id=395615 I
+
+plasmashell - Desktop Containment:
+https://bugs.kde.org/show_bug.cgi?id=398266 W
+https://bugs.kde.org/show_bug.cgi?id=396974 S
+
+plasmashell - Application Launcher (Kickoff):
+https://bugs.kde.org/show_bug.cgi?id=398276
+https://bugs.kde.org/show_bug.cgi?id=398278
+https://bugs.kde.org/show_bug.cgi?id=398279
+https://bugs.kde.org/show_bug.cgi?id=398234 W
+https://bugs.kde.org/show_bug.cgi?id=393401 CW
+https://bugs.kde.org/show_bug.cgi?id=398348
+https://bugs.kde.org/show_bug.cgi?id=398349
+https://bugs.kde.org/show_bug.cgi?id=398350
+https://bugs.kde.org/show_bug.cgi?id=398352
+https://bugs.kde.org/show_bug.cgi?id=398353
+https://bugs.kde.org/show_bug.cgi?id=395637 I
+https://bugs.kde.org/show_bug.cgi?id=387034 I
+https://bugs.kde.org/show_bug.cgi?id=384203 I
+https://bugs.kde.org/show_bug.cgi?id=397693 S
+https://bugs.kde.org/show_bug.cgi?id=397581 I
+https://bugs.kde.org/show_bug.cgi?id=396041 I
+https://bugs.kde.org/show_bug.cgi?id=396881 I
+https://bugs.kde.org/show_bug.cgi?id=394924 I
+https://bugs.kde.org/show_bug.cgi?id=393888 CSW
+https://bugs.kde.org/show_bug.cgi?id=393697 CSW
+https://bugs.kde.org/show_bug.cgi?id=392005 CSW
+https://bugs.kde.org/show_bug.cgi?id=392035 S
+
+plasmashell - Application Menu (Kicker):
+https://bugs.kde.org/show_bug.cgi?id=398396 W
+https://bugs.kde.org/show_bug.cgi?id=398422 W
+
+plasmashell - Theme - Breeze:
+https://bugs.kde.org/show_bug.cgi?id=398317 I
+
+plasmashell - Widget Explorer:
+https://bugs.kde.org/show_bug.cgi?id=392461 I
+
+plasmashell - Task Manager:
+https://bugs.kde.org/show_bug.cgi?id=398711 I
+https://bugs.kde.org/show_bug.cgi?id=397785 I
+https://bugs.kde.org/show_bug.cgi?id=392135 CW
+https://bugs.kde.org/show_bug.cgi?id=375943 I
+https://bugs.kde.org/show_bug.cgi?id=396865 I
+https://bugs.kde.org/show_bug.cgi?id=384006 I
+https://bugs.kde.org/show_bug.cgi?id=360250 I
+https://bugs.kde.org/show_bug.cgi?id=375372 I
+https://bugs.kde.org/show_bug.cgi?id=391572 I
+https://bugs.kde.org/show_bug.cgi?id=396566 I
+https://bugs.kde.org/show_bug.cgi?id=396442 I
+https://bugs.kde.org/show_bug.cgi?id=395611 I
+https://bugs.kde.org/show_bug.cgi?id=395396 CS
+https://bugs.kde.org/show_bug.cgi?id=398699 I
+
+plasmashell - System Tray:
+https://bugs.kde.org/show_bug.cgi?id=397100 I
+https://bugs.kde.org/show_bug.cgi?id=398592 SW
+https://bugs.kde.org/show_bug.cgi?id=398372 I
+https://bugs.kde.org/show_bug.cgi?id=397947 S
+https://bugs.kde.org/show_bug.cgi?id=396153 D
+https://bugs.kde.org/show_bug.cgi?id=397950 I
+https://bugs.kde.org/show_bug.cgi?id=397950 S
+https://bugs.kde.org/show_bug.cgi?id=397949 I
+https://bugs.kde.org/show_bug.cgi?id=397006 I
+
+plasmashell - Activity Switcher:
+https://bugs.kde.org/show_bug.cgi?id=397134 S
+
+plasmashell - Panel:
+https://bugs.kde.org/show_bug.cgi?id=392642 I
+https://bugs.kde.org/show_bug.cgi?id=393005 S
+https://bugs.kde.org/show_bug.cgi?id=393263 I
+https://bugs.kde.org/show_bug.cgi?id=393661 D
+https://bugs.kde.org/show_bug.cgi?id=394097 S
+https://bugs.kde.org/show_bug.cgi?id=394119 I
+https://bugs.kde.org/show_bug.cgi?id=398439 CW
+https://bugs.kde.org/show_bug.cgi?id=395080 S
+https://bugs.kde.org/show_bug.cgi?id=395458 N
+https://bugs.kde.org/show_bug.cgi?id=395636 I
+https://bugs.kde.org/show_bug.cgi?id=395850 I
+https://bugs.kde.org/show_bug.cgi?id=396796 I
+https://bugs.kde.org/show_bug.cgi?id=397175 S
+https://bugs.kde.org/show_bug.cgi?id=396529 S
+https://bugs.kde.org/show_bug.cgi?id=397395 S
+https://bugs.kde.org/show_bug.cgi?id=397654 I
+https://bugs.kde.org/show_bug.cgi?id=397981 I
+https://bugs.kde.org/show_bug.cgi?id=397981 I
+https://bugs.kde.org/show_bug.cgi?id=398423 D
+
+plasmashell - Pager:
+https://bugs.kde.org/show_bug.cgi?id=394792 I
+https://bugs.kde.org/show_bug.cgi?id=397833 I
+
+plasmashell - Notifications:
+https://bugs.kde.org/show_bug.cgi?id=392786 NS
+https://bugs.kde.org/show_bug.cgi?id=393488 I
+https://bugs.kde.org/show_bug.cgi?id=392669 S
+https://bugs.kde.org/show_bug.cgi?id=394165 I
+https://bugs.kde.org/show_bug.cgi?id=395949 I
+https://bugs.kde.org/show_bug.cgi?id=396505 I
+https://bugs.kde.org/show_bug.cgi?id=396912 I
+https://bugs.kde.org/show_bug.cgi?id=388214 NS
+https://bugs.kde.org/show_bug.cgi?id=397445 NS
+
+kdeplasma-addons - Application Dashboard:
+https://bugs.kde.org/show_bug.cgi?id=398498
+https://bugs.kde.org/show_bug.cgi?id=398499
+https://bugs.kde.org/show_bug.cgi?id=398500
+https://bugs.kde.org/show_bug.cgi?id=398533 W
+https://bugs.kde.org/show_bug.cgi?id=390424 S
+https://bugs.kde.org/show_bug.cgi?id=398536
+https://bugs.kde.org/show_bug.cgi?id=398539 W
+
+plasma-nm - general:
+https://bugs.kde.org/show_bug.cgi?id=398777 IW
+
+plasma-nm - kcm:
+https://bugs.kde.org/show_bug.cgi?id=398040 SW
+
+kdeplasma-addons - Picture of the Day:
+https://bugs.kde.org/show_bug.cgi?id=398045 I
+
+kwin - general:
+https://bugs.kde.org/show_bug.cgi?id=398680 IW
+
+kwin - wayland-generic:
+https://bugs.kde.org/show_bug.cgi?id=398171 SW
+https://bugs.kde.org/show_bug.cgi?id=398220 IW
+https://bugs.kde.org/show_bug.cgi?id=366632 SW
+https://bugs.kde.org/show_bug.cgi?id=398541 W
+https://bugs.kde.org/show_bug.cgi?id=384637 IW
+https://bugs.kde.org/show_bug.cgi?id=398898 IW
+https://bugs.kde.org/show_bug.cgi?id=399177 SW
+
+kwin - input:
+https://bugs.kde.org/show_bug.cgi?id=398391 IW
+https://bugs.kde.org/show_bug.cgi?id=398421 SW
+
+kwin - decorations:
+https://bugs.kde.org/show_bug.cgi?id=398159 SW
+
+kwin - xrandr:
+https://bugs.kde.org/show_bug.cgi?id=161325 I
+https://bugs.kde.org/show_bug.cgi?id=326297 I
+https://bugs.kde.org/show_bug.cgi?id=333319 I
+https://bugs.kde.org/show_bug.cgi?id=333280 I
+https://bugs.kde.org/show_bug.cgi?id=333882 I
+https://bugs.kde.org/show_bug.cgi?id=361799 I
+https://bugs.kde.org/show_bug.cgi?id=355513 I
+https://bugs.kde.org/show_bug.cgi?id=347566 I
+https://bugs.kde.org/show_bug.cgi?id=343494 I
+
+kwin - effects-various:
+https://bugs.kde.org/show_bug.cgi?id=398100 IW
+
+kwin - tabbox:
+https://bugs.kde.org/show_bug.cgi?id=398723 SW
+https://bugs.kde.org/show_bug.cgi?id=398751
+https://bugs.kde.org/show_bug.cgi?id=387160 I
+https://bugs.kde.org/show_bug.cgi?id=394285 R
+https://bugs.kde.org/show_bug.cgi?id=393139 I
+https://bugs.kde.org/show_bug.cgi?id=392034 I
+https://bugs.kde.org/show_bug.cgi?id=390194 D
+https://bugs.kde.org/show_bug.cgi?id=389818 I
+https://bugs.kde.org/show_bug.cgi?id=371502 S
+https://bugs.kde.org/show_bug.cgi?id=375321 CSW
+https://bugs.kde.org/show_bug.cgi?id=370185 CSW
+https://bugs.kde.org/show_bug.cgi?id=360336 I
+https://bugs.kde.org/show_bug.cgi?id=374971 IW
+https://bugs.kde.org/show_bug.cgi?id=373580 S
+https://bugs.kde.org/show_bug.cgi?id=352930 I
+https://bugs.kde.org/show_bug.cgi?id=296092 I
+https://bugs.kde.org/show_bug.cgi?id=367975 SW
+https://bugs.kde.org/show_bug.cgi?id=370396 CW
+https://bugs.kde.org/show_bug.cgi?id=366063 I
+https://bugs.kde.org/show_bug.cgi?id=359141 SW
+https://bugs.kde.org/show_bug.cgi?id=309754 I
+https://bugs.kde.org/show_bug.cgi?id=351626 S
+https://bugs.kde.org/show_bug.cgi?id=329696 I
+https://bugs.kde.org/show_bug.cgi?id=351604 DW
+https://bugs.kde.org/show_bug.cgi?id=351114 I
+https://bugs.kde.org/show_bug.cgi?id=347437 SW
+https://bugs.kde.org/show_bug.cgi?id=344882 S
+https://bugs.kde.org/show_bug.cgi?id=336734 NSW
+https://bugs.kde.org/show_bug.cgi?id=374971 SW
+https://bugs.kde.org/show_bug.cgi?id=343081 S
+https://bugs.kde.org/show_bug.cgi?id=309401 I
+https://bugs.kde.org/show_bug.cgi?id=297638 R
+https://bugs.kde.org/show_bug.cgi?id=322087 SW
+https://bugs.kde.org/show_bug.cgi?id=264921 I
+https://bugs.kde.org/show_bug.cgi?id=308331 I
+
+kwin - appmenu:
+https://bugs.kde.org/show_bug.cgi?id=384873 I
+https://bugs.kde.org/show_bug.cgi?id=379841 I
+https://bugs.kde.org/show_bug.cgi?id=389333 I
+https://bugs.kde.org/show_bug.cgi?id=393819 I
+https://bugs.kde.org/show_bug.cgi?id=398019 S
+
+kwin - compatibility:
+https://bugs.kde.org/show_bug.cgi?id=205597 I
+https://bugs.kde.org/show_bug.cgi?id=191114 I
+https://bugs.kde.org/show_bug.cgi?id=333554 I
+https://bugs.kde.org/show_bug.cgi?id=349190 I
+https://bugs.kde.org/show_bug.cgi?id=398832 CS
+
+kwin - effects-tabbox:
+https://bugs.kde.org/show_bug.cgi?id=184874 I
+https://bugs.kde.org/show_bug.cgi?id=321324 CSW
+https://bugs.kde.org/show_bug.cgi?id=322177 S
+https://bugs.kde.org/show_bug.cgi?id=334905 S
+https://bugs.kde.org/show_bug.cgi?id=358610 S
+https://bugs.kde.org/show_bug.cgi?id=361617 I
+https://bugs.kde.org/show_bug.cgi?id=392368 I
+https://bugs.kde.org/show_bug.cgi?id=306630 I
+https://bugs.kde.org/show_bug.cgi?id=330529 S
+
+kwin - effects-window-management:
+https://bugs.kde.org/show_bug.cgi?id=168297 I
+https://bugs.kde.org/show_bug.cgi?id=300726 I
+https://bugs.kde.org/show_bug.cgi?id=250856 I
+https://bugs.kde.org/show_bug.cgi?id=303331 S
+https://bugs.kde.org/show_bug.cgi?id=314427 NS
+https://bugs.kde.org/show_bug.cgi?id=319887 I
+https://bugs.kde.org/show_bug.cgi?id=333412 I
+https://bugs.kde.org/show_bug.cgi?id=357586 I
+https://bugs.kde.org/show_bug.cgi?id=352254 I
+
+kwin - scripts:
+https://bugs.kde.org/show_bug.cgi?id=356600 IW
+https://bugs.kde.org/show_bug.cgi?id=382049 SW
+https://bugs.kde.org/show_bug.cgi?id=385381 I
+
+kwin - platform-x11-standalone:
+https://bugs.kde.org/show_bug.cgi?id=333698 S
+https://bugs.kde.org/show_bug.cgi?id=368723 I
+https://bugs.kde.org/show_bug.cgi?id=395781 I
+https://bugs.kde.org/show_bug.cgi?id=396551 I
+https://bugs.kde.org/show_bug.cgi?id=397858 CS
+
+kwin - platform-drm:
+https://bugs.kde.org/show_bug.cgi?id=378144 N
+https://bugs.kde.org/show_bug.cgi?id=375666 SW
+https://bugs.kde.org/show_bug.cgi?id=389110 IW
+https://bugs.kde.org/show_bug.cgi?id=377811 I
+
+latte-dock - application:
+https://bugs.kde.org/show_bug.cgi?id=398106 IW
+https://bugs.kde.org/show_bug.cgi?id=399168 I
+
+elisa - general:
+https://bugs.kde.org/show_bug.cgi?id=398093 SW
+https://bugs.kde.org/show_bug.cgi?id=397446 SW
+
+ksysguard - ksysguard:
+https://bugs.kde.org/show_bug.cgi?id=398238 DW
+
+kdeplasma-addons - Application Dashboard:
+https://bugs.kde.org/show_bug.cgi?id=383067 IW
+
+drkonqi - general:
+https://bugs.kde.org/show_bug.cgi?id=398275
+https://bugs.kde.org/show_bug.cgi?id=248807 S
+
+frameworks-plasma - components:
+https://bugs.kde.org/show_bug.cgi?id=389821 C
+
+plasma4 - widget-kickoff:
+https://bugs.kde.org/show_bug.cgi?id=252399 I
+
+drkonqi - general:
+https://bugs.kde.org/show_bug.cgi?id=398424
+
+KScreen - common:
+https://bugs.kde.org/show_bug.cgi?id=398460 IW
+https://bugs.kde.org/show_bug.cgi?id=398679 I
+
+KScreen - KCM:
+https://bugs.kde.org/show_bug.cgi?id=398156 IW
+
+systemsettings - general:
+https://bugs.kde.org/show_bug.cgi?id=398655 W
+https://bugs.kde.org/show_bug.cgi?id=398598 SW
+https://bugs.kde.org/show_bug.cgi?id=394899 SW
+https://bugs.kde.org/show_bug.cgi?id=398890 I
+
+systemsettings - sideview:
+https://bugs.kde.org/show_bug.cgi?id=383849 N
+
+systemsettings - kcmshell:
+https://bugs.kde.org/show_bug.cgi?id=398795 CSW
+
+systemsettings - kcm_mouse:
+https://bugs.kde.org/show_bug.cgi?id=398547 SW
+https://bugs.kde.org/show_bug.cgi?id=398713 SW
+
+dolphin - general:
+https://bugs.kde.org/show_bug.cgi?id=356770 S
+https://bugs.kde.org/show_bug.cgi?id=389933 S
+
+Powerdevil - general:
+https://bugs.kde.org/show_bug.cgi?id=398583
+
+lokalize - general:
+https://bugs.kde.org/show_bug.cgi?id=398616 SW
+
+KScreen - kcm:
+https://bugs.kde.org/show_bug.cgi?id=398622 SW
+
+Touchpad-KCM - kcm:
+https://bugs.kde.org/show_bug.cgi?id=398976 IW
+
+Touchpad-KCM - daemon:
+https://bugs.kde.org/show_bug.cgi?id=399186 CW
+
+kate - application:
+https://bugs.kde.org/show_bug.cgi?id=398642 IW
+
+frameworks - kcmutils:
+https://bugs.kde.org/show_bug.cgi?id=398806 SW
+
+Netrunner Rolling:
+https://github.com/netrunner-rolling/QA-Suggestions/issues/146

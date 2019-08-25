@@ -1,0 +1,26 @@
+Salute!
+
+1. Contact with major linux news sites, propose them to write about nurunner.
+2. Add wmail (electron app for (g)mail), ricochet (im through tor network), tor-browser (+ lang packs), ttf-oxygen (firefox dependency), docfetcher, zeal (offline docs), demonsaw (sharing app, not in aur - https://www.demonsaw.com/ ), ramme (instagram desktop app, not in aur - https://terkelg.github.io/ramme/ ) and tomahawk-qt5 into repos.
+3. Inconsistent color themes on nurunner's main website subdomains: https://nurunner.org/dev - dark blue, https://nurunner.org/forum/ - light blue, https://nurunner.org/ - more of black.
+4. 'mlt_repository_init: failed to dlopen /usr/lib/mlt/libmltsox.so (libsox.so.3: cannot open shared object file: No such file or directory)' if you launch kdenlive from console - solution - presence of 'sox' package in live sys.
+5. 'GEGL-geglmodule.c-Message: Module '/usr/lib/gegl-0.2/openraw.so' load error: libopenraw.so.1: cannot open shared object file: No such file or directory.
+Failed to parse tag cache: No such file or directory' error on gimp startup from console - solution - presence of 'libopenraw' package in live sys.
+6. 'ERROR plugin-load.cc:72 [plugin_load]: /usr/lib/audacious/Container/cue.so could not be loaded: libcue.so.2: cannot open shared object file: No such file or directory' and 'ERROR plugin-load.cc:72 [plugin_load]: /usr/lib/audacious/Input/sid.so could not be loaded: libsidplayfp.so.4: cannot open shared object file: No such file or directory' errors on audacious startup - solution - presence of 'libcue' and 'libsidplayfp' packages in live sys.
+7. netrunner in server list in konversation.
+8. Flickering of text in steam window when downloading initial update (on first launch) - on intel 4500mhd video card.
+9. Minor - kde system settings package without classic tree view option (like in calculate linux kde).
+10. ARM images.
+11. Right click on desktop -> Configure desktop -> Mouse actions -> set vertical scroll to 'Switch Window' action (everything else not working for me).
+12. Integrate variety - change wallpaper once a day - preconfigure for anonimous login and select image sources (nature - https://alpha.wallhaven.cc/tag/37 , digital art - https://alpha.wallhaven.cc/tag/479 , fantasy art - https://alpha.wallhaven.cc/tag/853 ... ). It would be great to have different wallpapers on all nurunner installations (with default wallpaper when offline or on first day), http://peterlevi.com/variety/2014/05/variety-and-kde/ , https://answers.launchpad.net/variety/+question/268006 .
+13. Ability to work with flatpak, snap, appimage applications without installing any additional packages on live sys.
+14. Bundle firefox (and chromium) with beyond australis, video downloadhelper (+ flashgot?), down them all, findbar tweak, https everywhere, privacy badger, speed tweaks (speedyfox) with recommended values and tab mix plus extensions (all preconfigured).
+15. Develop Nurunner Tweaks app (like Lite Tweaks in Lite Linux) - for apps tweaks (and use kaptan for kde tweaks) - or all-in-one Nurunner Control Center with welcome screen.
+16. Gmusicbrowser still not working - replace it with gmusicbrowser-shimmer from aur, add flac123 (for flac support), vorbis-tools (for ogg support), perl-net-dbus packages and their dependencies into live iso, replace 'perl-glib-object-introspection' package in repo with one from aur (to make gmusicbrowser work).
+17. Name distro as greatest challenges in the world - hardest marathons - https://weather.com/news/news/worlds-toughest-marathons-running-20121103#/1
+18. OpenRC version.
+19. Add nfoview, kchmviwer, wireshark-qt, kde remote desktop app - https://www.kde.org/applications/internet/krdc/ and veracrypt packages into live sys.
+20. 'Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory' error when started vlc from console and opened some video file - add libvdpau-va-gl package into iso.
+21. KInfocenter -> About System -> Network -> Network Status -> {OnlineStatus} template instead of actual status info.
+22. Use grub on live iso instead of syslinux - minimize differences between look and feel of installed and live systems.
+23. Use lts kernel, lts kde, esr firefox, libreoffice still...

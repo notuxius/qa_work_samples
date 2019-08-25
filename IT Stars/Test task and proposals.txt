@@ -1,0 +1,47 @@
+These are my thoughts on test cases, ideas and questions after first glance on documentation and the web app:
+It’s possible to press top right ‘Load’ button on ‘Events’ page while ‘Select device’ dropdown is empty. Possible solution - disable ‘Load’ button if correct device isn’t selected in the dropdown and display popup with info to select correct device.
+
+‘Return’ key can act as a form/request submission trigger. After inputting text in ‘Search in all columns’ field and pressing ‘Return’ - site should load results of that search. Currently nothing is happening after pressing ‘Return’.
+
+Display device by it’s name not by id with picture of device - for quicker and more intuitive navigation among the devices.
+
+Connect brand new device or device with cleared events history - if there is 0 events - how would the web app behave?
+
+Generate many device events like 10k or 1m (don’t know what are usual boundaries) for/in the device - how would the web app behave?
+
+Connect glitchy device - that is recognizable in network - but cannot send events how would the web app behave?
+
+Select dates ranges - 2 days in the past, one in the past and current, current and in the future, one in the past and one in the future, 2 days in the future. Also think it’s better to disable selection of future dates in the dates dropdown.
+
+The dates dropdown needs improvement while inputting date manually - when the first letters of month are entered - display only this month in the dropdown and autosuggest month name, after it when day is entered - auto select entered day of entered month in the dropdown in current year, after entering of year after the month and day - select entered month/day/year in the dropdown.
+
+It’s possible to remove dates strings from dates dropdowns and try to load results, in the date dropdown - range of previously selected dates is highlighted and looks like this dates range is loading - but the strings with dates in the dates fields are empty - with only ‘From’ and ‘To’ default values. Possible solution would be - autofill currently selected date in this field if it was removed or even partially removed.
+
+Small visual bug in the dates dropdown highlighting - first and last days’ highlight should not have rounded corners - to aesthetically match rest of highlighting when dates with multiple weeks highlighted are selected.
+
+Change current date on computer from which the web app was loaded - is it loads date from user’s pc or from some other source?
+I see that in the ‘Documented REST API’ section there is a ‘Device events’ subsection with explanation of method for getting device events - i see this method in ‘Request’ subsection and it is only ‘GET’ method there - but there is also ‘method=’ parameter in the documented request. What is this method? - it’s not documented in ‘URI parameters’ subsection table.
+
+Is the url - current domain address depends on user’s or users’ company or not?
+
+Are the devices speaking to IoT hub first - (like devices in home network are speaking to home router first and then the router sends data to the internet) - or all devices are sending data to the cloud directly?
+
+Popups with various status codes can translated into user language - like 400 bad request into ‘One or more fields contains invalid data’ or something like that - possibly with link ‘More info...’ in the popup with more detailed explanation of the error occurred.
+
+I don’t have the API testing experience - but i would test it with various (also correct and not) eventTypes, dates, url, and correct, not correct (partially correct) authentication details and see the relevant responses - 403 (Forbidden) for bad credentials and/or not included ViewEvents permission and not using HTTPS, 400 (Bad request) for wrong eventTypes, dates, url and not providing one or two required parameters, 200 (OK) if all are good.
+
+What would happen if other that ‘GET’ method will be used in the request? - for example ‘POST’ or ‘PUT’ methods.
+
+What would happen if other HTTP protocol version will be used in the request? - like HTTP 2.0
+
+Is it possible to get rid of ‘Body’ object in the response body and use ‘event’, ‘hardwareSerial’ strings at the top level alongside with ‘InternalDeviceId’ and ‘_ts’ strings in JSON file? - I think redundant ‘Body’ key is not needed - as this whole JSON file is already a body of response.
+
+‘InternalDeveceId’ key string in the JSON file doesn’t start from lowercase letter.
+
+I would unify the request and response values - like ‘eventType’ in request and ‘event’ in response for consistency and their simpler automation testing.
+
+Disallow deselection of all columns on ‘Events’ page in the web app - if all columns will be unchecked - it would be nothing to display.
+
+Select all text in ‘Search in all columns’ field when it gains focus - for quick inputting of desired search query by user - same as in Chrome omnibox
+
+The web app is not responsive and doesn’t have horizontal scrollbar when it’s contents isn’t fitting horizontally.

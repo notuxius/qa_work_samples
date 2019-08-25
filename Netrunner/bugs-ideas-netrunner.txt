@@ -1,0 +1,406 @@
+idea
+script for entering info like qt version, frameworks version, kernel, distribution and other placeholders like Reproducibility, Information about the crash, Backtrace...
+
+
+ideas propose to owner:
+turn on pc by sound
+
+more friends-testers
+
+the survey among people for best distro idea
+
+
+idea
+brainstorm pair testing - with developer video conference testing?
+
+
+unify test cases with auto testing on bugs.kde.org - idea
+
+
+reportupstream manjaro:
+14. strange 'permission denied' error message when you change some setting and reject the password prompt (e.g. you press esc) in 'Account Details'. ??
+
+
+manjaroforum???
+Octopi add 'pkgfile' search by file dependency
+Add 'pkgfile' package as a dependency - for 'Search' -> 'By file' functionality working properly.??
+
+
+octopi
+optimizing of space tabs related issues with button??
+
+add 'Cancel transaction' button in 'Attention There is a pending transaction' window - for canceling transaction and quitting???
+
+Display warning message for 'News' tabs if there was some kind of error??
+ability to stop syncronizing database in Output tab - there may be some edge cases when program is not progressing from 'Synchronizing databases...' message
+
+[Suggestion] Use Polkit instead of gksu/kdesu??
+KDE su (5.36) hangs after entering wrong/empty password with very long responce delay. Related upstream bug - https://bugs.kde.org/show_bug.cgi?id=292176 and somehow - https://bugs.kde.org/show_bug.cgi?id=377528  ??
+
+
+nuvola player + integration apps??
+yaourt -S nuvolaplayer nuvola-app-soundcloud nuvola-app-spotify nuvola-app-google-play-music nuvola-app-yandex-music --noconfirm
+limoo-git ??
+flowblade ??
+anbox ??
+gitter ?? 
+rslsync (ex:BitTorrent Sync) ??
+boomaga-qt5 ??
+ramme ??
+trello-bin ??
+yarock-qt5 ??
+mpc-qt-git ??
+coolreader3-git??
+screentranslator??
+kde-servicemenus-thunderbird-attachment ?
+kde-servicemenus-pdf ??
+kde-servicemenus-lprinter-qt ?
+kde-servicemenus-pastebinit ?
+kf5-servicemenus-md5sha1calc ?
+bundle dropbox when it will be available in repo (and in live sys) with dropbox-plasma-dark-icons package + add it to repo + add dropbox-plasma-light-icons package into repo too - cause default dropbox icon is pixelated in sys tray (for me).??
+15. Bundle chromium with chromium-widevine package for watching with Encrypted Media Extensions (EME) Content Decryption Module (Netflix etc.) - and add it into repo???
+kde-servicemenus-pdf ?
+kde-servicemenus-pastebinit ??
+kf5-servicemenus-md5sha1calc ??
+kde-servicemenus-newfolderwithselection ?
+Disable all system sounds by default??
+The case for this is let's say users is listening music/audiobook while making some activity - notifications sounds may annoy them???
+12. No entry for 'Plasma Services' upon search in 'Application Menu'??
+21. Review 'Plasma Search' KRunner plugins - do we need for example 'Activities', 'Date and Time', 'Dictionary', 'Instant Messaging', 'OpenStreetMap with Marble', 'Unit Converter' and 'Web Shortcuts' + screenshots???
+
+create file with issues instead of issues list - and add link into comment https://github.com/netrunner-rolling/QA/issues/112 ??
+
+iso image - help system + for drag and drop 2 files - image and checksum, ability to verify checksum and get ready for writing, ctrl o keybord shortcuts???
+ability to paste SHA256 checksum while checksum calculating is in progress??
+add 'Paste the SHA256 checksum' field below 'image:' field???
+display 'Open File - ISO Image Writer' popup file selection dialog on program startup??
+kingston drive started with system 0m size??
+isoimage - add verify iso to dolphin service menus??
+
+live:
+26. Ability to boot in text mode from syslinux on live sys (and from grub on installed system?). ??
+27. Add secondary keyboard layout into live sys (along with english and english by default) that was chosen in syslinux (F2) and on installed sys (lang chosen in calamares). ??
+5. Launch full-fledged 'System Monitor' (KSysGuard) on Ctrl + Esc shortcut instead of stripped-down 'System Activity'.???
+add firefox and dolphin app shortcuts into Icon-only Task Manager???
+add comment use and modify kaos linux sddm theme it has user/keyboard layout/session select???
+add test lock/logout widget test maybe add into livesys add notes calc widget ??
+8. Add fastest mirror detection and synchronizing of databases upon connecting to internet. ???
+12. Integrate Variety app - change wallpaper once a day (in addition to 'Picture of the Day' Wallpaper functionality) - preconfigure for anonimous login and select image sources like - nature - https://alpha.wallhaven.cc/tag/37 , digital art - https://alpha.wallhaven.cc/tag/479 , fantasy art - https://alpha.wallhaven.cc/tag/853 . It would be great to have different wallpapers on all Nerunner installations (with default wallpaper when offline or on first day), http://peterlevi.com/variety/2014/05/variety-and-kde/ , https://answers.launchpad.net/variety/+question/268006 . ????
+9. Minor - kde system settings package without classic tree view option (like in calculate linux kde). ??
+14. Bundle firefox (and chromium) with beyond australis, video downloadhelper (+ flashgot?), down them all, findbar tweak, https everywhere, privacy badger, speed tweaks (speedyfox) with recommended values and tab mix plus extensions (all preconfigured).??
+add menu test windows 10??
+after adding a widget - panel becomes with normal transparency again - tranparent-add-widgets-2??
+add into repo applets??
+plasma5-applets-todolist??
+plasma5-applets-eventcalendar??
+easystroke??
+
+kfind doesn't update file list after moving found files to trash retest???
+
+suggestion vision of a perfect distro - wishlist
+i suggest here in comments add your thougts of what will make a perfect distro
+checklist from other distros pros and cons
+use blue theme bluex instead of dark brown/grey/blue by default - task switcher is using bluex theme already
+OpenRC version.
+6. Idea for disabling internal update checking/notification of all apps.
+15. Develop Nurunner Tweaks app (like Lite Tweaks in Lite Linux) - for apps tweaks (and use kaptan for kde tweaks) - or all-in-one Nurunner Control Center with welcome screen.
+advertize android development, gaming, QPhotoRec Qt5 GUI - alternative to Recuva etc. on main site + commercial support + buy subcription??
+4. Build server for nightly isos, dev/git/AUR packages.
+6. Think about more additional nurunner configurations (better plasma integrations, patches etc.) for some applications that can be installed separately (or as dependency, or in meta package). configuration for popular apps??
+7. Idea - make installing apps in more assisted mode. For example you install plex-media-server and you see more tips in console, running plex server interface auto opens in default browser after installing.??
+9. disable border in main panel and in GTK3 CSDs - for faster selection of apps with moving cursor to the most left position of app icon - for less congnitive load of more precise select of apps icon - for faster closing minimizing maximizing GTK3 windows without precise selection of buttons - for faster selection of window buttons with moving cursor to the most top position of GTK3 app window buttons
+- sell t-shorts, cups, mobile straps?
+
+
+11. Set middle mouse click on desktop to 'Switch Window' action by default
+Right click on desktop -> Configure Desktop -> Mouse Actions -> Middle-Button -> Switch Window dropdown
+This will ease of switching between numerous application on more than one virtual desktop. ??
+
+[Suggestion] Tweak Dolphin
+   'Details' view mode with added 'Type' column,
+    22px icons size
+    bottom right slider screenshot +  + disable preview + show full path + dolphin enable more root actions dropbox services in options??
+Various gadget to work greatly with netrunner - fitbit, nest...
+5) better integration with various (sport, iot) gadgets, sport bands, watches
+eyes retina scanning https://www.eyelock.com/ for login kde plasma
+
+
+investigate http://tuxdiary.com/tag/favourite-utilities
+
+
+speedup reloading/not reload menu items - refresh after installing annoying
+
+
+BacklightTooler — BacklightTooler is a backlight control tool with brightness auto-adjustment using a webcam. - IDEA
+
+
+[Suggestion] Tweak Firefox
+Do not display Menu (File, Edit, View...) by default
+Installed addons:
+Auto Shutdown NG
+Auto Unload Tab
+Disable HTML5 Fullscreen Alert
+DownThemAll!
+FindBar Tweak
+Hide Caption Titlebar Plus
+Overlay Scrollbars
+Speed Tweaks (SpeedyFox)
+Tab Mix Plus
+Video Speed Controller
+http://softwarebychuck.com/index.html
+
+ktimer
+app seletion list
+
+
+radio button instead of check marks for loop and starr only one
+
+
+krusader doesn't mounts not mounted drives like dolphin
+
+krusader
+
+status/totals bar - navigator bar
+
+
+if files are selected in both panels dragging selected files work only for files selected in current panel
+drop selection in previous panel if other panel was selected?
+keyboard is not showing if in text box existing text was selected with draging and just clicked
+
+
+'brief view' can be just toggle button with on/off state - toggling brief/detail views without separate detail view button - there is not other views to choose from only brief and non brief
+
+
+failed (mtp?) jobs not displayed correctly
+
+
+don't show filename (Editing) window if 'edit file' waring was canceled - now filename (Editing) window is displaying
+
+
+KIOExec - File not found: error after finishining of file operation and pressing 'open' in moving/copying finished notification popup    mtp??
+
+
+Compare by Contents errors  + shot??????
+
+
+wrong files are chosen upon multiple file choose krusader
+
+
+neon docker test?
+
+
+system tray icon aren't properly aligning in vertical panel position 
+
+
+second os netrunner rolling isn't loading after installing of kde neon 
+
+plasma is displaying playing sound source in panel in firefox upon visiting mega.nz folder with audio files 
+
+
+dolphin
+cut/copy/paste is not working in non-english cyrrilic keyboard layouts - test in russian
+
+
+open in file manager - duplicate ntries in Device notifier after insearting  of MTP device (mtp: camare: protocols)
+
+ 
+plasma retest
+bottom margin panel move bug + shot
+
+
+drkonqi
+wish - isnot always starting - after same crash? when?
+
+
+calamares autologin on/off retest next/prev screen - final opposite setting of checkbox
+
+
+wish discover - display task progress and status installing removing packages in task button in task manager - like in dolphin for file tranfer operations 
+
+
+wayland -  oftern has poor performance???
+
+
+wayland
+popups bug fullscreen start -> click on displays -> hover over categories???
+
+
+wayland
+suspend brightness bug reported - working for me in x and wayland in kde neon dev iso?????????/
+
+
+wayland
+extraneous windows in tooltips in task manager from the start of plasma if load previos session was selected???
+
+
+wayland retest in x also???
+discover hangs no input sometimes after searching for some string????
+
+
+wayland too?
+scrolling continues to other windows??? coasting
+
+
+kate misplaced tooltip sometimes investigate
+
+
+wayland live session
+no regular home folders in dolphin - they are in x - they absent in wayland 
+
+
+plasma weather widget not loaded with bbcukmet provider after login logout TIME RETRIVING INFO
+
+
+add hardned kernel?
+
+
+nomad-firewall https://github.com/nomad-desktop/nomad-firewall
+
+
+sirikali zuluvera crypt c++/qt alternative
+
+
+krunner applets test
+
+
+groups and find fields not picking up dark theme octopi
+
+
+expand by default file operations in win10 notification bar
+
+
+default meta shorcut isn't working after two launchers?
+
+
+plasma is not remembering maximized state and creates gap between screen edge and panel
+
+
+netrunner:
+1replace standart notification applet with win10
+
+
+applets: paparazzi radio krunners
+1for all - use system widget style - for smoother ingration into plasma if not blue colors is used - like honeycomb
+2some texts not barely visible
+
+
+runners:
+3search for result assynchroniusly without need to press enter key
+4no icons in applictions search results
+5test folder and star tabs
+6is it possible to start searching right after cursor hovering over widget?
+7not only show - but also hide widget after click on it
+8redo context menu - delete item isn't needed + add icons into menu - same like in kate
+recently launched with icons of correcponding tab
+9no icons in search results
+10display info in nothing found
+11if text was pasted with primary selection middle mouse button it cannot be deleted when?
+12if text was pasted with primary selection middle mouse button there is blinking cursor when?
+Enter key can search for current text - but not launch recently used results
+
+Steps to reproduce:
+1. Activate widget and type some text in it.
+
+
+right click menu dissapears in kickoff in search menu strict mouse focus
+
+
+right click menu dissapears strict mouse focus
+
+
+alt tab isn't working mouse focus?
+
+
+search result sometimes hangs in discover - apps section test
+
+
+ch in krunner only chromium is shown https://bugs.kde.org/show_bug.cgi?id=383812
+
+
+user avatar ins't applying in user manager + kickoff
+
+ 
+plasma crashes after changing screen edge of main panel. Reproducibility almost always.
+
+
+kicker misplaced search field in right side panel position after entering search results Reproducibility almost always. - upon sno results?
+
+
+optimize kicker for right side panel position
+
+
+click on ktorrent finished torrent notification could reveal ktorrent app with torrent selected
+
+
+discover - change updates into see update in widget + add 'Update All' button into widget with pass prompt and update right from there
+
+
+Think this bug can be separated to several smaller Kicker/Kickoff bugs. Some points are still relevant and some aren't - https://bugs.kde.org/show_bug.cgi?id=357136
+
+
+scrolling dolphin multiple choise wayland
+
+
+Here what can be done - in top left/right Panel positions Favorites, Applications... sections can always be at the bottom
+
+
+pressing change there in kate if session is already opened is not changing to existing session - redesign confirmation dialog - with change new buttons
+
+
+https://bugs.kde.org/show_bug.cgi?id=377332
+
+
+delete key sometimes isn't deleting text in kicker when menu is retracted = backspace key
+
+
+https://bugs.kde.org/show_bug.cgi?id=383863 - app crash drkonqi isn't show icon
+
+
+shifted big icon on desktop - cause of panel on right side?
+
+
+multiple windows kate bug clck on task
+
+
+keyboard brightness is displayed but there is no backlight for keyborad
+
+
+session isn't restoring with right apps
+
+
+  cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DLIB_INSTALL_DIR=lib \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
+    
+    
+    retest https://bugs.kde.org/show_bug.cgi?id=383283
+    
+    
+https://bugs.kde.org/show_bug.cgi?id=377160 enable pim plugins in digital clock
+
+
+after enabling todo plugin in digital clock widget - https://bugs.kde.org/show_bug.cgi?id=375395
+
+
+https://bugs.kde.org/show_bug.cgi?id=384055 retest create crash report
+
+
+https://bugs.kde.org/show_bug.cgi?id=383283 same entries in menu test
+
+
+change animation type easein ease out kirigami
+
+
+sad smiley in open file -all files dialog isoimagewiter
+
+
+top right menu sometimes isn't on it's position when width is changing kirigami???
+
+
+https://bugs.kde.org/describecomponents.cgi?product=plasmashell
+DataEngines 	Plasma Bugs List 
+
+
+plasma hanging upon copying files to flash drive

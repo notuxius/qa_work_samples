@@ -1,0 +1,22 @@
+Hello, how are you?
+
+1. Take a look at Now Dock Panel https://store.kde.org/p/1154578/ and Now Dock Plasmoid https://store.kde.org/p/1151047/ as plasma alternative to Plank. It's not mature enough yet, but can be added into repo (and in live sys?) after some time.
+2. Add wayland option into sddm sessions.
+3. Change 'Packager' value for packages in nurunner repo. Currently it's 'Unknown Packager' and 'James Kittsmiller (AJSLye) <james@nulogicsystems.com>'
+4. What search engine are you using? Maybe set google as default search engine in firefox.
+5. Add qwinff, ffmulticonverter, netbeans-php, netbeans-cpp, masterpdfeditor-qt5, megaclient-qt5, aqemu, slack-desktop (and make sure it works with firefox in slack:// protocol for magic link authorization),seafile and nextcloud packages and their dependencies into repo. Remove sddm package cause it's in extra repo (remove calamares? - replace it with nurunner-calamares-branding like sonar-calamares-branding package?). Replace 'pavucontrol' package with 'pavucontrol-qt'.
+6. Add 'kde-cdemu-manager-kf5' package (mount isos from dolphin) with it's dependencies into repo and in live sys.
+7. Brainstorm commercial version of distro. For example CrossOver software can be added and polished, plus additional support for it or something.
+8. Add lxqt (with kwin) to live sys as more lightweight alternative/fallback option.
+9. 'Notifications' are in sys tray and as widget in panel. When you make operations with files - the functionality of them is duplicated.
+10. Add 'sshfs' package for browsing android filesystem in dolphin from kde connect menu (left click on kde connect item in sys tray - top right folder icon in menu) or from dolphin's 'Places' panel.
+11. Duplicate entries for 'Desktop Theme' when you search for them in 'Application Menu'. When you launch first and without closing first launch the second entry - it doesn't notify about 'This configuration section is already opened..' - the second section is just opening.
+12. No entry for 'Plasma Services' upon search in 'Application Menu'.
+13. Bug in 'Account Details' with disabling/enabling kwallet. Steps to reproduce: go to 'System Settings' -> 'Plasma Services' and enable 'KWallet', than go to 'Account Details' -> 'KDE Wallet' without closing of 'System Settings' you can see it's turned off but you just enabled it in 'Plasma Services'. When you go to 'Plasma Services' again - you can see it's disabled indeed. And when you close 'System Settings' and go to 'Account Details' - you can see in 'KDE Wallet' it's enabled as expected. I think it's a bug because when you enable 'Baloo' in 'Plasma Services' and without closing 'System Setting' go to 'Search' - you can see file search (ballo) is enabled and with disabling - it's the same thing.
+14. No text in error message when you change some setting and reject the password prompt (e.g. you press esc) in 'Account Details'.
+15. No password prompt in 'Plasma Services' for saving settings - they are just saving after changing.
+16. What does disabling of 'KRunner' in 'Plasma Services' do? After disabling i can still execute krunner by shortcut and launch programs (do other usual things) with it. And if it's removing krunner from autostart and changes will be seen after restart - it may notify about that in some text near by switch (and just stoping service in live sys).
+17. 'Advanced..'. 'Widget Style', '..Decoration..', 'Desktop Theme', 'General' in 'Application Menu' entries are not clear where they lead to (similar/same names in search result in 'Application Menu').
+18. No entries for 'Workspace Theme', 'GNOME Application Style (GTK)' in 'Application Menu'.
+19. xmessage 'Could not start ksmserver. Check your installation' after killing x. And when you press ok on that message - x server reloads again.
+20. Add 'kdeplasma-runners-vbox' package into nurunner repo for starting virtual machines from krunner.

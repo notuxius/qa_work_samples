@@ -1,0 +1,27 @@
+1. Launch some apps in fullscreen by default - e.g.    Spell checking support for Norwegian
+62 aur/perl-pod-spell 1.17-1 (45) (0,01)
+    a formatter for spellchecking Pod
+63 aur/perl-pod-wordlist-hanekomu 1.132680-1 (2) (0,00)
+    Add words for spell checking POD (DEPRECATED)
+ Firefox, GIMP, Kdenlive, LibreOffice..
+2. Change default 'Mouse wheel behavior' in Gwenview from 'Scroll' to 'Browse', disable 'Animations' or change it to 'OpenGL' (it appears more smoother to me) and speed-up animation, hide 'Sidebar' by default.
+3. Maybe disable all sounds for notifications.
+4. Add 'Keep above' button in 'Window Decorations' to the left side of titlebar (right after 'Menu' button). Sometimes i need to keep one window above others (for example media player with video - if 'Keep above' button will be in titlebar - i can keep it above or back to same as others in one click - the button doesn't take to many space, considering titlebar almost always has a lot of free space.) And maybe add 'Shade' to left side too.
+5. Add updated dropbox to repo, include dropbox in live system, don't launch it at startup.
+6. In Yakuake configuration - 'Window' -> 'Tab Bar' -> enable 'Show title bar contents in tab labels' by default.
+7. Hide 'Information' (F11) panel by default in Dolphin - for more space for folders.
+8. Do we need 'Marble'?
+9. Maybe disable 'Tip of the Day' upon startup of programs (like in K3b...)
+10. Do we need K3b? Do you still burn CDs?
+11. On startup of 'Grub Customizer' error message shows 'grub-mkconfig couldn't be executed successfully. error message: /usr/bin/grub-probe: error: failed to get canonical path of `overlay`'.
+12. Do we need games like 'BurgerSpace', 'Frozen Buble', 'KSnakeDuel'?. Think about what games to include https://www.kde.org/applications/games/ and what to remove. Do we need games at all? (leave just steam and maybe add playonlinux, wine and/or desura, scummvm, dosbox, dbgl(gui for dosbox)).
+13. Gmusicbrowser seems not working with new perl. do we need it if we have audacious?
+14. Bundle audacious with qt5 interface 'aur/audacious-qt5' (it needs plugins 'audacious-plugins-qt5' and 'jack2' packages to work). Or launch audacious with gtk2 interface by default. gtk2 interface better than winamp skin as for me.
+15. In Kate editor - do not reveal 'Documents' sidebar by default - we have tabs for it, maybe place it to the bottom sidebar or maybe not show sidebars at starup at all - all this to save some space for text.
+16. In Firefox - don't include Yahoo, Amazon, Twitter search engines. Perhaps include Yandex https://addons.mozilla.org/RU/firefox/addon/yandex-search/?src=search and Baidu https://addons.mozilla.org/en-US/firefox/addon/baidu-search/ for advantage to international users.
+17. Do we need Cantata (mpd client) and mpd daemon installed and at startup?
+18. Review '/usr/bin/desktop-items' script, which is autostarted in live sys.
+19. Add startup script with detecting localization and applying uBlock subscriptions accordingly - for better ads blocking.
+20. Replace QTransmission with qBittorrent. I think it's better - it has more convenient interface and easy way to shutdown/suspend.. system on downloads done.
+21. Review 'Plasma Search' plugins - do we need for example 'Activities', 'Date and Time', 'Dictionary', 'Instant Messaging', 'OpenStreetMap with Marble', 'Unit Converter' and 'Web Shortcuts'.
+22. Did you know that you can just start typing on desktop (when desktop itself is in focus, not some window) and krunner will pop-up - add this info to readme/welcome utility (think about other shortcuts to improve workflow for adding).

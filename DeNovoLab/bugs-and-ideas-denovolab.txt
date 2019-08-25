@@ -1,0 +1,183 @@
+Can we evaluate/buy plugin - https://marketplace.atlassian.com/plugins/au.net.bunney.spellproof.plugins.spellproof-confluence/server/pricing ?
+
+Can we install plugin - https://marketplace.atlassian.com/archive/net.customware.confluence.plugin.linkvalidator ?
+
+MISSPELLED WORDS:
+Comisstion - http://198.245.61.212/display/CLASv5d2/Commission+Report
+
+goup - http://198.245.61.212/display/CLASv5d2/Commission+Report
+
+outsite - http://doc.denovolab.com/display/CLASv5d2/Sip+Packet+Search
+
+Sunmit - http://doc.denovolab.com/display/CLASv5d2/Rerate
+
+not needed space with dot - available . - http://doc.denovolab.com/display/CLASv5d2/Rate+Generation
+
+Deatail - http://doc.denovolab.com/display/CLASv5d2/Carrier+Template
+
+not in italic "Automatic Report" Short Call Charge , Low Balance Notification  - http://doc.denovolab.com/display/CLASv5d2/Carrier+Template
+
+infor - http://doc.denovolab.com/display/CLASv5d2/Carrier+Template
+
+click con - http://198.245.61.212/display/CLASv5d2/Carrier+Template
+
+Swith - http://doc.denovolab.com/display/CLASv5d2/Time+Profile
+
+Invoicing Cyrcle - http://doc.denovolab.com/display/CLASv5d2/Payment+Term
+
+Self-Deifned - http://doc.denovolab.com/display/CLASv5d2/Capacity
+
+outsite - http://doc.denovolab.com/display/CLASv5d2/QoS+Summary
+
+outsite - http://doc.denovolab.com/display/CLASv5d2/Location+Report
+
+ infor - http://doc.denovolab.com/pages/viewpage.action?pageId=11634340 - page is not named
+
+misspelled word "lastest" - http://doc.denovolab.com/display/CLASv5d2/Dashboard
+
+misspelled word "outsite" - http://doc.denovolab.com/display/CLASv5d2/CDRs+List
+
+two dots "Ingress Trunk is used.." - http://doc.denovolab.com/display/CLASv5d2/Daily+Usage+Detail+Report
+
+two dots "Total Non-Zero call is authorized on this host.." - http://doc.denovolab.com/display/CLASv5d2/Host+Based+Report
+
+
+MINOR - NOT RELEVANT
+
+On main doc page - http://doc.denovolab.com/display/CLASv5d2 - link text mismatches from it's actual mailto: link address - in "or via e-mail to support@denovolab.com" text link - should i change link addres into "support@denovolab.com"?
+
+- There are two contacts that can be found in Skype if you search for "dnl_support" name in Skype directory - perhaps second "dns.support" contact can be deleted - for less ambiguity for users that are searching for Skype support. - not app UI or docs relevant - minor
+
+- "Agent" anchor not working in FAQ page - http://doc.denovolab.com:8090/display/5/Frequently+Asked+Questions - no write access - old version
+
+- What do +0000 digits mean in timestamp on the top left side of the portal? - very minor
+
+- Vertical scroll bar can be added in long main menu dropdown lists (specifically for "Log" menu item dropdown list) - reason - on 1366x768 resolution - the dropdown list is barely fits into the screen - and if user increases font size in browser - dropdown menu will no longer fit and access to lower dropdown list items will be confusing. - minor
+
+- Pages in docs with no text in them and without any information - like "Page is currently under construction" or something like that: - future editing
+http://doc.denovolab.com/display/CLASv5d2/Real+Time+Statistics
+http://doc.denovolab.com/display/CLASv5d2/Integration+Manual
+http://doc.denovolab.com/display/CLASv5d2/Knowledge+Base
+http://doc.denovolab.com/display/CLASv5d2/Release+Notes
+http://doc.denovolab.com/display/CLASv5d2/CDR+List
+
+
+PORTAL - HOME PAGE
+
+8. No pictures in 3 circle placeholders at the bottom of the http://portal.denovolab.com/index.php page.
+
+9. Misspelled word "developerment " and plural form of company word in text -
+"DeNovolab is a cutting-edge switch developerment companies focusing on high performance switching." on http://portal.denovolab.com/index.php# page - suggested text - "DeNovoLab is a cutting-edge switch development company focusing on high performance switching."
+
+10. Empty anchors (just "#" signs) for "Privacy Policy" and "Terms of Usage" links on http://portal.denovolab.com/index.php# page.
+
+11. Misspelled word "payal" in text - "let's your customers to pay you via payal or credit card with instant credit balance updated to their account." on http://portal.denovolab.com/features.php page.
+
+12. Misspelled word "payal" in "Fully Integrated" tab in text - "Get paid fast. Direct integrating with Paypal and Swift let’s your customers to pay you via payal or credit card with instant credit balance updated to their account. Let your customer to top up their accounts 24 by 7 while you can free up time to focus on terminating more traffic.." on http://www.denovolab.com/product page.
+
+13. Misspelled word "thru" in "Finance" tab in text - "The system will only let the calls to pass thru if there is remaining credit." on http://www.denovolab.com/product page.
+
+14. Two separate words "in case" are written without space between them in "Finance" tab in text "Support for providing adjustments incase of faulty invoicing, e.g. credit notes, debit notes" on http://www.denovolab.com/product page.
+
+15. Misspelled words "mutiple" and "mutliple" in "Rating" tab in text - "Ability to massively update mutiple fields for mutliple rate records at once." on http://www.denovolab.com/product page.
+
+16. Misspelled word "colocated" in text - "reserves the right to take ownership of colocated equipment should" on http://www.denovolab.com/term_of_use page.
+
+17. Misspelled word "customazation" in text - "Run on your server for more customazation and control" on http://www.denovolab.com/try page.
+
+18. Misspelled word "routin" in text - "Full-featured user-friendly user interface to help you manage routin" on http://www.denovolab.com/ page.
+
+
+themer primary color - misleading cursor pointer
+
+
+2. On this help page - http://doc.denovolab.com/display/CLASv5d2/Class4V5+First+Steps#Class4V5FirstSteps-NavigatingaroundtheUserInterface - section on the top right side is called "Admin Options"- but for example - on next help page - http://doc.denovolab.com/display/CLASv5d2/Getting+Help+and+Support - that section is called "user option" - and if you search for "user option" and "admin options" all across help pages - you'll notice usage both "user option" and "Admin Options" terms for same section - i think this is inconsistency in naming.
+
+"Change Theme" option for Admin Options menu is not mentioned in help pages.
+
+7. IDEA - Develop - two modes for http://192.99.10.113/ interface:
+1) Normal - all will left the same like now
+2) Educational - every acronym (or other parts of the site that can be not obvious for novice users) will be a link that leads to internal help page anchor with explanations for that acronym - or to wiki page - and a brief help info can be obtained by just hovering over that acronym link - also there can be a questions signs near not obvious parts of the site with explanations for them.
+
+9. Option in Main Toolbar on http://192.99.10.113/ site - "Configuration -> Carrier Portal CDR Fields" - is different from "Configuration -> Carrier Portal Allow CDR Fields" specified in help page - http://doc.denovolab.com/display/CLASv5d2/Carrier+Portal+Allowed+CDR+Fields - there no "Allow" word in Main Toolbar.
+
+skewed action buttons links on http://192.99.10.113/sysmodules/view_sysmodule
+
+BUG""""""Theme that is displayed initially is not default one
+
+Theme that is displayed initially is not default one and not one used in help section.
+
+I think red color is more matching for errors messages and for bringing attention - but not for whole theme by default.
+
+""""""
+
+run yslow google pagespeed on web app to see rank and info
+
+
+unify file formats naming - csv file - *.CSV file
+
+change all "You can user" text into "You can use" across help
+
+check all docs sections presence in app 
+
+check for boldness of text and not needed symbols (like "-") in docs text - for main toolbar items text with text on top of each items page - for absence or presence of sections in app and in docs - click all docs links test - check for right capitalizations of words in docs section
+
+retina display test
+
+ability to display date/time format like in Moment.js - "yesterday" or "today"
+
+suggestions when typing in form (Create Rate Table) plus dropdown for all text fields
+
+add wizards step by step for all complicated options - like in - http://192.99.10.113/wizards/index
+
+restyling color pallete to match http://portal.denovolab.com
+
+add wiki page link to "class 4 switch" text with explanations what is class 4 switch
+
+add "log me out when i close page" option into Admin Options
+
+add popular pages into interface
+
+which is default theme for site? is it the same as stated in wiki?
+
+click not only on toggle button - but on field itself for toggling on http://192.99.10.113/systemparams/allow_cdr_fields page
+
+little shift/page contents change after spinner/loading of the page
+
+add drag and drop fields ordering change on http://doc.denovolab.com/display/CLASv5d2/FTP+Job error fields overlapping and appearing not once on 
+
+http://192.99.10.113/mail_sender page after clicking save action button
+
+admin corner hover admin options menu dissapearing
+
+accordion for items in http://192.99.10.113/mailtmps/mail
+
+ability to set session expiring delay in user options
+
+support page unavailable after 404 error and clicking on support button on 404 page
+
+text in red pop-up messages is poorly readable - it lacks contrast and size - this is especially true for visually impaired users - http://192.99.10.113/sysrolepris/add_sysrolepri
+
+redo this text "If not click on Reset button to reset all field and click on Back button to go back to Roles List page." - no need in clicking "Reset" as fields are not saving if just clicked "Back" button - http://192.99.10.113/sysrolepris/add_sysrolepri
+
+maybe place "Back" button near "Submit" and "Reset" buttons - for users in order that the user does not have to scroll whole page up for pressing "Back" button to go back.
+
+misspelled word "Veriied" in Jira issues statuses
+
+global search for quick finding of need functionality
+
+images are not clickable in wiki
+
+right abbreviation for call attemps per second is CAPS and not CAP as in docs now
+
+not needed "button" word in bold text after button name all across the docs - like in - Click Submit button to save Ingress Trunk Template. Click on Reset button to clear all fields or click on Back button to go back to Ingress Trunk Template page.
+
+table headers color style and bold text in thead all across the docs
+
+CDR is call data record not report 
+
+not needed spaces in the begging of sentence all acress the docs
+
+two tabs and 2 tabs acress the docs
+
+"You can user Normal Query or Advance Query to query client base on information you have. If you want to use Advance Query, click on Arrow button, this query will be displayed." - "Advance Query" in - http://doc.denovolab.com/display/CLASv5d2/Carrier+-+Client+List - is displayed by default without need to click on arrow - http://192.99.10.113/clients/index

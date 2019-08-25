@@ -1,0 +1,448 @@
+gdb plasma-discover
+GNU gdb (Ubuntu 8.1-0ubuntu3) 8.1.0.20180409-git
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from plasma-discover...Reading symbols from /usr/lib/debug/.build-id/01/5f389600b24caa4d9ce2bf4cf3739de2b67423.debug...done.
+done.
+(gdb) run
+Starting program: /usr/bin/plasma-discover 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7fffe3aca700 (LWP 3954)]
+[New Thread 0x7fffe28b9700 (LWP 3955)]
+Using Wayland-EGL
+[New Thread 0x7fffd2865700 (LWP 3957)]
+Using the 'xdg-shell-v6' shell integration
+[New Thread 0x7fffca8f4700 (LWP 3958)]
+adding empty sources model QStandardItemModel(0x555556190020)
+no packages for "org.kde.plasma.systemloadviewer"
+no packages for "org.kde.plasma.showActivityManager"
+no packages for "org.kde.plasma.grouping"
+no packages for "org.kde.plasma.diskquota"
+no packages for "org.kde.kscreen"
+no packages for "org.kde.plasma.kimpanel"
+no packages for "audoban.applet.separator"
+no packages for "org.kde.plasma.timer"
+no packages for "im.riot.webapp"
+no packages for "org.kde.plasma.appmenu"
+no packages for "org.kde.plasma.quicklaunch"
+[New Thread 0x7fffbfd74700 (LWP 3960)]
+[New Thread 0x7fffbf573700 (LWP 3961)]
+[New Thread 0x7fffbddc7700 (LWP 3962)]
+[New Thread 0x7fffbd5c6700 (LWP 3963)]
+invalid kns backend! "/etc/xdg/servicemenu.knsrc" because: "Config group not found! Check your KNS3 installation."
+invalid kns backend! "/etc/xdg/ksysguard.knsrc" because: "Config group not found! Check your KNS3 installation."
+[New Thread 0x7fffaffff700 (LWP 3966)]
+[New Thread 0x7fffaf7fe700 (LWP 3967)]
+[New Thread 0x7fffaeffd700 (LWP 3969)]
+[New Thread 0x7fffae7fc700 (LWP 3970)]
+[New Thread 0x7fffadffb700 (LWP 3971)]
+[New Thread 0x7fff9bfff700 (LWP 3976)]
+[New Thread 0x7fff9b7fe700 (LWP 3977)]
+[New Thread 0x7fff9affd700 (LWP 3978)]
+[New Thread 0x7fff9a7fc700 (LWP 3979)]
+[New Thread 0x7fff99ffb700 (LWP 3980)]
+[New Thread 0x7fff997fa700 (LWP 3981)]
+[New Thread 0x7fff98ff9700 (LWP 3982)]
+[New Thread 0x7fff7bfff700 (LWP 3983)]
+[New Thread 0x7fff7b7fe700 (LWP 3984)]
+[New Thread 0x7fff7affd700 (LWP 3985)]
+[New Thread 0x7fff7a7fc700 (LWP 3986)]
+[New Thread 0x7fff79ffb700 (LWP 3987)]
+[New Thread 0x7fff797fa700 (LWP 3988)]
+[New Thread 0x7fff78ff9700 (LWP 3989)]
+[New Thread 0x7fff5bfff700 (LWP 3990)]
+[New Thread 0x7fff5b7fe700 (LWP 3991)]
+[New Thread 0x7fff5affd700 (LWP 3992)]
+[New Thread 0x7fff5a7fc700 (LWP 3993)]
+[Thread 0x7fff9affd700 (LWP 3978) exited]
+[Thread 0x7fff7affd700 (LWP 3985) exited]
+[Thread 0x7fff78ff9700 (LWP 3989) exited]
+[Thread 0x7fff79ffb700 (LWP 3987) exited]
+[Thread 0x7fff5bfff700 (LWP 3990) exited]
+[Thread 0x7fff7bfff700 (LWP 3983) exited]
+[Thread 0x7fffae7fc700 (LWP 3970) exited]
+[Thread 0x7fffaeffd700 (LWP 3969) exited]
+[Thread 0x7fff9a7fc700 (LWP 3979) exited]
+[Thread 0x7fff5b7fe700 (LWP 3991) exited]
+[Thread 0x7fff5affd700 (LWP 3992) exited]
+[Thread 0x7fff99ffb700 (LWP 3980) exited]
+[Thread 0x7fff5a7fc700 (LWP 3993) exited]
+[Thread 0x7fff997fa700 (LWP 3981) exited]
+file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml:45: TypeError: Cannot read property 'hovered' of null
+[Thread 0x7fffbd5c6700 (LWP 3963) exited]
+[Thread 0x7fff98ff9700 (LWP 3982) exited]
+[Thread 0x7fff797fa700 (LWP 3988) exited]
+[Thread 0x7fff7b7fe700 (LWP 3984) exited]
+[Thread 0x7fffbf573700 (LWP 3961) exited]
+[Thread 0x7fff9b7fe700 (LWP 3977) exited]
+[Thread 0x7fffbfd74700 (LWP 3960) exited]
+[Thread 0x7fff9bfff700 (LWP 3976) exited]
+[Thread 0x7fff7a7fc700 (LWP 3986) exited]
+qrc:/qml/ApplicationsListPage.qml:138:16: QML ResourcesProxyModel: Binding loop detected for property "sortOrder"
+^C
+Thread 1 "plasma-discover" received signal SIGINT, Interrupt.
+QMutex::lock (this=0x7ffff3abcc78 <_q_ObjectMutexPool+472>) at thread/qmutex.cpp:224
+224     thread/qmutex.cpp: No such file or directory.
+(gdb) thread apply all bt
+
+Thread 14 (Thread 0x7fffadffb700 (LWP 3971)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffb0024c30, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007fffed434691 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x00007fffed45c105 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x00007fffef5d06db in start_thread (arg=0x7fffadffb700) at pthread_create.c:463
+#6  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 11 (Thread 0x7fffaf7fe700 (LWP 3967)):
+#0  0x00007fffef5d69f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x55555760c364) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  0x00007fffef5d69f3 in __pthread_cond_wait_common (abstime=0x0, mutex=0x55555760c310, cond=0x55555760c338) at pthread_cond_wait.c:502
+#2  0x00007fffef5d69f3 in __pthread_cond_wait (cond=0x55555760c338, mutex=0x55555760c310) at pthread_cond_wait.c:655
+#3  0x00007ffff346794b in QWaitConditionPrivate::wait(unsigned long) (time=18446744073709551615, this=0x55555760c310) at thread/qwaitcondition_unix.cpp:143
+#4  0x00007ffff346794b in QWaitCondition::wait(QMutex*, unsigned long) (this=<optimized out>, mutex=0x55555760c0e0, time=18446744073709551615)
+    at thread/qwaitcondition_unix.cpp:215
+#5  0x00007ffff69aab18 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#6  0x00007ffff69aaf4a in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#7  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x55555760c060) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d06db in start_thread (arg=0x7fffaf7fe700) at pthread_create.c:463
+#9  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 10 (Thread 0x7fffaffff700 (LWP 3966)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffa400b710, nfds=1, timeout=128924) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffa4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffafffeda0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x555555d75e70) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d06db in start_thread (arg=0x7fffaffff700) at pthread_create.c:463
+#8  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 8 (Thread 0x7fffbddc7700 (LWP 3962)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffb4013400, nfds=1, timeout=127733) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffb4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffbddc6da0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+---Type <return> to continue, or q <return> to quit---
+#6  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x5555574e2060) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d06db in start_thread (arg=0x7fffbddc7700) at pthread_create.c:463
+#8  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 5 (Thread 0x7fffca8f4700 (LWP 3958)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffc4004a70, nfds=1, timeout=9989) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffc4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffca8f3da0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x55555614de30) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d06db in start_thread (arg=0x7fffca8f4700) at pthread_create.c:463
+#8  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 4 (Thread 0x7fffd2865700 (LWP 3957)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffcc0049d0, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffcc000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffd2864d30, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff692b826 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#7  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x55555605a6d0) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d06db in start_thread (arg=0x7fffd2865700) at pthread_create.c:463
+#9  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 3 (Thread 0x7fffe28b9700 (LWP 3955)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffd4004e00, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffd4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffe28b8d80, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff43964f5 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#7  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x55555591d240) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d06db in start_thread (arg=0x7fffe28b9700) at pthread_create.c:463
+#9  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 2 (Thread 0x7fffe3aca700 (LWP 3954)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffdc003ce0, nfds=3, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+---Type <return> to continue, or q <return> to quit---
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffdc000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffe3ac9d70, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff56f0e45 in  () at /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5
+#7  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x7ffff5968d60) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d06db in start_thread (arg=0x7fffe3aca700) at pthread_create.c:463
+#9  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 1 (Thread 0x7ffff7fa3800 (LWP 3949)):
+#0  0x00007ffff3458350 in QMutex::lock() (this=0x7ffff3abcc78 <_q_ObjectMutexPool+472>) at thread/qmutex.cpp:224
+#1  0x00007ffff3665168 in QOrderedMutexLocker::relock() (this=0x7fffffffb820)
+    at ../../include/QtCore/5.11.2/QtCore/private/../../../../../src/corelib/thread/qorderedmutexlocker_p.h:83
+#2  0x00007ffff3665168 in QOrderedMutexLocker::QOrderedMutexLocker(QMutex*, QMutex*) (m2=<error reading variable: That operation is not available on integers of more than 8 bytes.>, m1=<error reading variable: That operation is not available on integers of more than 8 bytes.>, this=0x7fffffffb820)
+    at ../../include/QtCore/5.11.2/QtCore/private/../../../../../src/corelib/thread/qorderedmutexlocker_p.h:73
+#3  0x00007ffff3665168 in QObjectPrivate::connectImpl(QObject const*, int, QObject const*, void**, QtPrivate::QSlotObjectBase*, Qt::ConnectionType, int const*, QMetaObject const*) (sender=sender@entry=0x555570ad5a70, signal_index=3, receiver=receiver@entry=0x555570ad5710, slot=slot@entry=0x0, slotObj=slotObj@entry=0x555570b9ae00, type=Qt::AutoConnection, types=0x0, senderMetaObject=0x7fffe0e02960 <Kirigami::PlatformTheme::staticMetaObject>) at kernel/qobject.cpp:4817
+#4  0x00007ffff366560a in QObject::connectImpl(QObject const*, void**, QObject const*, void**, QtPrivate::QSlotObjectBase*, Qt::ConnectionType, int const*, QMetaObject const*) (sender=sender@entry=0x555570ad5a70, signal=signal@entry=0x7fffffffb970, receiver=receiver@entry=0x555570ad5710, slot=slot@entry=0x0, slotObj=0x555570b9ae00, type=Qt::AutoConnection, types=0x0, senderMetaObject=0x7fffe0e02960 <Kirigami::PlatformTheme::staticMetaObject>) at kernel/qobject.cpp:4791
+#5  0x00007fffe0e1947e in QObject::connect<void (Kirigami::PlatformTheme::*)(), DesktopIcon::setSource(const QVariant&)::<lambda()> > (type=Qt::AutoConnection, slot=..., context=0x555570ad5710, signal=(void (Kirigami::PlatformTheme::*)(Kirigami::PlatformTheme * const)) 0x7fffe0bf37d0 <Kirigami::PlatformTheme::colorsChanged()>, sender=0x555570ad5a70)
+    at /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:333
+#6  0x00007fffe0e1947e in DesktopIcon::setSource(QVariant const&) (this=0x555570ad5710, icon=...) at ./src/desktopicon.cpp:164
+#7  0x00007fffe0e22173 in DesktopIcon::qt_static_metacall(QObject*, QMetaObject::Call, int, void**) (_o=<optimized out>, _c=<optimized out>, _id=<optimized out>, _a=<optimized out>) at ./obj-x86_64-linux-gnu/src/kirigamiplugin_autogen/EWIEGA46WW/moc_desktopicon.cpp:239
+#8  0x00007ffff42fa1a2 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#9  0x00007ffff438a7cf in QQmlObjectCreator::setPropertyValue(QQmlPropertyData const*, QV4::CompiledData::Binding const*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#10 0x00007ffff438ba68 in QQmlObjectCreator::setPropertyBinding(QQmlPropertyData const*, QV4::CompiledData::Binding const*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#11 0x00007ffff438d689 in QQmlObjectCreator::setupBindings(bool) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#12 0x00007ffff438e646 in QQmlObjectCreator::populateInstance(int, QObject*, QObject*, QQmlPropertyData const*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#13 0x00007ffff438f513 in QQmlObjectCreator::createInstance(int, QObject*, bool) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#14 0x00007ffff438fac4 in QQmlObjectCreator::create(int, QObject*, QQmlInstantiationInterrupt*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#15 0x00007ffff43007e7 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#16 0x00007ffff430115c in QQmlEnginePrivate::incubate(QQmlIncubator&, QQmlContextData*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#17 0x00007ffff43d886d in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#18 0x00007ffff43d8991 in QQmlDelegateModel::object(int, QQmlIncubator::IncubationMode) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#19 0x00007ffff6afe33b in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+---Type <return> to continue, or q <return> to quit---
+#20 0x00007ffff6b009c0 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#21 0x00007ffff4389633 in QQmlObjectCreator::finalize(QQmlInstantiationInterrupt&) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#22 0x00007ffff42fb9c1 in QQmlComponentPrivate::complete(QQmlEnginePrivate*, QQmlComponentPrivate::ConstructionState*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#23 0x00007ffff42fbae7 in QQmlComponentPrivate::completeCreate() () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#24 0x00007ffff42fb8b2 in QQmlComponent::create(QQmlContext*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#25 0x00007fffe0e173b9 in DelegateRecycler::setSourceComponent(QQmlComponent*) (this=0x555570c69aa0, component=<optimized out>) at ./src/delegaterecycler.cpp:233
+#26 0x00007fffe0e17fd2 in DelegateRecycler::setSourceComponent(QQmlComponent*) (this=<optimized out>, component=<optimized out>) at ./src/delegaterecycler.cpp:167
+#27 0x00007fffe0e1822b in DelegateRecycler::qt_static_metacall(QObject*, QMetaObject::Call, int, void**) (_o=<optimized out>, _c=<optimized out>, _id=<optimized out>, _a=<optimized out>) at ./obj-x86_64-linux-gnu/src/kirigamiplugin_autogen/include/moc_delegaterecycler.cpp:131
+#28 0x00007ffff437e98b in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#29 0x00007ffff4380184 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#30 0x00007ffff437c583 in QQmlBinding::update(QFlags<QQmlPropertyData::WriteFlag>) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#31 0x00007ffff438951c in QQmlObjectCreator::finalize(QQmlInstantiationInterrupt&) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#32 0x00007ffff4300bb2 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#33 0x00007ffff430115c in QQmlEnginePrivate::incubate(QQmlIncubator&, QQmlContextData*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#34 0x00007ffff43d886d in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#35 0x00007ffff43d8991 in QQmlDelegateModel::object(int, QQmlIncubator::IncubationMode) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#36 0x00007ffff6ad3f15 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#37 0x00007ffff6ae2b80 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#38 0x00007ffff6ad2bb6 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#39 0x00007ffff6ae6849 in QQuickListView::viewportMoved(QFlags<Qt::Orientation>) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#40 0x00007ffff6a84a44 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#41 0x00007ffff6ad1709 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#42 0x00007ffff6ae4953 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#43 0x00007ffff69eb63d in QQuickItem::geometryChanged(QRectF const&, QRectF const&) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#44 0x00007ffff69e53fb in QQuickItem::setY(double) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#45 0x00007ffff6a85260 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#46 0x00007ffff366118f in QtPrivate::QSlotObjectBase::call(QObject*, void**) (a=0x7fffffffd220, r=0x555557d5bad0, this=0x555555d32bb0)
+    at ../../include/QtCore/../../src/corelib/kernel/qobjectdefs_impl.h:376
+#47 0x00007ffff366118f in QMetaObject::activate(QObject*, int, int, void**) (sender=0x555555cb6c70, signalOffset=<optimized out>, local_signal_index=<optimized out>, argv=<optimized out>) at kernel/qobject.cpp:3754
+#48 0x00007fffe5c1d3af in QQuickScrollBar::setPosition(double) () at /usr/lib/x86_64-linux-gnu/libQt5QuickTemplates2.so.5
+#49 0x00007fffe5bf7515 in QQuickControl::mouseMoveEvent(QMouseEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5QuickTemplates2.so.5
+#50 0x00007ffff69f0718 in QQuickItem::event(QEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#51 0x00007ffff4fe0e1c in QApplicationPrivate::notify_helper(QObject*, QEvent*) (this=this@entry=
+    0x5555558746f0, receiver=receiver@entry=0x555555cb6c70, e=e@entry=0x7fffffffda50) at kernel/qapplication.cpp:3727
+#52 0x00007ffff4fe83ef in QApplication::notify(QObject*, QEvent*) (this=0x7fffffffdd80, receiver=0x555555cb6c70, e=0x7fffffffda50) at kernel/qapplication.cpp:3486
+#53 0x00007ffff3631fe8 in QCoreApplication::notifyInternal2(QObject*, QEvent*) (receiver=0x555555cb6c70, event=0x7fffffffda50) at kernel/qcoreapplication.cpp:1048
+#54 0x00007ffff6a082a7 in QQuickWindowPrivate::deliverMouseEvent(QQuickPointerMouseEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#55 0x00007ffff6a08d8b in QQuickWindowPrivate::deliverPointerEvent(QQuickPointerEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#56 0x00007ffff6a0960e in QQuickWindowPrivate::handleMouseEvent(QMouseEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+---Type <return> to continue, or q <return> to quit---
+#57 0x00007ffff47f0745 in QWindow::event(QEvent*) (this=0x555555a570c0, ev=<optimized out>) at kernel/qwindow.cpp:2334
+#58 0x00007ffff6a0b1a5 in QQuickWindow::event(QEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#59 0x00007ffff4fe0e1c in QApplicationPrivate::notify_helper(QObject*, QEvent*) (this=this@entry=0x5555558746f0, receiver=receiver@entry=0x555555a570c0, e=e@entry=0x7fffffffda50) at kernel/qapplication.cpp:3727
+#60 0x00007ffff4fe83ef in QApplication::notify(QObject*, QEvent*) (this=0x7fffffffdd80, receiver=0x555555a570c0, e=0x7fffffffda50) at kernel/qapplication.cpp:3486
+#61 0x00007ffff3631fe8 in QCoreApplication::notifyInternal2(QObject*, QEvent*) (receiver=receiver@entry=0x555555a570c0, event=event@entry=0x7fffffffda50)
+    at kernel/qcoreapplication.cpp:1048
+#62 0x00007ffff47e47bb in QCoreApplication::sendSpontaneousEvent(QObject*, QEvent*) (event=0x7fffffffda50, receiver=0x555555a570c0)
+    at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:237
+#63 0x00007ffff47e47bb in QGuiApplicationPrivate::processMouseEvent(QWindowSystemInterfacePrivate::MouseEvent*) (e=0x555555e6ffb0) at kernel/qguiapplication.cpp:2082
+#64 0x00007ffff47e6335 in QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) (e=e@entry=0x555555e6ffb0)
+    at kernel/qguiapplication.cpp:1817
+#65 0x00007ffff47bef5b in QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (flags=...) at kernel/qwindowsysteminterface.cpp:1032
+#66 0x00007fffe7e0173b in QPAEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /usr/lib/x86_64-linux-gnu/libQt5WaylandClient.so.5
+#67 0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffffffdcc0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#68 0x00007ffff36394d0 in QCoreApplication::exec() () at kernel/qcoreapplication.cpp:1336
+#69 0x000055555556a23a in main(int, char**) (argc=<optimized out>, argv=<optimized out>) at ./discover/main.cpp:168
+(gdb) thread apply all bt
+
+Thread 14 (Thread 0x7fffadffb700 (LWP 3971)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffb0024c30, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007fffed434691 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x00007fffed45c105 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x00007fffef5d06db in start_thread (arg=0x7fffadffb700) at pthread_create.c:463
+#6  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 11 (Thread 0x7fffaf7fe700 (LWP 3967)):
+#0  0x00007fffef5d69f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x55555760c364) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  0x00007fffef5d69f3 in __pthread_cond_wait_common (abstime=0x0, mutex=0x55555760c310, cond=0x55555760c338) at pthread_cond_wait.c:502
+#2  0x00007fffef5d69f3 in __pthread_cond_wait (cond=0x55555760c338, mutex=0x55555760c310) at pthread_cond_wait.c:655
+#3  0x00007ffff346794b in QWaitConditionPrivate::wait(unsigned long) (time=18446744073709551615, this=0x55555760c310) at thread/qwaitcondition_unix.cpp:143
+#4  0x00007ffff346794b in QWaitCondition::wait(QMutex*, unsigned long) (this=<optimized out>, mutex=0x55555760c0e0, time=18446744073709551615)
+    at thread/qwaitcondition_unix.cpp:215
+#5  0x00007ffff69aab18 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#6  0x00007ffff69aaf4a in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#7  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x55555760c060) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d06db in start_thread (arg=0x7fffaf7fe700) at pthread_create.c:463
+#9  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 10 (Thread 0x7fffaffff700 (LWP 3966)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffa400b710, nfds=1, timeout=128924) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffa4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffafffeda0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x555555d75e70) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d06db in start_thread (arg=0x7fffaffff700) at pthread_create.c:463
+#8  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 8 (Thread 0x7fffbddc7700 (LWP 3962)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffb4013400, nfds=1, timeout=127733) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffb4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffbddc6da0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+---Type <return> to continue, or q <return> to quit---
+#6  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x5555574e2060) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d06db in start_thread (arg=0x7fffbddc7700) at pthread_create.c:463
+#8  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 5 (Thread 0x7fffca8f4700 (LWP 3958)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffc4004a70, nfds=1, timeout=9989) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffc4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffca8f3da0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x55555614de30) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d06db in start_thread (arg=0x7fffca8f4700) at pthread_create.c:463
+#8  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 4 (Thread 0x7fffd2865700 (LWP 3957)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffcc0049d0, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffcc000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffd2864d30, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff692b826 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#7  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x55555605a6d0) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d06db in start_thread (arg=0x7fffd2865700) at pthread_create.c:463
+#9  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 3 (Thread 0x7fffe28b9700 (LWP 3955)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffd4004e00, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffd4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffe28b8d80, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff43964f5 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#7  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x55555591d240) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d06db in start_thread (arg=0x7fffe28b9700) at pthread_create.c:463
+#9  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 2 (Thread 0x7fffe3aca700 (LWP 3954)):
+#0  0x00007ffff2d51bf9 in __GI___poll (fds=0x7fffdc003ce0, nfds=3, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+---Type <return> to continue, or q <return> to quit---
+#1  0x00007fffed434539 in  () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43464c in g_main_context_iteration () at /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff368c02f in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (this=0x7fffdc000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffe3ac9d70, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff345bbba in QThread::exec() (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff56f0e45 in  () at /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5
+#7  0x00007ffff3466adb in QThreadPrivate::start(void*) (arg=0x7ffff5968d60) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d06db in start_thread (arg=0x7fffe3aca700) at pthread_create.c:463
+#9  0x00007ffff2d5e88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 1 (Thread 0x7ffff7fa3800 (LWP 3949)):
+#0  0x00007ffff3458350 in QMutex::lock() (this=0x7ffff3abcc78 <_q_ObjectMutexPool+472>) at thread/qmutex.cpp:224
+#1  0x00007ffff3665168 in QOrderedMutexLocker::relock() (this=0x7fffffffb820)
+    at ../../include/QtCore/5.11.2/QtCore/private/../../../../../src/corelib/thread/qorderedmutexlocker_p.h:83
+#2  0x00007ffff3665168 in QOrderedMutexLocker::QOrderedMutexLocker(QMutex*, QMutex*) (m2=<error reading variable: That operation is not available on integers of more than 8 bytes.>, m1=<error reading variable: That operation is not available on integers of more than 8 bytes.>, this=0x7fffffffb820)
+    at ../../include/QtCore/5.11.2/QtCore/private/../../../../../src/corelib/thread/qorderedmutexlocker_p.h:73
+#3  0x00007ffff3665168 in QObjectPrivate::connectImpl(QObject const*, int, QObject const*, void**, QtPrivate::QSlotObjectBase*, Qt::ConnectionType, int const*, QMetaObject const*) (sender=sender@entry=0x555570ad5a70, signal_index=3, receiver=receiver@entry=0x555570ad5710, slot=slot@entry=0x0, slotObj=slotObj@entry=0x555570b9ae00, type=Qt::AutoConnection, types=0x0, senderMetaObject=0x7fffe0e02960 <Kirigami::PlatformTheme::staticMetaObject>) at kernel/qobject.cpp:4817
+#4  0x00007ffff366560a in QObject::connectImpl(QObject const*, void**, QObject const*, void**, QtPrivate::QSlotObjectBase*, Qt::ConnectionType, int const*, QMetaObject const*) (sender=sender@entry=0x555570ad5a70, signal=signal@entry=0x7fffffffb970, receiver=receiver@entry=0x555570ad5710, slot=slot@entry=0x0, slotObj=0x555570b9ae00, type=Qt::AutoConnection, types=0x0, senderMetaObject=0x7fffe0e02960 <Kirigami::PlatformTheme::staticMetaObject>) at kernel/qobject.cpp:4791
+#5  0x00007fffe0e1947e in QObject::connect<void (Kirigami::PlatformTheme::*)(), DesktopIcon::setSource(const QVariant&)::<lambda()> > (type=Qt::AutoConnection, slot=..., context=0x555570ad5710, signal=(void (Kirigami::PlatformTheme::*)(Kirigami::PlatformTheme * const)) 0x7fffe0bf37d0 <Kirigami::PlatformTheme::colorsChanged()>, sender=0x555570ad5a70)
+    at /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:333
+#6  0x00007fffe0e1947e in DesktopIcon::setSource(QVariant const&) (this=0x555570ad5710, icon=...) at ./src/desktopicon.cpp:164
+#7  0x00007fffe0e22173 in DesktopIcon::qt_static_metacall(QObject*, QMetaObject::Call, int, void**) (_o=<optimized out>, _c=<optimized out>, _id=<optimized out>, _a=<optimized out>) at ./obj-x86_64-linux-gnu/src/kirigamiplugin_autogen/EWIEGA46WW/moc_desktopicon.cpp:239
+#8  0x00007ffff42fa1a2 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#9  0x00007ffff438a7cf in QQmlObjectCreator::setPropertyValue(QQmlPropertyData const*, QV4::CompiledData::Binding const*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#10 0x00007ffff438ba68 in QQmlObjectCreator::setPropertyBinding(QQmlPropertyData const*, QV4::CompiledData::Binding const*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#11 0x00007ffff438d689 in QQmlObjectCreator::setupBindings(bool) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#12 0x00007ffff438e646 in QQmlObjectCreator::populateInstance(int, QObject*, QObject*, QQmlPropertyData const*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#13 0x00007ffff438f513 in QQmlObjectCreator::createInstance(int, QObject*, bool) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#14 0x00007ffff438fac4 in QQmlObjectCreator::create(int, QObject*, QQmlInstantiationInterrupt*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#15 0x00007ffff43007e7 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#16 0x00007ffff430115c in QQmlEnginePrivate::incubate(QQmlIncubator&, QQmlContextData*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#17 0x00007ffff43d886d in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#18 0x00007ffff43d8991 in QQmlDelegateModel::object(int, QQmlIncubator::IncubationMode) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#19 0x00007ffff6afe33b in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+---Type <return> to continue, or q <return> to quit---
+#20 0x00007ffff6b009c0 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#21 0x00007ffff4389633 in QQmlObjectCreator::finalize(QQmlInstantiationInterrupt&) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#22 0x00007ffff42fb9c1 in QQmlComponentPrivate::complete(QQmlEnginePrivate*, QQmlComponentPrivate::ConstructionState*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#23 0x00007ffff42fbae7 in QQmlComponentPrivate::completeCreate() () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#24 0x00007ffff42fb8b2 in QQmlComponent::create(QQmlContext*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#25 0x00007fffe0e173b9 in DelegateRecycler::setSourceComponent(QQmlComponent*) (this=0x555570c69aa0, component=<optimized out>) at ./src/delegaterecycler.cpp:233
+#26 0x00007fffe0e17fd2 in DelegateRecycler::setSourceComponent(QQmlComponent*) (this=<optimized out>, component=<optimized out>) at ./src/delegaterecycler.cpp:167
+#27 0x00007fffe0e1822b in DelegateRecycler::qt_static_metacall(QObject*, QMetaObject::Call, int, void**) (_o=<optimized out>, _c=<optimized out>, _id=<optimized out>, _a=<optimized out>) at ./obj-x86_64-linux-gnu/src/kirigamiplugin_autogen/include/moc_delegaterecycler.cpp:131
+#28 0x00007ffff437e98b in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#29 0x00007ffff4380184 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#30 0x00007ffff437c583 in QQmlBinding::update(QFlags<QQmlPropertyData::WriteFlag>) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#31 0x00007ffff438951c in QQmlObjectCreator::finalize(QQmlInstantiationInterrupt&) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#32 0x00007ffff4300bb2 in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#33 0x00007ffff430115c in QQmlEnginePrivate::incubate(QQmlIncubator&, QQmlContextData*) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#34 0x00007ffff43d886d in  () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#35 0x00007ffff43d8991 in QQmlDelegateModel::object(int, QQmlIncubator::IncubationMode) () at /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#36 0x00007ffff6ad3f15 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#37 0x00007ffff6ae2b80 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#38 0x00007ffff6ad2bb6 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#39 0x00007ffff6ae6849 in QQuickListView::viewportMoved(QFlags<Qt::Orientation>) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#40 0x00007ffff6a84a44 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#41 0x00007ffff6ad1709 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#42 0x00007ffff6ae4953 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#43 0x00007ffff69eb63d in QQuickItem::geometryChanged(QRectF const&, QRectF const&) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#44 0x00007ffff69e53fb in QQuickItem::setY(double) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#45 0x00007ffff6a85260 in  () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#46 0x00007ffff366118f in QtPrivate::QSlotObjectBase::call(QObject*, void**) (a=0x7fffffffd220, r=0x555557d5bad0, this=0x555555d32bb0)
+    at ../../include/QtCore/../../src/corelib/kernel/qobjectdefs_impl.h:376
+#47 0x00007ffff366118f in QMetaObject::activate(QObject*, int, int, void**) (sender=0x555555cb6c70, signalOffset=<optimized out>, local_signal_index=<optimized out>, argv=<optimized out>) at kernel/qobject.cpp:3754
+#48 0x00007fffe5c1d3af in QQuickScrollBar::setPosition(double) () at /usr/lib/x86_64-linux-gnu/libQt5QuickTemplates2.so.5
+#49 0x00007fffe5bf7515 in QQuickControl::mouseMoveEvent(QMouseEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5QuickTemplates2.so.5
+#50 0x00007ffff69f0718 in QQuickItem::event(QEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#51 0x00007ffff4fe0e1c in QApplicationPrivate::notify_helper(QObject*, QEvent*) (this=this@entry=0x5555558746f0, receiver=receiver@entry=0x555555cb6c70, e=e@entry=0x7fffffffda50) at kernel/qapplication.cpp:3727
+#52 0x00007ffff4fe83ef in QApplication::notify(QObject*, QEvent*) (this=0x7fffffffdd80, receiver=0x555555cb6c70, e=0x7fffffffda50) at kernel/qapplication.cpp:3486
+#53 0x00007ffff3631fe8 in QCoreApplication::notifyInternal2(QObject*, QEvent*) (receiver=0x555555cb6c70, event=0x7fffffffda50) at kernel/qcoreapplication.cpp:1048
+#54 0x00007ffff6a082a7 in QQuickWindowPrivate::deliverMouseEvent(QQuickPointerMouseEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#55 0x00007ffff6a08d8b in QQuickWindowPrivate::deliverPointerEvent(QQuickPointerEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#56 0x00007ffff6a0960e in QQuickWindowPrivate::handleMouseEvent(QMouseEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+---Type <return> to continue, or q <return> to quit---
+#57 0x00007ffff47f0745 in QWindow::event(QEvent*) (this=0x555555a570c0, ev=<optimized out>) at kernel/qwindow.cpp:2334
+#58 0x00007ffff6a0b1a5 in QQuickWindow::event(QEvent*) () at /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#59 0x00007ffff4fe0e1c in QApplicationPrivate::notify_helper(QObject*, QEvent*) (this=this@entry=0x5555558746f0, receiver=receiver@entry=0x555555a570c0, e=e@entry=0x7fffffffda50) at kernel/qapplication.cpp:3727
+#60 0x00007ffff4fe83ef in QApplication::notify(QObject*, QEvent*) (this=0x7fffffffdd80, receiver=0x555555a570c0, e=0x7fffffffda50) at kernel/qapplication.cpp:3486
+#61 0x00007ffff3631fe8 in QCoreApplication::notifyInternal2(QObject*, QEvent*) (receiver=receiver@entry=0x555555a570c0, event=event@entry=0x7fffffffda50)
+    at kernel/qcoreapplication.cpp:1048
+#62 0x00007ffff47e47bb in QCoreApplication::sendSpontaneousEvent(QObject*, QEvent*) (event=0x7fffffffda50, receiver=0x555555a570c0)
+    at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:237
+#63 0x00007ffff47e47bb in QGuiApplicationPrivate::processMouseEvent(QWindowSystemInterfacePrivate::MouseEvent*) (e=0x555555e6ffb0) at kernel/qguiapplication.cpp:2082
+#64 0x00007ffff47e6335 in QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) (e=e@entry=0x555555e6ffb0)
+    at kernel/qguiapplication.cpp:1817
+#65 0x00007ffff47bef5b in QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (flags=...) at kernel/qwindowsysteminterface.cpp:1032
+#66 0x00007fffe7e0173b in QPAEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () at /usr/lib/x86_64-linux-gnu/libQt5WaylandClient.so.5
+#67 0x00007ffff363030a in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (this=this@entry=0x7fffffffdcc0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#68 0x00007ffff36394d0 in QCoreApplication::exec() () at kernel/qcoreapplication.cpp:1336
+#69 0x000055555556a23a in main(int, char**) (argc=<optimized out>, argv=<optimized out>) at ./discover/main.cpp:168

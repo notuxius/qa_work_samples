@@ -1,0 +1,3 @@
+1. На странице http://haloart.ru/portfolio-hesse.html название операционной системы "Ios" написано не в том регистре - правильно "iOS".
+2. На странице http://haloart.ru/portfolio-hesse.html неправильно указано название браузера "Еxpolerer" - правильно "Explorer".
+3. На странице http://haloart.ru/portfolio.html часто термин поисковой оптимизации "SEO" перепутан с термином исполнительного директора "CEO". 

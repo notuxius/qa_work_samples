@@ -1,0 +1,47 @@
+duplicate entry 'open with filemanager' in device notifier after connecting phone
+different color upon sys loading (brown and then blue - make it just brown)
+jumping of brighteness level upon sys loading
+firefox addons - Xmarks Lastpass Onetab TrackMeNot Disconnect Ghostery NoScript Flashblock Savefrom.net helper, 
+
+
+buildiso -p netrunner -k linux47
+yaourt -S manjaro-tools-base manjaro-tools-iso manjaro-efi-shell manjaro-isolinux manjaro-iso-profiles-official --force
+
+
+My steps:
+    1. installed 'manjaro-tools-base manjaro-tools-iso manjaro-efi-shell manjaro-isolinux manjaro-iso-profiles-official' packages,
+    2. downloaded nurunner's overlay from github, renamed /home/nurunner to /home/not (my user name) and copied files from it into system with merging folders and replacing files,
+    3. copied netrunner profile into community folder in manjaro tools iso-profiles,
+    4. moved all files from 'kde' folder up one level - into netrunner folder,
+    5. renamed netrunner folder into nurunner,
+    6. ran 'buildiso -p nurunner -k linux47',
+    7. commented proprietary drivers in Packages-Mhwd and Packages-Mhwd-minimal
+        because of error:
+            '''
+            looking for conflicting packages...
+            warning: removing 'gcc' from target list because it conflicts with 'gcc-multilib'
+            warning: removing 'xf86-input-acecad' from target list because it conflicts with 'catalyst-input'
+            warning: removing 'xf86-input-elographics' from target list because it conflicts with 'catalyst-input'
+            warning: removing 'xf86-input-evdev' from target list because it conflicts with 'catalyst-input'
+            warning: removing 'xf86-input-libinput' from target list because it conflicts with 'catalyst-input'
+            warning: removing 'xf86-input-joystick' from target list because it conflicts with 'catalyst-input'
+            warning: removing 'xf86-input-keyboard' from target list because it conflicts with 'catalyst-input'
+            warning: removing 'xf86-input-mouse' from target list because it conflicts with 'catalyst-input'
+            warning: removing 'xf86-input-void' from target list because it conflicts with 'catalyst-input'
+            error: failed to prepare transaction (could not satisfy dependencies)
+            :: xorg-server: requires xf86-input-driver
+            ==> ERROR: Failed to install packages to new root
+            ==> ERROR: Failed to install all packages
+            ==> ERROR: A failure occurred in make_image_custom().
+                Aborting...
+            --> overlayfs umount: [/var/lib/manjaro-tools/buildiso/netrunner/x86_64/netrunner-image]
+            '''
+
+            
+and get following errors/warnings in console:
+    warning: removing 'gcc-libs' from target list because it conflicts with 'gcc-libs-multilib'
+    
+    
+    error: unresolvable package conflicts detected
+    error: failed to prepare transaction (conflicting dependencies)
+    :: xf86-input-vmmouse and catalyst-server are in conflict (X-ABI-XINPUT_VERSION<22.1)

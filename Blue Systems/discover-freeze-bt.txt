@@ -1,0 +1,270 @@
+(gdb) thread apply all bt
+
+Thread 36 (Thread 0x7fff57fff700 (LWP 12909)):
+#0  syscall () at ../sysdeps/unix/sysv/linux/x86_64/syscall.S:38
+#1  0x00007fffed47b29a in g_cond_wait_until () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed4084f1 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007fffed408aac in g_async_queue_timeout_pop ()
+   from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x00007fffed45dbae in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x00007fffed45d105 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#6  0x00007fffef5d16db in start_thread (arg=0x7fff57fff700) at pthread_create.c:463
+#7  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 25 (Thread 0x7fff7d7fa700 (LWP 12897)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, 
+    reltime=0x7fff7d7f9c30, expected=0, futex_word=0x55555611f570)
+    at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fff7d7f9d00, mutex=0x55555611f520, cond=0x55555611f548)
+    at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x55555611f548, mutex=0x55555611f520, abstime=0x7fff7d7f9d00)
+    at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x55555611f520)
+    at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x55555611f520)
+    at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x555555eba940, mutex=mutex@entry=0x555555f93590, 
+    time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x555555eba930)
+    at thread/qthreadpool.cpp:146
+---Type <return> to continue, or q <return> to quit---
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x555555eba930) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fff7d7fa700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 24 (Thread 0x7fff7dffb700 (LWP 12896)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fff7dffac30, expected=0, futex_word=0x555556117420) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fff7dffad00, mutex=0x5555561173d0, cond=0x5555561173f8) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x5555561173f8, mutex=0x5555561173d0, abstime=0x7fff7dffad00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x5555561173d0) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x5555561173d0) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x555556019060, mutex=mutex@entry=0x555555f93590, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x555556019050) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x555556019050) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fff7dffb700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 22 (Thread 0x7fff7e7fc700 (LWP 12895)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fff7e7fbc30, expected=0, futex_word=0x555556155430) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fff7e7fbd00, mutex=0x5555561553e0, cond=0x555556155408) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x555556155408, mutex=0x5555561553e0, abstime=0x7fff7e7fbd00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x5555561553e0) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x5555561553e0) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x5555560803b0, mutex=mutex@entry=0x555555f93590, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x5555560803a0) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x5555560803a0) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fff7e7fc700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 20 (Thread 0x7fff7f7fe700 (LWP 12890)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fff7f7fdc30, expected=0, futex_word=0x5555561177d0) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fff7f7fdd00, mutex=0x555556117780, cond=0x5555561177a8) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x5555561177a8, mutex=0x555556117780, abstime=0x7fff7f7fdd00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x555556117780) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x555556117780) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x555556122df0, mutex=mutex@entry=0x555555f93590, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x555556122de0) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x555556122de0) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fff7f7fe700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 18 (Thread 0x7fff96168700 (LWP 12888)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fff96167c30, expected=0, futex_word=0x555555e7e030) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fff96167d00, mutex=0x555555e7dfe0, cond=0x555555e7e008) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x555555e7e008, mutex=0x555555e7dfe0, abstime=0x7fff96167d00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x555555e7dfe0) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x555555e7dfe0) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x555556115c40, mutex=mutex@entry=0x555555f93590, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x555556115c30) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x555556115c30) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fff96168700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 16 (Thread 0x7fff977fe700 (LWP 12886)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fff977fdc30, expected=0, futex_word=0x555555df8300) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fff977fdd00, mutex=0x555555df82b0, cond=0x555555df82d8) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x555555df82d8, mutex=0x555555df82b0, abstime=0x7fff977fdd00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x555555df82b0) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x555555df82b0) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x55555618a460, mutex=mutex@entry=0x555555f93590, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x55555618a450) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x55555618a450) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fff977fe700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+---Type <return> to continue, or q <return> to quit---
+Thread 14 (Thread 0x7fffacd39700 (LWP 12884)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fffacd38c30, expected=0, futex_word=0x555557616010) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fffacd38d00, mutex=0x555557615fc0, cond=0x555557615fe8) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x555557615fe8, mutex=0x555557615fc0, abstime=0x7fffacd38d00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x555557615fc0) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x555557615fc0) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x5555576431b0, mutex=mutex@entry=0x555555f93590, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x5555576431a0) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x5555576431a0) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fffacd39700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 13 (Thread 0x7fffad53a700 (LWP 12882)):
+#0  0x00007fffef5d79f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x555555d59464) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x555555d59410, cond=0x555555d59438) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x555555d59438, mutex=0x555555d59410) at pthread_cond_wait.c:655
+#3  0x00007ffff3a1d94b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x555555d59410) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x555555d8b110, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007ffff6bcbb18 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#6  0x00007ffff6bcbf4a in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x555555d8b090) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fffad53a700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 12 (Thread 0x7fffadd3b700 (LWP 12881)):
+#0  0x00007ffff3307bf9 in __GI___poll (fds=0x7fff98003d80, nfds=1, timeout=134511) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed435539 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43564c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff3c4202f in QEventDispatcherGlib::processEvents (this=0x7fff98000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff3be630a in QEventLoop::exec (this=this@entry=0x7fffadd3ada0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff3a11bba in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x555555d6c0b0) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d16db in start_thread (arg=0x7fffadd3b700) at pthread_create.c:463
+#8  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 11 (Thread 0x7fffae53c700 (LWP 12880)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fffae53bc30, expected=0, futex_word=0x555555e678c0) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fffae53bd00, mutex=0x555555e67870, cond=0x555555e67898) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x555555e67898, mutex=0x555555e67870, abstime=0x7fffae53bd00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x555555e67870) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x555555e67870) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x555555e22de0, mutex=mutex@entry=0x555555965290, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x555555e22dd0) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x555555e22dd0) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fffae53c700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 10 (Thread 0x7fffaf7fe700 (LWP 12877)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fffaf7fdc30, expected=0, futex_word=0x7fffa8003474) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fffaf7fdd00, mutex=0x7fffa8003420, cond=0x7fffa8003448) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x7fffa8003448, mutex=0x7fffa8003420, abstime=0x7fffaf7fdd00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x7fffa8003420) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x7fffa8003420) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x7fffa8003130, mutex=mutex@entry=0x7fffa8002e40, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x7fffa8003120) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x7fffa8003120) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fffaf7fe700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 9 (Thread 0x7fffaffff700 (LWP 12876)):
+#0  0x00007ffff3307bf9 in __GI___poll (fds=0x7fffa80018a0, nfds=1, timeout=134446) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed435539 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43564c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff3c4202f in QEventDispatcherGlib::processEvents (this=0x7fffa8000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+---Type <return> to continue, or q <return> to quit---
+#4  0x00007ffff3be630a in QEventLoop::exec (this=this@entry=0x7fffafffeda0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff3a11bba in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x55555755e740) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d16db in start_thread (arg=0x7fffaffff700) at pthread_create.c:463
+#8  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 8 (Thread 0x7fffb5ba2700 (LWP 12875)):
+#0  0x00007fffef5d7ed9 in futex_reltimed_wait_cancelable (private=<optimized out>, reltime=0x7fffb5ba1c30, expected=0, futex_word=0x55555753dd24) at ../sysdeps/unix/sysv/linux/futex-internal.h:142
+#1  __pthread_cond_wait_common (abstime=0x7fffb5ba1d00, mutex=0x55555753dcd0, cond=0x55555753dcf8) at pthread_cond_wait.c:533
+#2  __pthread_cond_timedwait (cond=0x55555753dcf8, mutex=0x55555753dcd0, abstime=0x7fffb5ba1d00) at pthread_cond_wait.c:667
+#3  0x00007ffff3a1d880 in QWaitConditionPrivate::wait_relative (time=30000, this=0x55555753dcd0) at thread/qwaitcondition_unix.cpp:133
+#4  QWaitConditionPrivate::wait (time=30000, this=0x55555753dcd0) at thread/qwaitcondition_unix.cpp:141
+#5  QWaitCondition::wait (this=this@entry=0x555557546c30, mutex=mutex@entry=0x555555f93590, time=30000) at thread/qwaitcondition_unix.cpp:215
+#6  0x00007ffff3a1428d in QThreadPoolThread::run (this=0x555557546c20) at thread/qthreadpool.cpp:146
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x555557546c20) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fffb5ba2700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 7 (Thread 0x7fffc576b700 (LWP 12873)):
+#0  0x00007ffff3307bf9 in __GI___poll (fds=0x7fffbc003ce0, nfds=1, timeout=9992) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed435539 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43564c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff3c4202f in QEventDispatcherGlib::processEvents (this=0x7fffbc000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff3be630a in QEventLoop::exec (this=this@entry=0x7fffc576ada0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff3a11bba in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x5555561d2e50) at thread/qthread_unix.cpp:367
+#7  0x00007fffef5d16db in start_thread (arg=0x7fffc576b700) at pthread_create.c:463
+#8  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 6 (Thread 0x7fffc7360700 (LWP 12872)):
+#0  0x00007ffff3307bf9 in __GI___poll (fds=0x5555561b8ce0, nfds=2, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed435539 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed4358d2 in g_main_loop_run () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007fffca4af026 in ?? () from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+#4  0x00007fffed45d105 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x00007fffef5d16db in start_thread (arg=0x7fffc7360700) at pthread_create.c:463
+#6  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 5 (Thread 0x7fffc7b61700 (LWP 12871)):
+#0  0x00007ffff3307bf9 in __GI___poll (fds=0x5555561a3a00, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed435539 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43564c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007fffed435691 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x00007fffed45d105 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x00007fffef5d16db in start_thread (arg=0x7fffc7b61700) at pthread_create.c:463
+#6  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 4 (Thread 0x7fffd17c4700 (LWP 12870)):
+#0  0x00007ffff3307bf9 in __GI___poll (fds=0x7fffcc0049d0, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed435539 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43564c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff3c4202f in QEventDispatcherGlib::processEvents (this=0x7fffcc000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff3be630a in QEventLoop::exec (this=this@entry=0x7fffd17c3d30, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff3a11bba in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff6b4c826 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x5555560b0650) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fffd17c4700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 3 (Thread 0x7fffe17cc700 (LWP 12868)):
+#0  0x00007ffff3307bf9 in __GI___poll (fds=0x7fffd4004e00, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed435539 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43564c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff3c4202f in QEventDispatcherGlib::processEvents (this=0x7fffd4000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+---Type <return> to continue, or q <return> to quit---
+#4  0x00007ffff3be630a in QEventLoop::exec (this=this@entry=0x7fffe17cbd80, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff3a11bba in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff45b84f5 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x55555593f000) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fffe17cc700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 2 (Thread 0x7fffe29dd700 (LWP 12867)):
+#0  0x00007ffff3307bf9 in __GI___poll (fds=0x7fffdc003ce0, nfds=3, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007fffed435539 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007fffed43564c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007ffff3c4202f in QEventDispatcherGlib::processEvents (this=0x7fffdc000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:422
+#4  0x00007ffff3be630a in QEventLoop::exec (this=this@entry=0x7fffe29dcd70, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007ffff3a11bba in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007ffff5912e45 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5
+#7  0x00007ffff3a1cadb in QThreadPrivate::start (arg=0x7ffff5b8ad60) at thread/qthread_unix.cpp:367
+#8  0x00007fffef5d16db in start_thread (arg=0x7fffe29dd700) at pthread_create.c:463
+#9  0x00007ffff331488f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 1 (Thread 0x7ffff7fb5800 (LWP 12845)):
+#0  QTimerInfoList::unregisterTimer (this=0x5555558e0450, timerId=14580) at kernel/qtimerinfo_unix.cpp:511
+#1  0x00007ffff3c1961f in QObject::killTimer (this=this@entry=0x55556818a330, id=14580) at kernel/qobject.cpp:1709
+#2  0x00007ffff3c240b1 in QTimer::stop (this=this@entry=0x55556818a330) at kernel/qtimer.cpp:241
+#3  0x00007ffff3c2412f in QTimer::start (this=0x55556818a330) at kernel/qtimer.cpp:209
+#4  0x00007fffd21d9fd7 in ?? () from /usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kirigami/org.kde.desktop.so
+#5  0x00007fffd21db73d in ?? () from /usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kirigami/org.kde.desktop.so
+#6  0x00007fffd21dc171 in ?? () from /usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kirigami/org.kde.desktop.so
+#7  0x00007fffdb9a139b in Kirigami::PlatformTheme::qmlAttachedProperties(QObject*) () from /usr/lib/x86_64-linux-gnu/libKF5Kirigami2.so.5
+#8  0x00007ffff450ac98 in QtQml::qmlAttachedPropertiesObjectById(int, QObject const*, bool) () from /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#9  0x00007fffd948d19e in ?? () from /usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
+#10 0x00007fffd94873e2 in ?? () from /usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
+#11 0x00007ffff3c1718f in QtPrivate::QSlotObjectBase::call (a=0x7fffffff1c60, r=0x555568170950, this=0x5555681896b0) at ../../include/QtCore/../../src/corelib/kernel/qobjectdefs_impl.h:376
+#12 QMetaObject::activate (sender=0x555568170950, signalOffset=<optimized out>, local_signal_index=<optimized out>, argv=<optimized out>) at kernel/qobject.cpp:3754
+#13 0x00007ffff6c0c6ba in QQuickItem::geometryChanged(QRectF const&, QRectF const&) () from /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#14 0x00007ffff6c0691d in QQuickItem::setImplicitWidth(double) () from /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#15 0x00007ffff6c16a22 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5
+#16 0x00007ffff45a139e in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#17 0x00007ffff45a2184 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#18 0x00007ffff459e583 in QQmlBinding::update(QFlags<QQmlPropertyData::WriteFlag>) () from /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#19 0x00007ffff44ca815 in QV4::QObjectWrapper::getProperty(QV4::ExecutionEngine*, QObject*, QQmlPropertyData*, bool) () from /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5
+#20 0x00007fffe0070b60 in ?? ()
+#21 0x0000555556087a80 in ?? ()
+#22 0x00007fffe0b8d8a0 in ?? ()
+#23 0x00005555558eedc0 in ?? ()
+#24 0x0000000000000000 in ?? ()

@@ -1,0 +1,157 @@
+Flags:
+C - Confirming of already reported issue
+N - Not confirming of already reported issue
+S - Support/moderation providing
+D - Duplicates marking
+R - Resolving/closing the issue
+O - Opening the issue again
+I - Investigating/informed about the issue
+W - Wayland issues
+
+frameworks-kwayland - client:
+https://bugs.kde.org/show_bug.cgi?id=393923 IW
+
+frameworks-kglobalaccel - general:
+https://bugs.kde.org/show_bug.cgi?id=393619 IW
+
+frameworks-kidletime - general:
+https://bugs.kde.org/show_bug.cgi?id=389485 IW
+
+plasmashell - general:
+https://bugs.kde.org/show_bug.cgi?id=393870 IW
+https://bugs.kde.org/show_bug.cgi?id=394089 W
+https://bugs.kde.org/show_bug.cgi?id=394100 IW
+
+plasmashell - generic-wayland:
+https://bugs.kde.org/show_bug.cgi?id=394040 IW
+
+plasmashell - Application Menu (Kicker):
+https://bugs.kde.org/show_bug.cgi?id=393825 I
+
+plasmashell - Desktop Dashboard:
+https://bugs.kde.org/show_bug.cgi?id=390082 I
+
+kwayland-integration - general:
+https://bugs.kde.org/show_bug.cgi?id=386926 IW
+
+frameworks-kdelibs4support - general:
+https://bugs.kde.org/show_bug.cgi?id=389935 IW
+
+frameworks-kwayland - server:
+https://bugs.kde.org/show_bug.cgi?id=389889 IW
+
+dophin - general:
+https://bugs.kde.org/show_bug.cgi?id=389933 IW
+
+kwin - effects-various:
+https://bugs.kde.org/show_bug.cgi?id=393723 IW
+https://phabricator.kde.org/D12678 IW
+https://bugs.kde.org/show_bug.cgi?id=387721 IW
+
+kwin - wayland-generic:
+https://bugs.kde.org/show_bug.cgi?id=393649 IW
+https://phabricator.kde.org/D12631 IW
+https://bugs.kde.org/show_bug.cgi?id=392614 IW
+https://phabricator.kde.org/D12235 IW
+https://bugs.kde.org/show_bug.cgi?id=389191 IW
+https://bugs.kde.org/show_bug.cgi?id=389222 IW
+https://bugs.kde.org/show_bug.cgi?id=389298 CW
+https://bugs.kde.org/show_bug.cgi?id=387740 IW
+
+kwin - platform-wayland:
+https://bugs.kde.org/show_bug.cgi?id=394189 IW
+
+kwin - input:
+https://bugs.kde.org/show_bug.cgi?id=393253 IW
+https://phabricator.kde.org/D12633 IW
+
+kwin - platform-drm:
+https://bugs.kde.org/show_bug.cgi?id=390306 IW
+https://bugs.kde.org/show_bug.cgi?id=389551 IW
+
+kwin - rules:
+https://bugs.kde.org/show_bug.cgi?id=389922 IW
+
+kwin - platform-drm:
+https://bugs.kde.org/show_bug.cgi?id=389665 CW
+
+konsole - font:
+https://bugs.kde.org/show_bug.cgi?id=394004 IW
+
+kio-extras - MTP:
+https://bugs.kde.org/show_bug.cgi?id=383313 S
+
+systemsettings - general:
+https://bugs.kde.org/show_bug.cgi?id=393569 IW
+https://bugs.kde.org/show_bug.cgi?id=390061 NW
+https://bugs.kde.org/show_bug.cgi?id=390060 NW
+https://bugs.kde.org/show_bug.cgi?id=390005 IW
+https://bugs.kde.org/show_bug.cgi?id=392155 IW
+https://bugs.kde.org/show_bug.cgi?id=389464 IW
+
+systemsettings - kcm_fonts:
+https://bugs.kde.org/show_bug.cgi?id=391651 IW
+
+systemsettings - kcm_keyboard_layout:
+https://bugs.kde.org/show_bug.cgi?id=390079 IW
+
+dolphin - general:
+https://bugs.kde.org/show_bug.cgi?id=387974 IW
+
+kate - general:
+https://bugs.kde.org/show_bug.cgi?id=387973 IW
+
+KScreen - kcm:
+https://bugs.kde.org/show_bug.cgi?id=392578 IW
+
+KScreen - common:
+https://bugs.kde.org/show_bug.cgi?id=390283 IW
+
+ksmserver - ui:
+https://bugs.kde.org/show_bug.cgi?id=389658 IW
+
+plasmashell - XembedSNIProxy:
+https://bugs.kde.org/show_bug.cgi?id=389990 IW
+
+kscreenlocker - general:
+https://bugs.kde.org/show_bug.cgi?id=389822 IW
+
+konsole - general:
+https://bugs.kde.org/show_bug.cgi?id=394371 SW
+https://bugs.kde.org/show_bug.cgi?id=394453 I
+https://bugs.kde.org/show_bug.cgi?id=394484 I
+
+kwin - effects-various:
+https://bugs.kde.org/show_bug.cgi?id=388182 I
+https://bugs.kde.org/show_bug.cgi?id=387757 IW
+
+kwin - input:
+https://bugs.kde.org/show_bug.cgi?id=387775 I
+
+Touchpad-KCM - kcm:
+https://bugs.kde.org/show_bug.cgi?id=387153 IW
+
+ark - general:
+https://bugs.kde.org/show_bug.cgi?id=389989 IW
+
+lattedock:
+https://github.com/psifidotos/Latte-Dock/issues/737 IW
+https://github.com/blue-systems/plasma-5.13/issues/133 IW
+
+kinfocenter - InfoSummary:
+https://bugs.kde.org/show_bug.cgi?id=394239 I
+
+kate - general:
+https://bugs.kde.org/show_bug.cgi?id=388524 SW
+
+krite - Usability:
+https://bugs.kde.org/show_bug.cgi?id=388225 I
+
+konversation - general:
+https://bugs.kde.org/show_bug.cgi?id=386998 IW
+
+Manjaro packages-community:
+https://github.com/manjaro/packages-community/issues/502
+
+neon - Packages User Edition:
+https://bugs.kde.org/show_bug.cgi?id=388712 I

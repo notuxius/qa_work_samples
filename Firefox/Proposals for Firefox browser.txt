@@ -1,0 +1,5 @@
+Hi team!
+
+1. Ability to run stripped down version of firefox - like in light-firefox project
+min vid - speed control - restore from same place minimal video ended - don't play simmulaneusly in usual youtube video and on minamal player.
+2. smaller icon at the bottom left of youtube video - minvid 

@@ -1,0 +1,60 @@
+Application: drkonqi (drkonqi), signal: Segmentation fault
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+[Current thread is 1 (Thread 0x7f6fbfe9a800 (LWP 3583))]
+
+Thread 3 (Thread 0x7f6f9fac3700 (LWP 3585)):
+#0  0x00007f6fbb478cd9 in poll () from /usr/lib/libc.so.6
+#1  0x00007f6fb6f3b523 in ?? () from /usr/lib/libglib-2.0.so.0
+#2  0x00007f6fb6f3b63e in g_main_context_iteration () from /usr/lib/libglib-2.0.so.0
+#3  0x00007f6fbbdc7254 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQt5Core.so.5
+#4  0x00007f6fbbd6931b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQt5Core.so.5
+#5  0x00007f6fbbb7871e in QThread::exec() () from /usr/lib/libQt5Core.so.5
+#6  0x00007f6fbd462416 in ?? () from /usr/lib/libQt5DBus.so.5
+#7  0x00007f6fbbb7dabd in ?? () from /usr/lib/libQt5Core.so.5
+#8  0x00007f6fb950a0bc in start_thread () from /usr/lib/libpthread.so.0
+#9  0x00007f6fbb4832ff in clone () from /usr/lib/libc.so.6
+
+Thread 2 (Thread 0x7f6fadb04700 (LWP 3584)):
+#0  0x00007f6fbb478cd9 in poll () from /usr/lib/libc.so.6
+#1  0x00007f6fb63e6180 in ?? () from /usr/lib/libxcb.so.1
+#2  0x00007f6fb63e7e4b in xcb_wait_for_event () from /usr/lib/libxcb.so.1
+#3  0x00007f6fb069e82a in ?? () from /usr/lib/libQt5XcbQpa.so.5
+#4  0x00007f6fbbb7dabd in ?? () from /usr/lib/libQt5Core.so.5
+#5  0x00007f6fb950a0bc in start_thread () from /usr/lib/libpthread.so.0
+#6  0x00007f6fbb4832ff in clone () from /usr/lib/libc.so.6
+
+Thread 1 (Thread 0x7f6fbfe9a800 (LWP 3583)):
+[KCrash Handler]
+#6  0x000055aa9c7dfe09 in ?? ()
+#7  0x00007f6fbc44982c in ?? () from /usr/lib/libQt5Gui.so.5
+#8  0x00007f6fbc4499fa in ?? () from /usr/lib/libQt5Gui.so.5
+#9  0x00007f6fbbd9b606 in QMetaObject::activate(QObject*, int, int, void**) () from /usr/lib/libQt5Core.so.5
+#10 0x00007f6fbc6acf6b in QTextDocument::contentsChange(int, int, int) () from /usr/lib/libQt5Gui.so.5
+#11 0x00007f6fbc405072 in QTextDocumentPrivate::finishEdit() () from /usr/lib/libQt5Gui.so.5
+#12 0x00007f6fbccd046e in ?? () from /usr/lib/libQt5Widgets.so.5
+#13 0x00007f6fbccb870d in QTextEdit::append(QString const&) () from /usr/lib/libQt5Widgets.so.5
+#14 0x000055aa9c7cd862 in ?? ()
+#15 0x00007f6fbbd9b72f in QMetaObject::activate(QObject*, int, int, void**) () from /usr/lib/libQt5Core.so.5
+#16 0x000055aa9c81bdb6 in ?? ()
+#17 0x000055aa9c7d1bdf in ?? ()
+#18 0x00007f6fbbd9b72f in QMetaObject::activate(QObject*, int, int, void**) () from /usr/lib/libQt5Core.so.5
+#19 0x00007f6fbbce376b in QProcess::readyReadStandardOutput(QProcess::QPrivateSignal) () from /usr/lib/libQt5Core.so.5
+#20 0x00007f6fbbcea48a in ?? () from /usr/lib/libQt5Core.so.5
+#21 0x00007f6fbbcea970 in ?? () from /usr/lib/libQt5Core.so.5
+#22 0x00007f6fbbd9b606 in QMetaObject::activate(QObject*, int, int, void**) () from /usr/lib/libQt5Core.so.5
+#23 0x00007f6fbbda7ee9 in QSocketNotifier::activated(int, QSocketNotifier::QPrivateSignal) () from /usr/lib/libQt5Core.so.5
+#24 0x00007f6fbbda82c4 in QSocketNotifier::event(QEvent*) () from /usr/lib/libQt5Core.so.5
+#25 0x00007f6fbcae8fec in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /usr/lib/libQt5Widgets.so.5
+#26 0x00007f6fbcaf09c6 in QApplication::notify(QObject*, QEvent*) () from /usr/lib/libQt5Widgets.so.5
+#27 0x00007f6fbbd6ace0 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /usr/lib/libQt5Core.so.5
+#28 0x00007f6fbbdc7ece in ?? () from /usr/lib/libQt5Core.so.5
+#29 0x00007f6fb6f3b368 in g_main_context_dispatch () from /usr/lib/libglib-2.0.so.0
+#30 0x00007f6fb6f3b5b1 in ?? () from /usr/lib/libglib-2.0.so.0
+#31 0x00007f6fb6f3b63e in g_main_context_iteration () from /usr/lib/libglib-2.0.so.0
+#32 0x00007f6fbbdc7231 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQt5Core.so.5
+#33 0x00007f6fb0726482 in ?? () from /usr/lib/libQt5XcbQpa.so.5
+#34 0x00007f6fbbd6931b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/libQt5Core.so.5
+#35 0x00007f6fbbd72718 in QCoreApplication::exec() () from /usr/lib/libQt5Core.so.5
+#36 0x000055aa9c7c593f in ?? ()
+#37 0x00007f6fbb3ad9a7 in __libc_start_main () from /usr/lib/libc.so.6
+#38 0x000055aa9c7c5c9a in _start ()

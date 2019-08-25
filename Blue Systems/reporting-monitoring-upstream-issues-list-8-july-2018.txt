@@ -1,0 +1,503 @@
+Flags:
+C - Confirming of already reported issue
+N - Not confirming of already reported issue
+S - Support/moderation providing
+D - Duplicates marking
+R - Resolving/closing the issue
+O - Opening the issue again
+I - Investigating/informed about the issue
+W - Wayland issues
+
+plasmashell - general:
+https://bugs.kde.org/show_bug.cgi?id=386582 IW
+https://bugs.kde.org/show_bug.cgi?id=387185 I
+https://bugs.kde.org/show_bug.cgi?id=396246 W
+https://bugs.kde.org/show_bug.cgi?id=381155 IW
+https://bugs.kde.org/show_bug.cgi?id=380887 IW
+https://bugs.kde.org/show_bug.cgi?id=396160 IW
+https://bugs.kde.org/show_bug.cgi?id=396441 I
+https://bugs.kde.org/show_bug.cgi?id=396459 SW
+https://bugs.kde.org/show_bug.cgi?id=368772 IW
+https://bugs.kde.org/show_bug.cgi?id=365823 SW
+https://bugs.kde.org/show_bug.cgi?id=396791 IW
+https://bugs.kde.org/show_bug.cgi?id=396770 I
+
+plasmashell - generic-wayland:
+https://bugs.kde.org/show_bug.cgi?id=393820 IW
+https://bugs.kde.org/show_bug.cgi?id=371246 SW
+https://bugs.kde.org/show_bug.cgi?id=396258 CW
+https://bugs.kde.org/show_bug.cgi?id=396437 IW
+https://bugs.kde.org/show_bug.cgi?id=396614 IW
+https://bugs.kde.org/show_bug.cgi?id=396617 DW
+https://bugs.kde.org/show_bug.cgi?id=393820 IW
+https://bugs.kde.org/show_bug.cgi?id=396217 IW
+https://bugs.kde.org/show_bug.cgi?id=380311 IW
+
+plasmashell - Folder:
+https://bugs.kde.org/show_bug.cgi?id=396666 IW
+
+plasmashell - Notifications:
+https://bugs.kde.org/show_bug.cgi?id=385538 IW
+
+plasmashell - Global Menu:
+https://bugs.kde.org/show_bug.cgi?id=396021 SW
+
+plasmashell - Task Manager:
+https://bugs.kde.org/show_bug.cgi?id=392689 SW
+https://bugs.kde.org/show_bug.cgi?id=385164 IW
+
+plasmashell - Desktop Dashboard:
+https://bugs.kde.org/show_bug.cgi?id=390126 S
+https://bugs.kde.org/show_bug.cgi?id=393792 IW
+
+plasmashell - Icon-only Task Manager:
+https://bugs.kde.org/show_bug.cgi?id=396100 IW
+
+plasmashell - Folder:
+https://bugs.kde.org/show_bug.cgi?id=396237 IW
+
+plasmashell - Image Wallpaper:
+https://bugs.kde.org/show_bug.cgi?id=396238 IW
+
+plasmashell - Panel:
+https://bugs.kde.org/show_bug.cgi?id=379266 NW
+
+Breeze - general:
+https://bugs.kde.org/show_bug.cgi?id=396668 IW
+
+kwin - wayland-generic:
+https://bugs.kde.org/show_bug.cgi?id=396055 IW
+https://bugs.kde.org/show_bug.cgi?id=393639 IW
+https://bugs.kde.org/show_bug.cgi?id=393167 CSW
+https://bugs.kde.org/show_bug.cgi?id=390187 SW
+https://bugs.kde.org/show_bug.cgi?id=389222 SW
+https://bugs.kde.org/show_bug.cgi?id=389191 IW
+https://bugs.kde.org/show_bug.cgi?id=396167 IW
+https://bugs.kde.org/show_bug.cgi?id=396162 SW
+https://bugs.kde.org/show_bug.cgi?id=385769 IW
+https://bugs.kde.org/show_bug.cgi?id=385743 IW
+https://bugs.kde.org/show_bug.cgi?id=396235 IW
+https://bugs.kde.org/show_bug.cgi?id=396341 SW
+https://bugs.kde.org/show_bug.cgi?id=383745 IW
+https://bugs.kde.org/show_bug.cgi?id=377162 IW
+https://bugs.kde.org/show_bug.cgi?id=375971 SW
+https://bugs.kde.org/show_bug.cgi?id=375759 IW
+https://bugs.kde.org/show_bug.cgi?id=374980 IW
+https://bugs.kde.org/show_bug.cgi?id=396516 CW
+https://bugs.kde.org/show_bug.cgi?id=373079 IW
+https://bugs.kde.org/show_bug.cgi?id=396585 CW
+https://bugs.kde.org/show_bug.cgi?id=370930 IW
+https://bugs.kde.org/show_bug.cgi?id=370344 IW
+https://bugs.kde.org/show_bug.cgi?id=370340 IW
+https://bugs.kde.org/show_bug.cgi?id=370338 IW
+https://bugs.kde.org/show_bug.cgi?id=370198 IW
+https://bugs.kde.org/show_bug.cgi?id=370198 IW
+https://bugs.kde.org/show_bug.cgi?id=370913 IW
+https://bugs.kde.org/show_bug.cgi?id=396989 SW
+https://bugs.kde.org/show_bug.cgi?id=396967 IW
+
+kwin - platform-drm:
+https://bugs.kde.org/show_bug.cgi?id=355920 IW
+https://bugs.kde.org/show_bug.cgi?id=355920 SW
+
+kwin - effects-desktop-grid:
+https://bugs.kde.org/show_bug.cgi?id=364509 CW
+https://bugs.kde.org/show_bug.cgi?id=396857 I
+
+kwin - platform-wayland:
+https://bugs.kde.org/show_bug.cgi?id=396157 IW
+
+kwin - input:
+https://bugs.kde.org/show_bug.cgi?id=394529 IW
+https://bugs.kde.org/show_bug.cgi?id=387486 IW
+https://bugs.kde.org/show_bug.cgi?id=384702 IW
+https://bugs.kde.org/show_bug.cgi?id=376363 SW
+https://bugs.kde.org/show_bug.cgi?id=375708 IW
+https://bugs.kde.org/show_bug.cgi?id=375420 IW
+https://bugs.kde.org/show_bug.cgi?id=396456 I
+https://bugs.kde.org/show_bug.cgi?id=374867 IW
+
+kwin - core:
+https://bugs.kde.org/show_bug.cgi?id=394514 SW
+https://bugs.kde.org/show_bug.cgi?id=384691 I
+https://bugs.kde.org/show_bug.cgi?id=382698 IW
+https://bugs.kde.org/show_bug.cgi?id=366255 IW
+
+kwin - decorations:
+https://bugs.kde.org/show_bug.cgi?id=393163 IW
+https://bugs.kde.org/show_bug.cgi?id=381806 IW
+
+kwin - virtual-keyboard:
+https://bugs.kde.org/show_bug.cgi?id=386393 IW
+https://bugs.kde.org/show_bug.cgi?id=385446 IW
+https://bugs.kde.org/show_bug.cgi?id=371810 IW
+
+kwin - wayland-generic:
+https://bugs.kde.org/show_bug.cgi?id=387313 IW
+
+kwin - tabbox:
+https://bugs.kde.org/show_bug.cgi?id=396302 IW
+https://bugs.kde.org/show_bug.cgi?id=384341 IW
+https://bugs.kde.org/show_bug.cgi?id=374971 IW
+
+kwin - platform-drm:
+https://bugs.kde.org/show_bug.cgi?id=396272 IW
+https://bugs.kde.org/show_bug.cgi?id=375666 IW
+https://bugs.kde.org/show_bug.cgi?id=396711 IW
+
+kwin - effects-various:
+https://bugs.kde.org/show_bug.cgi?id=381040 IW
+https://bugs.kde.org/show_bug.cgi?id=383289 IW
+https://bugs.kde.org/show_bug.cgi?id=377103 IW
+https://bugs.kde.org/show_bug.cgi?id=370612 IW
+https://bugs.kde.org/show_bug.cgi?id=384462 IW
+https://bugs.kde.org/show_bug.cgi?id=370612 SW
+https://bugs.kde.org/show_bug.cgi?id=355036 IW
+https://bugs.kde.org/show_bug.cgi?id=264276 IW
+
+kwin - effects-present-windows:
+https://bugs.kde.org/show_bug.cgi?id=372576 I
+https://bugs.kde.org/show_bug.cgi?id=371731 I
+https://bugs.kde.org/show_bug.cgi?id=364118 CW
+
+kwin - platform-x11-standalone:
+https://bugs.kde.org/show_bug.cgi?id=369564 SW
+
+frameworks-kglobalaccel - general:
+https://bugs.kde.org/show_bug.cgi?id=375858 I
+
+frameworks-kcrash - general:
+https://bugs.kde.org/show_bug.cgi?id=377920 IW
+
+frameworks-kwayland - server:
+https://bugs.kde.org/show_bug.cgi?id=393627 IW
+https://bugs.kde.org/show_bug.cgi?id=396308 SW
+https://bugs.kde.org/show_bug.cgi?id=396303 IW
+https://bugs.kde.org/show_bug.cgi?id=396687 IW
+
+frameworks-kwayland - client:
+https://bugs.kde.org/show_bug.cgi?id=385872 I
+
+frameworks-kglobalaccell - general:
+https://bugs.kde.org/show_bug.cgi?id=393627 IW
+
+frameworks-kguiaddons - general:
+https://bugs.kde.org/show_bug.cgi?id=370454 IW
+
+frameworks-kconfig - general:
+https://bugs.kde.org/show_bug.cgi?id=387736 IW
+
+systemsettings - general:
+https://bugs.kde.org/show_bug.cgi?id=367902 IW
+https://bugs.kde.org/show_bug.cgi?id=389080 SW
+
+systemsettings - sidebarview:
+https://bugs.kde.org/show_bug.cgi?id=390243 I
+
+systemsettings - kcm_keyboard_layout:
+https://bugs.kde.org/show_bug.cgi?id=393907 NSW
+
+systemsettings - kcm_fonts:
+https://bugs.kde.org/show_bug.cgi?id=396214 IW
+
+systemsettings - kcm_fontinst:
+https://bugs.kde.org/show_bug.cgi?id=364746 IW
+
+kscreenlocker - general:
+https://bugs.kde.org/show_bug.cgi?id=396039 IW
+https://bugs.kde.org/show_bug.cgi?id=369137 SW
+
+kscreenlocker - greeter:
+https://bugs.kde.org/show_bug.cgi?id=363749 SW
+
+kscreenlocker - breeze-theme:
+https://bugs.kde.org/show_bug.cgi?id=360931 SW
+
+lattedock - general:
+https://bugs.kde.org/show_bug.cgi?id=396040 IW
+
+kate - general:
+https://bugs.kde.org/show_bug.cgi?id=396591 SW
+
+kate - application:
+https://bugs.kde.org/show_bug.cgi?id=395954 IW
+
+konquerror - general:
+https://bugs.kde.org/show_bug.cgi?id=393768 IW
+https://bugs.kde.org/show_bug.cgi?id=371769 IW
+
+Plasma Vault - general:
+https://bugs.kde.org/show_bug.cgi?id=387556 IW
+
+konversation - general:
+https://bugs.kde.org/show_bug.cgi?id=387448 IW
+https://bugs.kde.org/show_bug.cgi?id=387596 IW
+https://bugs.kde.org/show_bug.cgi?id=378708 IW
+
+krunner - general:
+https://bugs.kde.org/show_bug.cgi?id=387357 IW
+https://bugs.kde.org/show_bug.cgi?id=374660 IW
+https://bugs.kde.org/show_bug.cgi?id=370187 SW
+
+krunner - filesearch:
+https://bugs.kde.org/show_bug.cgi?id=351467 IW
+
+kxkb - general:
+https://bugs.kde.org/show_bug.cgi?id=396013 I
+
+frameworks-kwayland - server:
+https://bugs.kde.org/show_bug.cgi?id=396101 IW
+
+elisa - general:
+https://aur.archlinux.org/packages/elisa-git/ S
+https://bugs.kde.org/show_bug.cgi?id=393155 NW
+
+ksmserver - general:
+https://bugs.kde.org/show_bug.cgi?id=391609 N
+
+ksmserver - ui:
+https://bugs.kde.org/show_bug.cgi?id=381045 IW
+
+Spectacle - General:
+https://bugs.kde.org/show_bug.cgi?id=391391 SW
+https://bugs.kde.org/show_bug.cgi?id=391390 IW
+https://bugs.kde.org/show_bug.cgi?id=386250 IW
+https://bugs.kde.org/show_bug.cgi?id=383902 DW
+https://bugs.kde.org/show_bug.cgi?id=377157 SW
+https://bugs.kde.org/show_bug.cgi?id=372464 I
+
+systemsettings - general:
+https://bugs.kde.org/show_bug.cgi?id=390112 SW
+https://bugs.kde.org/show_bug.cgi?id=389993 SW
+https://bugs.kde.org/show_bug.cgi?id=385921 SW
+https://bugs.kde.org/show_bug.cgi?id=386089 IW
+https://bugs.kde.org/show_bug.cgi?id=386271 IW
+https://bugs.kde.org/show_bug.cgi?id=383379 IW
+
+systemsettings - kcm_keyboard_layout:
+https://bugs.kde.org/show_bug.cgi?id=389955 SW
+
+krunner - general:
+https://bugs.kde.org/show_bug.cgi?id=389964 SW
+https://bugs.kde.org/show_bug.cgi?id=386114 IW
+
+frameworks-kirigami - general:
+https://bugs.kde.org/show_bug.cgi?id=389838 SW
+https://bugs.kde.org/show_bug.cgi?id=381182 IW
+
+Falkon - general:
+https://bugs.kde.org/show_bug.cgi?id=393556 IW
+
+yakuake - general:
+https://bugs.kde.org/show_bug.cgi?id=389739 NSW
+https://bugs.kde.org/show_bug.cgi?id=385882 IW
+https://bugs.kde.org/show_bug.cgi?id=385634 SW
+https://bugs.kde.org/show_bug.cgi?id=383555 I
+https://bugs.kde.org/show_bug.cgi?id=381541 SW
+https://bugs.kde.org/show_bug.cgi?id=380497 IW
+https://bugs.kde.org/show_bug.cgi?id=378872 IW
+https://bugs.kde.org/show_bug.cgi?id=386358 S
+https://bugs.kde.org/show_bug.cgi?id=378849 SW
+
+drkonqi - general:
+https://bugs.kde.org/show_bug.cgi?id=385925 IW
+
+knetattach - general:
+https://bugs.kde.org/show_bug.cgi?id=386017 IW
+
+kmail2 - general:
+https://bugs.kde.org/show_bug.cgi?id=385808 IW
+https://bugs.kde.org/show_bug.cgi?id=396780 IW
+
+kmail2 - misc:
+https://bugs.kde.org/show_bug.cgi?id=396282 IW
+
+kmail2 - commands and actions:
+https://bugs.kde.org/show_bug.cgi?id=385289 IW
+
+kmail2 - UI:
+https://bugs.kde.org/show_bug.cgi?id=385806 IW
+https://bugs.kde.org/show_bug.cgi?id=381719 I
+
+KScreen - common:
+https://bugs.kde.org/show_bug.cgi?id=396236 IW
+https://bugs.kde.org/show_bug.cgi?id=384066 IW
+https://bugs.kde.org/show_bug.cgi?id=377865 IW
+https://bugs.kde.org/show_bug.cgi?id=375033 SW
+https://bugs.kde.org/show_bug.cgi?id=365865 SW
+https://bugs.kde.org/show_bug.cgi?id=354213 IW
+
+KScreen - libkscreen:
+https://bugs.kde.org/show_bug.cgi?id=382796 IW
+https://bugs.kde.org/show_bug.cgi?id=384789 IW
+
+KScreen - kcm:
+https://bugs.kde.org/show_bug.cgi?id=385672 IW
+https://bugs.kde.org/show_bug.cgi?id=375449 IW
+
+kscreenlocker - general:
+https://bugs.kde.org/show_bug.cgi?id=396306 IW
+https://bugs.kde.org/show_bug.cgi?id=383681 IW
+
+neon:
+https://phabricator.kde.org/T4577 I
+
+neon - general:
+https://bugs.kde.org/show_bug.cgi?id=372534 R
+https://bugs.kde.org/show_bug.cgi?id=372533 R
+https://bugs.kde.org/show_bug.cgi?id=372532 R
+
+neon - Packages User Edition:
+https://bugs.kde.org/show_bug.cgi?id=383181 IW
+https://bugs.kde.org/show_bug.cgi?id=375010 IW
+
+neon - Packages Dev Edition [unstable]:
+https://bugs.kde.org/show_bug.cgi?id=379962 SW
+https://bugs.kde.org/show_bug.cgi?id=371490 SW
+https://bugs.kde.org/show_bug.cgi?id=370518 SW
+https://bugs.kde.org/show_bug.cgi?id=368548 SW
+
+neon - Live/Install images:
+https://bugs.kde.org/show_bug.cgi?id=373498 SW
+
+kde-cli-tools - general:
+https://bugs.kde.org/show_bug.cgi?id=383614 IW
+https://bugs.kde.org/show_bug.cgi?id=383615 IW
+
+frameworks-frameworkintegration - general:
+https://bugs.kde.org/show_bug.cgi?id=383708 IW
+https://bugs.kde.org/show_bug.cgi?id=354204 SW
+https://bugs.kde.org/show_bug.cgi?id=352957 S
+
+kubrick - general:
+https://bugs.kde.org/show_bug.cgi?id=382701 IW
+
+kdenlive - User Interface:
+https://bugs.kde.org/show_bug.cgi?id=374669 SW
+https://bugs.kde.org/show_bug.cgi?id=373454 SW
+
+kdenlive - Video Display & Export:
+https://bugs.kde.org/show_bug.cgi?id=382605 IW
+
+plasmashell - Desktop Dashboard:
+https://bugs.kde.org/show_bug.cgi?id=381879 NW
+
+plasmashell - Multi-screen support:
+https://bugs.kde.org/show_bug.cgi?id=380495 IW
+
+ksplash - general:
+https://bugs.kde.org/show_bug.cgi?id=385153 IW
+
+plasma-integration - general:
+https://bugs.kde.org/show_bug.cgi?id=396650 IW
+
+plasma-pa - general:
+https://bugs.kde.org/show_bug.cgi?id=385108 IW
+
+plasma-browser-integration - general:
+https://bugs.kde.org/show_bug.cgi?id=396291 IW
+
+kile - user-interface:
+https://bugs.kde.org/show_bug.cgi?id=380453 NSW
+
+k3b - GUI/Usability:
+https://bugs.kde.org/show_bug.cgi?id=380255 IW
+
+kdeconnect - common:
+https://bugs.kde.org/show_bug.cgi?id=380078 IW
+https://bugs.kde.org/show_bug.cgi?id=396546 CW
+
+ksysguard - ksysguard:
+https://bugs.kde.org/show_bug.cgi?id=379919 CW
+https://bugs.kde.org/show_bug.cgi?id=396399 NW
+
+krita - tablet support:
+https://bugs.kde.org/show_bug.cgi?id=379174 IW
+
+Touchpad-KCM - kcm:
+https://bugs.kde.org/show_bug.cgi?id=396320 IW
+https://bugs.kde.org/show_bug.cgi?id=395722 
+
+Touchpad-KCM - daemon:I
+https://bugs.kde.org/show_bug.cgi?id=372024 I
+
+klipper -general:
+https://bugs.kde.org/show_bug.cgi?id=378711 IW
+
+kalgebra - general:
+https://bugs.kde.org/show_bug.cgi?id=377834 SW
+
+khelpcenter - general:
+https://bugs.kde.org/show_bug.cgi?id=377341 CW
+
+gwenview - general:
+https://bugs.kde.org/show_bug.cgi?id=377203 IW
+
+krdc - VNC:
+https://bugs.kde.org/show_bug.cgi?id=377107 IW
+
+telepathy - text-ui:
+https://bugs.kde.org/show_bug.cgi?id=376831 IW
+
+kdesudo - general:
+https://bugs.kde.org/show_bug.cgi?id=376416 SW
+
+kdevelop - general:
+https://bugs.kde.org/show_bug.cgi?id=375185 DW
+https://bugs.kde.org/show_bug.cgi?id=372346 SW
+
+QtCurve - qt5:
+https://bugs.kde.org/show_bug.cgi?id=374224 IW
+
+partitionmanager - general:
+https://bugs.kde.org/show_bug.cgi?id=396312 IW
+
+ksnapshot - kscreenengine:
+https://bugs.kde.org/show_bug.cgi?id=373165 IW
+
+kdeplasma-addons - Color Picker:
+https://bugs.kde.org/show_bug.cgi?id=372921 IW
+
+Powerdevil - general:
+https://bugs.kde.org/show_bug.cgi?id=371915 IW
+https://bugs.kde.org/show_bug.cgi?id=354250 SW
+https://bugs.kde.org/show_bug.cgi?id=353463 IW
+https://bugs.kde.org/show_bug.cgi?id=345618 IW
+
+kruler - general:
+https://bugs.kde.org/show_bug.cgi?id=36100 IW
+
+Discover - discover:
+https://bugs.kde.org/show_bug.cgi?id=396547 IW
+
+kinfocenter - OpenGL:
+https://bugs.kde.org/show_bug.cgi?id=369219 SW
+
+kinfocenter - Info:
+https://bugs.kde.org/show_bug.cgi?id=336567 IW
+
+okular - general:
+https://bugs.kde.org/show_bug.cgi?id=396880 IW
+https://bugs.kde.org/show_bug.cgi?id=396879 SW
+
+kmymoney - general:
+https://bugs.kde.org/show_bug.cgi?id=396826 IW
+
+konsole - general:
+https://bugs.kde.org/show_bug.cgi?id=350956 S
+https://bugs.kde.org/show_bug.cgi?id=304679 SW
+
+konsole - copy-paste:
+https://bugs.kde.org/show_bug.cgi?id=395666 IW
+
+konsole - keyboard:
+https://bugs.kde.org/show_bug.cgi?id=346847 IW
+
+Oxygen - style:
+https://bugs.kde.org/show_bug.cgi?id=348790 S
+
+Knode - general:
+https://bugs.kde.org/show_bug.cgi?id=340416 I
+
+amarok - general:
+https://bugs.kde.org/show_bug.cgi?id=396907 SW

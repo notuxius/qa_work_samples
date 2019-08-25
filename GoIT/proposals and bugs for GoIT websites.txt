@@ -1,0 +1,69 @@
+1. 'Блок 5. IT English (18 модулей)' category on http://fe.goit.ua/ page doesn't expanding on click (on tap)- but other categories do expand.
+2. 'Выпускники GoIT сотрудничают с ТОПовыми IT-компаниями' section on http://goit.ua/ page has useless arrows on both sides of it - arrows just change order of IT companies (cause there are only two companies in this section - not more than five like in 'Друзья и партнёры' section, where arrows are appropriate) - this is useful only on mobile.
+3. On http://gostart.goit.ua/ page 'Карьера' and 'Программа' links don't work - they don't scroll page to particular anchors.
+4. Some pages have link to itself on image - top left goit image (those links can just scroll pages to top and not reload them):
+	http://goit.ua/
+	http://qa.goit.ua/
+	http://goit.ua/courses/gocode.html - this page has link to main page http://goit.ua/ - not to itself, plus this page is not on subdomain like others.
+	http://fe.goit.ua/
+	http://goiteens.goit.ua
+and some pages have just image without link:
+	http://gostart.goit.ua/
+	http://ios.goit.ua/
+	http://java.goit.ua/
+	http://ux.goit.ua/
+	http://android.goit.ua/
+5. Maybe add link to main page http://goit.ua/ on all fe. qa. ux... subdomains too.
+6. On http://goit.ua/ page - no link to http://goit.ua/courses/gocode.html in 'Курсы' menu, but there is a link to it in 'Направления' section.
+7. Do you need http://goit.ua/courses/gocode.html page if you have http://java.goit.ua/ ? That two pages offer (i think) same java courses.
+8. Too small telephone links on mobile versions of those pages:
+	goit.ua
+	qa.goit.ua
+9. No tel: links on telephone numbers in those pages (if telephone numbers have tel: links - when you tap it on mobile (in android) - Dialer immediately shows up with selected number (on http://qa.goit.ua/ page), but when you tap on telephone number without tel: link (on http://goit.ua/) - you can select from which app to dial that number (for example with android Dialer or with Viber)):
+	http://goit.ua/
+	http://goit.ua/courses/gocode.html
+	http://java.goit.ua/
+	http://ux.goit.ua/
+10. No telephone numbers or email address on http://gostart.goit.ua/ page.
+11. No email address on those pages:
+	http://ios.goit.ua/
+	http://qa.goit.ua/
+	http://fe.goit.ua/
+	http://ios.goit.ua/
+	http://java.goit.ua/
+	http://ux.goit.ua/
+	http://android.goit.ua/
+12. tel: link doesn't work on http://ios.goit.ua/ page.
+13. No favicon on http://ux.goit.ua/ page.
+14. Add translation into ukrainian on all goit pages (like in http://goiteens.goit.ua/) .
+15. Maybe add copyright to those pages:
+	http://gostart.goit.ua/
+	http://qa.goit.ua/
+	http://ux.goit.ua/
+	http://java.goit.ua/
+	http://ios.goit.ua/
+	http://android.goit.ua/
+16. Update copyright year on those pages:
+	http://goit.ua/
+	http://goit.ua/courses/gocode.html
+17. Use small siteheart widget at the bottom of the page (like in http://gostart.goit.ua/ and http://qa.goit.ua/ pages) on mobile version of the http://goit.ua/ and http://goit.ua/courses/gocode.html pages, cause now side siteheart widget takes significant space on the page (480px width) sometimes overlapping some text.
+18. No siteheart widget on http://ux.goit.ua/ page:
+19. Horizontal scrolling with white line on the right side on mobile version of http://goit.ua/ and http://goit.ua/courses/gocode.html pages at 480px width.
+20. Ability to hide mobile menu when tapping on page - outside of the menu on all pages.
+21. No mobile menu on those pages:
+	http://goit.ua/
+	http://goit.ua/courses/gocode.html
+	http://ux.goit.ua/
+22. 'Java Script' - misspelled programming lang name five times on http://goiteens.goit.ua/goiteenspro/frontend/ru/ page. 'JavaScript' - is correct one and occurs only once. In ukr version http://goiteens.goit.ua/goiteenspro/smartdesign/uk/ - it's abbreviated and correct one (not abbreviated) is at the same place as in rus version.
+23. No favicons on http://goiteens.goit.ua/goiteenspro/frontend/ru/ and http://goiteens.goit.ua/goiteenspro/frontend/uk/ pages.
+24. 'Подайте заявку' text on buttons in http://goiteens.goit.ua/goiteenspro/smartdesign/ru/ page falls apart on mobile, but in ukr version of the same page - it's holding together (480px).
+25. Unnecessary white lines with different sizes on the right side of the mobile versions and horizontal scrolling (in firefox for android) on those websites (480px):
+	http://goiteens.goit.ua/goiteenspro/smartdesign/ru/
+	http://goiteens.goit.ua/goiteenspro/smartdesign/uk/
+	http://goiteens.goit.ua/goiteenspro/frontend/ru/
+	http://goiteens.goit.ua/goiteenspro/frontend/uk/
+	http://goiteens.goit.ua/goiteenspro/genetics/ru/
+	http://goiteens.goit.ua/goiteenspro/genetics/uk/
+26. Unclear 404 error message, for example on this page - http://goiteens.goit.ua/goiteenspro/frontend/ua
+27. Poorly readable text (white text on light background at the top of the page on first image), too small text on some buttons and sections, text arranged into columns and unnecessary empty spaces especially at the bottom of the http://goiteens.goit.ua/goiteenspro/smartdesign/ru/ and http://goiteens.goit.ua/goiteenspro/smartdesign/uk/ pages on mobile (480px).
+28. '4 лабораторных занятия' slides down from it's image on http://goiteens.goit.ua/goiteenspro/genetics/ru/ and http://goiteens.goit.ua/goiteenspro/genetics/uk/ pages.

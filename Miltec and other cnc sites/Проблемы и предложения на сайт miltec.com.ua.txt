@@ -1,0 +1,40 @@
+MILTECH.COM.UA
+Внимание !   Акция !!! на главной можно добавить ещё один станок если шаблон сайта позволяет?
+
+на главном меню переключение между пунктами включить мгновенно без задержки?
+
+http://miltec.com.ua/gallery/ галерея не заполнена
+ссылки не facebook и youtube внизу в подвале не работают
+
+http://miltec.com.ua/category/sertifikatsiya-oborudovaniya/ сертификация - загрузить копию сертификата?
+
+http://miltec.com.ua/category/shlifovalno-kalibrovochnie-stanki/ - страница в разработке - давно?
+http://miltec.com.ua/category/servo-dvigateli/ - страница в разработке - давно?
+http://miltec.com.ua/category/draiveri-servo-dvigate/ - страница в разработке - давно?
+http://miltec.com.ua/category/kontroller-nc-studio/ - страница в разработке - давно?
+http://miltec.com.ua/category/dsp-0501-pult-upravleniya-stankom/ - страница в разработке - давно?
+http://miltec.com.ua/category/uosh-ustroistvo-ohlazhdeniya-shpindelya/ - страница в разработке - давно?
+http://miltec.com.ua/category/frezi-po-kamnyu/ - страница в разработке - давно?
+
+http://miltec.com.ua/category/zapasnie-chasti-dlya-stankov-s-chpu/ - ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК КОНТАКТЫ - ЗАЯВКА сделать ссылками?
+http://miltec.com.ua/category/optsii-dlya-stankov-s-chpu/ - ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК КОНТАКТЫ - ЗАЯВКА сделать ссылками?
+
+http://miltec.com.ua/contacts.html - http://miltec.com.ua/callback.html - объединить в одну страницу?
+http://miltec.com.ua/production/41/ - http://miltec.com.ua/production/48/ - объединить в один товар с опциями?
+
+http://miltec.com.ua/category/draiveri-shagovih-dvigatelei/ - цена указана решётками
+http://miltec.com.ua/category/krivolineinii-raskroi-dlya-dsp-mdf-plastiki/ - указать цену договорная без гривень
+http://miltec.com.ua/category/shagovie-dvigateli/ - цена указана 0
+http://miltec.com.ua/category/tsangi-gaiki/ - на некоторых товарах нет цены
+http://miltec.com.ua/category/dekor-s-rezboi-po-derevu-dlya-mebeli/ - цена 0 - заменить на договорная
+http://miltec.com.ua/category/interernii-dekor/ - цена 0 - заменить на договорная
+http://miltec.com.ua/category/tserkovnaya-tematika/ - цена 0 - заменить на договорная
+http://miltec.com.ua/category/dveri-s-rezboi-stolyarnii-dekor/ - цена 0 - заменить на договорная
+http://miltec.com.ua/category/tokarno-povorotnoe-ustroistvo/ - два крайних товара цена указане без знака доллар
+http://miltec.com.ua/category/kontsevi-datchik/ - крайний товар - указана цена без гривень - нет в наличии в цене?
+
+http://miltec.com.ua/category/rami-kartini-panno/ - страница пуста
+http://miltec.com.ua/category/izgotovlenie-dvortsovogo-parketa/ - страница пуста
+http://miltec.com.ua/category/suvenirnie-izdeliya/ - страница пуста
+http://miltec.com.ua/category/dekorativnie-nakladki-dlya-metallicheskih-dverei/ - страница пуста
+http://miltec.com.ua/category/reznie-balyasini-i-stolbi-dlya-lestnits/ - страница пуста

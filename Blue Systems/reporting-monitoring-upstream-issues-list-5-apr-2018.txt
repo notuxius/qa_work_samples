@@ -1,0 +1,372 @@
+Flags:
+C - Confirming of already reported issue
+N - Not confirming of already reported issue
+S - Support/moderation providing
+D - Duplicates marking
+R - Resolving/closing the issue
+O - Opening the issue again
+I - Investigating/informed about the issue
+W - Wayland issues
+
+Qt:
+https://bugreports.qt.io/browse/QTBUG-65145 I
+https://bugreports.qt.io/browse/QTBUG-48181 IW
+https://bugreports.qt.io/browse/QTBUG-55403 IW
+https://bugreports.qt.io/browse/QTBUG-54792 IW
+https://bugreports.qt.io/browse/QTBUG-55615 IW
+https://bugreports.qt.io/browse/QTBUG-50458 IW
+https://bugreports.qt.io/browse/QTBUG-57785 I
+https://bugreports.qt.io/browse/QTBUG-15319 I
+
+Wayland Protocols:
+https://lists.freedesktop.org/archives/wayland-devel/2018-April/037748.html IW
+
+Plasma Shell:
+https://bugs.kde.org/show_bug.cgi?id=392524 I
+https://bugs.kde.org/show_bug.cgi?id=392529 I
+https://bugs.kde.org/show_bug.cgi?id=392548 S
+https://bugs.kde.org/show_bug.cgi?id=392596 I
+https://bugs.kde.org/show_bug.cgi?id=392624 I
+https://bugs.kde.org/show_bug.cgi?id=392627 I
+https://bugs.kde.org/show_bug.cgi?id=392577 IW
+https://bugs.kde.org/show_bug.cgi?id=392130 IW
+https://bugs.kde.org/show_bug.cgi?id=386086 IW
+https://bugs.kde.org/show_bug.cgi?id=390073 IW
+https://bugs.kde.org/show_bug.cgi?id=390142 IW
+https://bugs.kde.org/show_bug.cgi?id=390317 SW
+https://bugs.kde.org/show_bug.cgi?id=391271 IW
+https://community.kde.org/Plasma/5.12_Errata I
+https://bugs.kde.org/show_bug.cgi?id=392834 SW
+https://bugs.kde.org/show_bug.cgi?id=392494 IW
+https://phabricator.kde.org/D8692 I
+https://phabricator.kde.org/D8526 I
+https://bugs.kde.org/show_bug.cgi?id=391822 IW
+https://bugs.kde.org/show_bug.cgi?id=393301 IW
+https://bugs.kde.org/show_bug.cgi?id=391082 IW
+https://bugs.kde.org/show_bug.cgi?id=390698 I
+https://bugs.kde.org/show_bug.cgi?id=393270 I
+https://bugs.kde.org/show_bug.cgi?id=391531 I
+https://bugs.kde.org/show_bug.cgi?id=391173 I
+https://bugs.kde.org/show_bug.cgi?id=390860 I
+https://bugs.kde.org/show_bug.cgi?id=389096 I
+https://bugs.kde.org/show_bug.cgi?id=392749 I
+https://bugs.kde.org/show_bug.cgi?id=385135 I
+https://bugs.kde.org/show_bug.cgi?id=385054 I
+https://bugs.kde.org/show_bug.cgi?id=384131 I
+https://bugs.kde.org/show_bug.cgi?id=382374 I
+https://bugs.kde.org/show_bug.cgi?id=381552 I
+https://bugs.kde.org/show_bug.cgi?id=381273 I
+https://bugs.kde.org/show_bug.cgi?id=380495 I
+https://bugs.kde.org/show_bug.cgi?id=380463 I
+https://bugs.kde.org/show_bug.cgi?id=379334 I
+https://bugs.kde.org/show_bug.cgi?id=379333 I
+https://bugs.kde.org/show_bug.cgi?id=379278 I
+https://bugs.kde.org/show_bug.cgi?id=378575 I
+https://bugs.kde.org/show_bug.cgi?id=377993 I
+https://bugs.kde.org/show_bug.cgi?id=377308 I
+https://bugs.kde.org/show_bug.cgi?id=377297 I
+https://bugs.kde.org/show_bug.cgi?id=377280 I
+https://bugs.kde.org/show_bug.cgi?id=375963 I
+https://bugs.kde.org/show_bug.cgi?id=375341 I
+https://bugs.kde.org/show_bug.cgi?id=375331 I
+https://bugs.kde.org/show_bug.cgi?id=374908 I
+https://bugs.kde.org/show_bug.cgi?id=374158 I
+https://bugs.kde.org/show_bug.cgi?id=373880 I
+https://phabricator.kde.org/D3777 I
+https://phabricator.kde.org/D12064 IW
+https://bugs.kde.org/show_bug.cgi?id=373836 I
+https://cgit.kde.org/plasma-framework.git/commit/?id=6ae3a073dbd19869b5bbcdc4736c9e0bd0b5a51c I
+https://cgit.kde.org/plasma-workspace.git/commit/?id=19a88030d3de12a96402a1103c964e5a7363646c I
+https://bugs.kde.org/show_bug.cgi?id=373312 I
+https://bugs.kde.org/show_bug.cgi?id=371875 I
+https://bugs.kde.org/show_bug.cgi?id=371850 I
+https://bugs.kde.org/show_bug.cgi?id=371708 I
+https://bugs.kde.org/show_bug.cgi?id=371699 I
+https://bugs.kde.org/show_bug.cgi?id=370952 I
+https://bugs.kde.org/show_bug.cgi?id=370808 I
+https://bugs.kde.org/show_bug.cgi?id=370748 I
+https://bugs.kde.org/show_bug.cgi?id=370182 I
+https://bugs.kde.org/show_bug.cgi?id=370180 I
+https://bugs.kde.org/show_bug.cgi?id=369450 I
+https://bugs.kde.org/show_bug.cgi?id=368226 I
+https://bugs.kde.org/show_bug.cgi?id=367801 I
+https://bugs.kde.org/show_bug.cgi?id=366739 I
+https://bugs.kde.org/show_bug.cgi?id=364886 I
+https://bugs.kde.org/show_bug.cgi?id=356714 I
+https://bugs.kde.org/show_bug.cgi?id=346953 I
+https://bugs.kde.org/show_bug.cgi?id=350322 I
+https://bugs.kde.org/show_bug.cgi?id=354111 I
+https://bugs.kde.org/show_bug.cgi?id=356225 I
+https://phabricator.kde.org/D10297 I
+https://phabricator.kde.org/D10535 I
+https://bugs.kde.org/show_bug.cgi?id=390285 I
+https://phabricator.kde.org/D10295 I
+https://bugs.kde.org/show_bug.cgi?id=390617 IW
+https://bugs.kde.org/show_bug.cgi?id=391229 IW
+https://bugs.kde.org/show_bug.cgi?id=336285 I
+https://bugs.kde.org/show_bug.cgi?id=393461 IW
+
+KWin:
+https://bugs.kde.org/buglist.cgi?component=aurorae I
+https://bugs.kde.org/buglist.cgi?component=compatibility I
+https://bugs.kde.org/show_bug.cgi?id=392677 W
+https://bugs.kde.org/show_bug.cgi?id=385100 D
+https://bugs.kde.org/show_bug.cgi?id=384938 SD
+https://bugs.kde.org/show_bug.cgi?id=372879 C
+https://bugs.kde.org/show_bug.cgi?id=361274 C
+https://bugs.kde.org/show_bug.cgi?id=359958 C
+https://bugs.kde.org/show_bug.cgi?id=355812 S
+https://bugs.kde.org/show_bug.cgi?id=349247 N
+https://bugs.kde.org/show_bug.cgi?id=336283 S
+https://bugs.kde.org/show_bug.cgi?id=335725 C
+https://bugs.kde.org/show_bug.cgi?id=335088 D
+https://bugs.kde.org/show_bug.cgi?id=302693 I
+https://bugs.kde.org/show_bug.cgi?id=256994 I
+https://bugs.kde.org/show_bug.cgi?id=271686 I
+https://cgit.kde.org/kwin.git/commit/?id=ff82383f8d8acdc684468a3176e1d048a795209b I
+https://bugs.kde.org/show_bug.cgi?id=274931 S
+https://bugs.kde.org/show_bug.cgi?id=323819 S
+https://bugs.kde.org/show_bug.cgi?id=338682 NSD
+https://bugs.kde.org/show_bug.cgi?id=310920 I
+https://bugs.kde.org/show_bug.cgi?id=328168 I
+https://bugs.kde.org/show_bug.cgi?id=318153 I
+https://bugs.kde.org/show_bug.cgi?id=389333 I
+https://bugs.kde.org/show_bug.cgi?id=379841 I
+https://bugs.kde.org/show_bug.cgi?id=340071 I
+https://bugs.kde.org/show_bug.cgi?id=380315 S
+https://bugs.kde.org/show_bug.cgi?id=373851 S
+https://bugs.kde.org/show_bug.cgi?id=351122 I
+https://bugs.kde.org/show_bug.cgi?id=386304 SW
+https://bugs.kde.org/show_bug.cgi?id=345007 I
+https://bugs.kde.org/show_bug.cgi?id=311919 I
+https://bugs.kde.org/show_bug.cgi?id=392076 I
+https://bugs.kde.org/show_bug.cgi?id=391860 I
+https://bugs.kde.org/show_bug.cgi?id=390090 I
+https://bugs.kde.org/show_bug.cgi?id=390090 I
+https://bugs.kde.org/show_bug.cgi?id=387993 I
+https://bugs.kde.org/show_bug.cgi?id=387938 I
+https://bugs.kde.org/show_bug.cgi?id=387847 I
+https://bugs.kde.org/show_bug.cgi?id=387191 I
+https://bugs.kde.org/show_bug.cgi?id=385142 I
+https://bugs.kde.org/show_bug.cgi?id=384402 I
+https://bugs.kde.org/show_bug.cgi?id=383023 I
+https://bugs.kde.org/show_bug.cgi?id=380389 I
+https://bugs.kde.org/show_bug.cgi?id=379681 S
+https://bugs.kde.org/show_bug.cgi?id=377294 I
+https://bugs.kde.org/show_bug.cgi?id=373615 I
+https://bugs.kde.org/show_bug.cgi?id=368275 I
+https://bugs.kde.org/show_bug.cgi?id=368222 S
+https://bugs.kde.org/show_bug.cgi?id=366651 I
+https://bugs.kde.org/show_bug.cgi?id=365824 S
+https://bugs.kde.org/show_bug.cgi?id=365607 S
+https://bugs.kde.org/show_bug.cgi?id=362955 S
+https://bugs.kde.org/show_bug.cgi?id=362693 CS
+https://bugs.kde.org/show_bug.cgi?id=362125 S
+https://git.reviewboard.kde.org/r/111771/ I
+https://bugs.kde.org/show_bug.cgi?id=357565 I
+https://bugs.kde.org/show_bug.cgi?id=353038 S
+https://bugs.kde.org/show_bug.cgi?id=351844 I
+https://bugs.kde.org/show_bug.cgi?id=347977 S
+https://bugs.kde.org/show_bug.cgi?id=341972 S
+https://bugs.kde.org/show_bug.cgi?id=342326 I
+https://bugs.kde.org/show_bug.cgi?id=344170 S
+https://bugs.kde.org/show_bug.cgi?id=347548 S
+https://git.reviewboard.kde.org/r/123461/ I
+https://bugs.kde.org/show_bug.cgi?id=345532 S
+https://bugs.kde.org/show_bug.cgi?id=392375 I
+https://bugs.kde.org/show_bug.cgi?id=391956 I
+https://bugs.kde.org/show_bug.cgi?id=390295 I
+https://bugs.kde.org/show_bug.cgi?id=389377 I
+https://bugs.kde.org/show_bug.cgi?id=387273 I
+https://bugs.kde.org/show_bug.cgi?id=385499 I
+https://bugs.kde.org/show_bug.cgi?id=385291 I
+https://bugs.kde.org/show_bug.cgi?id=384691 I
+https://bugs.kde.org/show_bug.cgi?id=382698 I
+https://bugs.kde.org/show_bug.cgi?id=379856 I
+https://bugs.kde.org/show_bug.cgi?id=378029 N
+https://bugs.kde.org/show_bug.cgi?id=376813 C
+https://bugs.kde.org/show_bug.cgi?id=376749 N
+https://bugs.kde.org/show_bug.cgi?id=376731 I
+https://bugs.kde.org/show_bug.cgi?id=375740 C
+https://bugs.kde.org/show_bug.cgi?id=374727 I
+https://bugs.kde.org/show_bug.cgi?id=374154 CS
+https://bugs.kde.org/show_bug.cgi?id=372455 S
+https://bugs.kde.org/show_bug.cgi?id=371750 S
+https://bugs.kde.org/show_bug.cgi?id=370939 I
+https://bugs.kde.org/show_bug.cgi?id=370917 I
+https://bugs.kde.org/show_bug.cgi?id=369131 I
+https://bugs.kde.org/show_bug.cgi?id=368827 I
+https://bugs.kde.org/show_bug.cgi?id=368362 C
+https://bugs.kde.org/show_bug.cgi?id=393167 IW
+https://bugs.kde.org/show_bug.cgi?id=393163 IW
+https://bugs.kde.org/show_bug.cgi?id=392898 IW
+https://bugs.kde.org/show_bug.cgi?id=392883 IW
+https://bugs.kde.org/show_bug.cgi?id=392881 SW
+https://bugs.kde.org/show_bug.cgi?id=392754 IW
+https://bugs.kde.org/show_bug.cgi?id=392693 IW
+https://bugs.kde.org/show_bug.cgi?id=392624 IW
+https://bugs.kde.org/show_bug.cgi?id=392270 IW
+https://bugs.kde.org/show_bug.cgi?id=391387 IW
+https://bugs.kde.org/show_bug.cgi?id=391135 IW
+https://bugs.kde.org/show_bug.cgi?id=390713 IW
+https://bugs.kde.org/show_bug.cgi?id=393347 IW
+https://bugs.kde.org/show_bug.cgi?id=390747 IW
+https://bugs.kde.org/show_bug.cgi?id=313244 I
+https://bugs.kde.org/show_bug.cgi?id=390366 IW
+https://bugs.kde.org/show_bug.cgi?id=393536 IW
+https://bugs.kde.org/show_bug.cgi?id=389110 IW
+https://bugs.kde.org/show_bug.cgi?id=390021 IW
+
+Frameworks KWayland:
+https://bugs.kde.org/show_bug.cgi?id=390341 IW
+https://bugs.kde.org/show_bug.cgi?id=390151 IW
+
+System Settings:
+https://bugs.kde.org/show_bug.cgi?id=392584 SW
+https://bugs.kde.org/show_bug.cgi?id=392512 IW
+https://bugs.kde.org/show_bug.cgi?id=391649 CS
+https://bugs.kde.org/show_bug.cgi?id=391641 IW
+https://bugs.kde.org/show_bug.cgi?id=391615 DCS
+https://bugs.kde.org/show_bug.cgi?id=393339 W
+https://bugs.kde.org/show_bug.cgi?id=391090 IW
+https://bugs.kde.org/show_bug.cgi?id=390974 SW
+https://bugs.kde.org/show_bug.cgi?id=96431 IW
+https://bugs.kde.org/show_bug.cgi?id=390392 IW
+
+Breeze:
+https://bugs.kde.org/show_bug.cgi?id=391765 N
+https://bugs.kde.org/show_bug.cgi?id=390777 IW
+https://bugs.kde.org/show_bug.cgi?id=390550 IW
+https://bugs.kde.org/show_bug.cgi?id=340137 I
+
+Panel:
+https://bugs.kde.org/show_bug.cgi?id=391375 IW
+
+Task Manager:
+https://bugs.kde.org/show_bug.cgi?id=392689 IW
+
+KScreen:
+https://bugs.kde.org/show_bug.cgi?id=392001 SW
+https://bugs.kde.org/show_bug.cgi?id=389661 IW
+
+Kickoff:
+https://bugs.kde.org/show_bug.cgi?id=389972 I
+
+Kicker:
+https://bugs.kde.org/show_bug.cgi?id=391072 CW
+
+Konsole:
+https://bugs.kde.org/show_bug.cgi?id=392470 SW
+https://bugs.kde.org/show_bug.cgi?id=392097 IW
+
+KDE Connect:
+https://bugs.kde.org/show_bug.cgi?id=390933 CDW
+
+Dolphin:
+https://bugs.kde.org/show_bug.cgi?id=392177 IW
+https://bugs.kde.org/show_bug.cgi?id=391754 SW
+https://bugs.kde.org/show_bug.cgi?id=297253 I
+
+Baloo File Daemon:
+https://bugs.kde.org/show_bug.cgi?id=393181 C
+
+KSM Server:
+https://bugs.kde.org/show_bug.cgi?id=392517 I
+https://bugs.kde.org/show_bug.cgi?id=392500 I
+https://bugs.kde.org/show_bug.cgi?id=389144 I
+
+Powerdevil:
+https://bugs.kde.org/show_bug.cgi?id=391782 IW
+https://bugs.kde.org/show_bug.cgi?id=391109 IW
+
+KCM Keybaord Layout:
+https://bugs.kde.org/show_bug.cgi?id=391439 CSW
+
+Frameworks KAuth:
+https://bugs.kde.org/show_bug.cgi?id=393356 IW
+
+Framework KIdleTime:
+https://bugs.kde.org/show_bug.cgi?id=328987 I
+
+Frameworks KDE su:
+https://bugs.kde.org/show_bug.cgi?id=389966 IW
+
+KDELibs Shortcuts:
+https://bugs.kde.org/show_bug.cgi?id=309193 I
+
+KRuler:
+https://bugs.kde.org/show_bug.cgi?id=36100 I
+
+KMail:
+https://bugs.kde.org/show_bug.cgi?id=78629 I
+
+Konversation:
+https://bugs.kde.org/show_bug.cgi?id=392573 IW
+
+Kate:
+https://bugs.kde.org/show_bug.cgi?id=392401 CW
+https://bugs.kde.org/show_bug.cgi?id=385628 IW
+
+KSysGuard:
+https://bugs.kde.org/show_bug.cgi?id=390671 IW
+
+KMix:
+https://bugs.kde.org/show_bug.cgi?id=320949 I
+https://bugs.kde.org/show_bug.cgi?id=390396 IW
+
+Spectacle:
+https://bugs.kde.org/show_bug.cgi?id=393324 IW
+https://bugs.kde.org/show_bug.cgi?id=391391 IW
+https://bugs.kde.org/show_bug.cgi?id=391390 IW
+https://bugs.kde.org/show_bug.cgi?id=389164 NW
+
+Elisa:
+https://bugs.kde.org/show_bug.cgi?id=392818 IW
+
+Yakuake:
+https://bugs.kde.org/show_bug.cgi?id=392873 IW
+
+ISO Image Writer:
+https://bugs.kde.org/show_bug.cgi?id=386431 I
+https://bugs.kde.org/show_bug.cgi?id=385580 I
+https://bugs.kde.org/show_bug.cgi?id=385579 I
+https://bugs.kde.org/show_bug.cgi?id=384378 S
+https://bugs.kde.org/show_bug.cgi?id=385582 I
+https://bugs.kde.org/show_bug.cgi?id=385577 I
+https://bugs.kde.org/show_bug.cgi?id=385581 I
+https://bugs.kde.org/show_bug.cgi?id=384377 S
+
+Dragon Player:
+https://bugs.kde.org/show_bug.cgi?id=392540 SW
+
+Dolphin:
+https://bugs.kde.org/show_bug.cgi?id=392993 I
+https://bugs.kde.org/show_bug.cgi?id=390430 IW
+
+Octopi:
+https://github.com/aarnt/octopi/issues/ 323
+
+KScreenLocker:
+https://bugs.kde.org/show_bug.cgi?id=391442 I
+
+Muon:
+https://bugs.kde.org/show_bug.cgi?id=391965 IW
+
+Umbrello:
+https://bugs.kde.org/show_bug.cgi?id=391559 I
+
+KAskSSHPass:
+https://bugs.kde.org/show_bug.cgi?id=390399 SW
+
+Falkon:
+https://bugs.kde.org/show_bug.cgi?id=389356 CW
+
+KMail:
+https://bugs.kde.org/show_bug.cgi?id=389230 NW
+
+Telepathy:
+https://bugs.kde.org/show_bug.cgi?id=380031 NW
+https://bugs.kde.org/show_bug.cgi?id=389150 I
+
+KDE Portal:
+https://phabricator.kde.org/D12068 I

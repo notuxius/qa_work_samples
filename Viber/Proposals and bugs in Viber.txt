@@ -1,0 +1,2 @@
+Desktop version.
+Ability to share Viber in Google+ and Pinterest in 'Tools' -> 'Options...' -> 'Share Viber' cause there are only Facebook and Twitter and in 'Help' menu section - Viber is on G+ and Pinterest too.

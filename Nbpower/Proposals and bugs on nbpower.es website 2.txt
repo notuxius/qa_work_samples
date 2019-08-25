@@ -1,0 +1,10 @@
+1. Do you have CRM system, UTM parameters... for you clients?
+2. Make ssl connection to the site - more trust from customers.
+3. Add more links (or maybe just site logo) into the fixed div at the top - near 'Bateria de laptop' and 'Fuente de alimentación' text.
+4. Add more info to the right side on every product page (to the right side from big product's picture) - below 'Compra de un solo toque' and social networks buttons - there's empty space now which can be feeled with usefull info.
+5. When you click on '0 opiniones / Escribe opinión' links on any product page - opinions tab reveals below - but customer don't know that - cause page doesn't scrolls to the revealed opinions tab.
+6. Add address and email to the top of the site too (now it just at the bottom in the footer) - below telephone number.
+7. Too small text on comparing products link on mobile 480px, for example - 'Éxito: Ha añadido Batería recargable HP 586006-321 6 cell 4400mah 10.8V a su comparador!' text link. It's hard to get exactly in one of them - add more margin - same as with the 'Información', 'Servicio al Cliente', 'Mi Cuenta' and 'NBPower' links.
+8. When you compare two or more products for example on this page - http://nbpower.es/index.php?route=product/compare on mobile - footer expanding only on one products' width not on full page width - empty space there - and on top of that page too.
+9. Work with major spanish hardware repairing companies - think about collaboration with them, discounts etc. - and write about that on site.
+10. Maybe add more options to contact shop administrators - like whatsapp, skype, viber..

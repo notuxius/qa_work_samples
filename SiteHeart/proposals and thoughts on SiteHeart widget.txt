@@ -1,0 +1,7 @@
+1. Once you dragged widget to the most right position when just small part of widget is visible - you cannot drag widget to left position by it's icon. When you reload the page - position of widget remains and it's cannot be dragged anywhere. This only happens when you drag to right position - because you release widget at scrollbar position and you cannot grab it at this position once again - icon in widget header not dragging the widget itself. Screenshot #1
+
+
+2. Widget has poor localization detection. For example Site lang is russian but widget i think detects l10n of my system - but the question and operator's name is in russian and widget is in english. Screenshot #2, #3
+
+
+3. save and exit

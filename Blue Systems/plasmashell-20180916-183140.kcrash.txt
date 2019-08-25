@@ -1,0 +1,453 @@
+Application: Plasma (plasmashell), signal: Segmentation fault
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Current thread is 1 (Thread 0x7f8d550b8840 (LWP 1162))]
+
+Thread 27 (Thread 0x7f8cbaffd700 (LWP 7860)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8c9c003ce0) at thread/qthread_unix.cpp:367
+#14 0x00007f8d4b87d6db in start_thread (arg=0x7f8cbaffd700) at pthread_create.c:463
+#15 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 26 (Thread 0x7f8cbb7fe700 (LWP 7859)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cb0003ce0) at thread/qthread_unix.cpp:367
+#14 0x00007f8d4b87d6db in start_thread (arg=0x7f8cbb7fe700) at pthread_create.c:463
+#15 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 25 (Thread 0x7f8cc0ff9700 (LWP 7858)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cc8004980) at thread/qthread_unix.cpp:367
+#14 0x00007f8d4b87d6db in start_thread (arg=0x7f8cc0ff9700) at pthread_create.c:463
+#15 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 24 (Thread 0x7f8cc17fa700 (LWP 7857)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cb40046b0) at thread/qthread_unix.cpp:367
+#14 0x00007f8d4b87d6db in start_thread (arg=0x7f8cc17fa700) at pthread_create.c:463
+#15 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 23 (Thread 0x7f8cc1ffb700 (LWP 7856)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#14 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#15 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b9614cc30) at thread/qthread_unix.cpp:367
+#16 0x00007f8d4b87d6db in start_thread (arg=0x7f8cc1ffb700) at pthread_create.c:463
+#17 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 22 (Thread 0x7f8cc27fc700 (LWP 7855)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cac003ce0) at thread/qthread_unix.cpp:367
+#12 0x00007f8d4b87d6db in start_thread (arg=0x7f8cc27fc700) at pthread_create.c:463
+#13 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 21 (Thread 0x7f8cc2ffd700 (LWP 7854)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#14 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#15 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cb40043a0) at thread/qthread_unix.cpp:367
+#16 0x00007f8d4b87d6db in start_thread (arg=0x7f8cc2ffd700) at pthread_create.c:463
+#17 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 20 (Thread 0x7f8cc37fe700 (LWP 7853)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cbc003ce0) at thread/qthread_unix.cpp:367
+#12 0x00007f8d4b87d6db in start_thread (arg=0x7f8cc37fe700) at pthread_create.c:463
+#13 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 19 (Thread 0x7f8cbbfff700 (LWP 7852)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cd0003ce0) at thread/qthread_unix.cpp:367
+#14 0x00007f8d4b87d6db in start_thread (arg=0x7f8cbbfff700) at pthread_create.c:463
+#15 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 18 (Thread 0x7f8cc3fff700 (LWP 7851)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#14 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#15 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cc40049b0) at thread/qthread_unix.cpp:367
+#16 0x00007f8d4b87d6db in start_thread (arg=0x7f8cc3fff700) at pthread_create.c:463
+#17 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 17 (Thread 0x7f8cdcda5700 (LWP 7850)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8ccc004db0) at thread/qthread_unix.cpp:367
+#14 0x00007f8d4b87d6db in start_thread (arg=0x7f8cdcda5700) at pthread_create.c:463
+#15 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 16 (Thread 0x7f8cdd5a6700 (LWP 7849)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#14 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#15 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8cd40090e0) at thread/qthread_unix.cpp:367
+#16 0x00007f8d4b87d6db in start_thread (arg=0x7f8cdd5a6700) at pthread_create.c:463
+#17 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 15 (Thread 0x7f8cddda7700 (LWP 7848)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#14 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#15 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#16 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#17 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b977a8150) at thread/qthread_unix.cpp:367
+#18 0x00007f8d4b87d6db in start_thread (arg=0x7f8cddda7700) at pthread_create.c:463
+#19 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 14 (Thread 0x7f8cde5a8700 (LWP 7847)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8ce00037a0) at thread/qthread_unix.cpp:367
+#14 0x00007f8d4b87d6db in start_thread (arg=0x7f8cde5a8700) at pthread_create.c:463
+#15 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 13 (Thread 0x7f8cdf5ef700 (LWP 7846)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#12 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#13 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b8ea83100) at thread/qthread_unix.cpp:367
+#14 0x00007f8d4b87d6db in start_thread (arg=0x7f8cdf5ef700) at pthread_create.c:463
+#15 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 12 (Thread 0x7f8cf60bd700 (LWP 7845)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f95bab4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f95ba60, cond=0x559b8f95ba88) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f95ba88, mutex=0x559b8f95ba60) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f95ba60) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=<optimized out>, mutex=0x559b91ac2e10, time=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d20698a65 in ThreadWeaver::Weaver::takeFirstAvailableJobOrSuspendOrWait(ThreadWeaver::Thread*, bool, bool, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#6  0x00007f8d2069cb38 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#7  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#8  0x00007f8d2069cb92 in ?? () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#9  0x00007f8d20697c8d in ThreadWeaver::Weaver::applyForWork(ThreadWeaver::Thread*, bool) () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#10 0x00007f8d2069a9fb in ThreadWeaver::Thread::run() () from /usr/lib/x86_64-linux-gnu/libKF5ThreadWeaver.so.5
+#11 0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b91b323b0) at thread/qthread_unix.cpp:367
+#12 0x00007f8d4b87d6db in start_thread (arg=0x7f8cf60bd700) at pthread_create.c:463
+#13 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 11 (Thread 0x7f8cf4bf8700 (LWP 1718)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b9781dc50) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b9781dc00, cond=0x559b9781dc28) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b9781dc28, mutex=0x559b9781dc00) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b9781dc00) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=this@entry=0x559b978c4ee8, mutex=mutex@entry=0x559b978c4ee0, time=time@entry=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d52d4ebe8 in QSGRenderThreadEventQueue::takeEvent (wait=true, this=0x559b978c4ed8) at scenegraph/qsgthreadedrenderloop.cpp:245
+#6  QSGRenderThread::processEventsAndWaitForMore (this=this@entry=0x559b978c4e60) at scenegraph/qsgthreadedrenderloop.cpp:709
+#7  0x00007f8d52d4f01a in QSGRenderThread::run (this=0x559b978c4e60) at scenegraph/qsgthreadedrenderloop.cpp:738
+#8  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b978c4e60) at thread/qthread_unix.cpp:367
+#9  0x00007f8d4b87d6db in start_thread (arg=0x7f8cf4bf8700) at pthread_create.c:463
+#10 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 10 (Thread 0x7f8cf548c700 (LWP 1671)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f7b1170) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f7b1120, cond=0x559b8f7b1148) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f7b1148, mutex=0x559b8f7b1120) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f7b1120) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=this@entry=0x559b8f8e1398, mutex=mutex@entry=0x559b8f8e1390, time=time@entry=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d52d4ebe8 in QSGRenderThreadEventQueue::takeEvent (wait=true, this=0x559b8f8e1388) at scenegraph/qsgthreadedrenderloop.cpp:245
+#6  QSGRenderThread::processEventsAndWaitForMore (this=this@entry=0x559b8f8e1310) at scenegraph/qsgthreadedrenderloop.cpp:709
+#7  0x00007f8d52d4f01a in QSGRenderThread::run (this=0x559b8f8e1310) at scenegraph/qsgthreadedrenderloop.cpp:738
+#8  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b8f8e1310) at thread/qthread_unix.cpp:367
+#9  0x00007f8d4b87d6db in start_thread (arg=0x7f8cf548c700) at pthread_create.c:463
+#10 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 9 (Thread 0x7f8cf6968700 (LWP 1587)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b93281190) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b93281140, cond=0x559b93281168) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b93281168, mutex=0x559b93281140) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b93281140) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=this@entry=0x559b9347e408, mutex=mutex@entry=0x559b9347e400, time=time@entry=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d52d4ebe8 in QSGRenderThreadEventQueue::takeEvent (wait=true, this=0x559b9347e3f8) at scenegraph/qsgthreadedrenderloop.cpp:245
+#6  QSGRenderThread::processEventsAndWaitForMore (this=this@entry=0x559b9347e380) at scenegraph/qsgthreadedrenderloop.cpp:709
+#7  0x00007f8d52d4f01a in QSGRenderThread::run (this=0x559b9347e380) at scenegraph/qsgthreadedrenderloop.cpp:738
+#8  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b9347e380) at thread/qthread_unix.cpp:367
+#9  0x00007f8d4b87d6db in start_thread (arg=0x7f8cf6968700) at pthread_create.c:463
+#10 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 8 (Thread 0x7f8cf7230700 (LWP 1420)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b91c1a4c4) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b91c1a470, cond=0x559b91c1a498) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b91c1a498, mutex=0x559b91c1a470) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b91c1a470) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=this@entry=0x559b91a7a998, mutex=mutex@entry=0x559b91a7a990, time=time@entry=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d52d4ebe8 in QSGRenderThreadEventQueue::takeEvent (wait=true, this=0x559b91a7a988) at scenegraph/qsgthreadedrenderloop.cpp:245
+#6  QSGRenderThread::processEventsAndWaitForMore (this=this@entry=0x559b91a7a910) at scenegraph/qsgthreadedrenderloop.cpp:709
+#7  0x00007f8d52d4f01a in QSGRenderThread::run (this=0x559b91a7a910) at scenegraph/qsgthreadedrenderloop.cpp:738
+#8  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b91a7a910) at thread/qthread_unix.cpp:367
+#9  0x00007f8d4b87d6db in start_thread (arg=0x7f8cf7230700) at pthread_create.c:463
+#10 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 7 (Thread 0x7f8cf7a31700 (LWP 1288)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b90266f50) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b90266f00, cond=0x559b90266f28) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b90266f28, mutex=0x559b90266f00) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b90266f00) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=this@entry=0x559b9030c1e8, mutex=mutex@entry=0x559b9030c1e0, time=time@entry=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d52d4ebe8 in QSGRenderThreadEventQueue::takeEvent (wait=true, this=0x559b9030c1d8) at scenegraph/qsgthreadedrenderloop.cpp:245
+#6  QSGRenderThread::processEventsAndWaitForMore (this=this@entry=0x559b9030c160) at scenegraph/qsgthreadedrenderloop.cpp:709
+#7  0x00007f8d52d4f01a in QSGRenderThread::run (this=0x559b9030c160) at scenegraph/qsgthreadedrenderloop.cpp:738
+#8  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b9030c160) at thread/qthread_unix.cpp:367
+#9  0x00007f8d4b87d6db in start_thread (arg=0x7f8cf7a31700) at pthread_create.c:463
+#10 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 6 (Thread 0x7f8cfe59a700 (LWP 1280)):
+#0  0x00007f8d4e63fbf9 in __GI___poll (fds=0x7f8cf8006470, nfds=1, timeout=2767803) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007f8d484c2439 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007f8d484c254c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007f8d4ef7fa9b in QEventDispatcherGlib::processEvents (this=0x7f8cf8000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:425
+#4  0x00007f8d4ef23dea in QEventLoop::exec (this=this@entry=0x7f8cfe599d20, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007f8d4ed4eb8a in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007f8d00ef7f77 in KCupsConnection::run() () from /usr/lib/x86_64-linux-gnu/libkcupslib.so
+#7  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b901c88a0) at thread/qthread_unix.cpp:367
+#8  0x00007f8d4b87d6db in start_thread (arg=0x7f8cfe59a700) at pthread_create.c:463
+#9  0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 5 (Thread 0x7f8d1a5c0700 (LWP 1267)):
+#0  0x00007f8d4e63b0b4 in __GI___libc_read (fd=20, buf=0x7f8d1a5bfae0, nbytes=16) at ../sysdeps/unix/sysv/linux/read.c:27
+#1  0x00007f8d48506980 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007f8d484c1f27 in g_main_context_check () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007f8d484c23e0 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x00007f8d484c254c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x00007f8d4ef7fa9b in QEventDispatcherGlib::processEvents (this=0x7f8d0c000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:425
+#6  0x00007f8d4ef23dea in QEventLoop::exec (this=this@entry=0x7f8d1a5bfcf0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#7  0x00007f8d4ed4eb8a in QThread::exec (this=this@entry=0x559b8f3c6d30) at thread/qthread.cpp:525
+#8  0x00007f8d52ccf906 in QQuickPixmapReader::run (this=0x559b8f3c6d30) at util/qquickpixmapcache.cpp:934
+#9  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b8f3c6d30) at thread/qthread_unix.cpp:367
+#10 0x00007f8d4b87d6db in start_thread (arg=0x7f8d1a5c0700) at pthread_create.c:463
+#11 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 4 (Thread 0x7f8d1ae18700 (LWP 1265)):
+#0  0x00007f8d4b8839f3 in futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x559b8f5628b0) at ../sysdeps/unix/sysv/linux/futex-internal.h:88
+#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x559b8f562860, cond=0x559b8f562888) at pthread_cond_wait.c:502
+#2  __pthread_cond_wait (cond=0x559b8f562888, mutex=0x559b8f562860) at pthread_cond_wait.c:655
+#3  0x00007f8d4ed5a91b in QWaitConditionPrivate::wait (time=18446744073709551615, this=0x559b8f562860) at thread/qwaitcondition_unix.cpp:143
+#4  QWaitCondition::wait (this=this@entry=0x559b8f5756e8, mutex=mutex@entry=0x559b8f5756e0, time=time@entry=18446744073709551615) at thread/qwaitcondition_unix.cpp:215
+#5  0x00007f8d52d4ebe8 in QSGRenderThreadEventQueue::takeEvent (wait=true, this=0x559b8f5756d8) at scenegraph/qsgthreadedrenderloop.cpp:245
+#6  QSGRenderThread::processEventsAndWaitForMore (this=this@entry=0x559b8f575660) at scenegraph/qsgthreadedrenderloop.cpp:709
+#7  0x00007f8d52d4f01a in QSGRenderThread::run (this=0x559b8f575660) at scenegraph/qsgthreadedrenderloop.cpp:738
+#8  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b8f575660) at thread/qthread_unix.cpp:367
+#9  0x00007f8d4b87d6db in start_thread (arg=0x7f8d1ae18700) at pthread_create.c:463
+#10 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 3 (Thread 0x7f8d3dc8c700 (LWP 1215)):
+#0  0x00007f8d4e63b0b4 in __GI___libc_read (fd=10, buf=0x7f8d3dc8bb30, nbytes=16) at ../sysdeps/unix/sysv/linux/read.c:27
+#1  0x00007f8d48506980 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007f8d484c1f27 in g_main_context_check () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007f8d484c23e0 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x00007f8d484c254c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#5  0x00007f8d4ef7fa9b in QEventDispatcherGlib::processEvents (this=0x7f8d30000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:425
+#6  0x00007f8d4ef23dea in QEventLoop::exec (this=this@entry=0x7f8d3dc8bd40, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#7  0x00007f8d4ed4eb8a in QThread::exec (this=this@entry=0x559b8ea24910) at thread/qthread.cpp:525
+#8  0x00007f8d528548b5 in QQmlThreadPrivate::run (this=0x559b8ea24910) at qml/ftw/qqmlthread.cpp:148
+#9  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x559b8ea24910) at thread/qthread_unix.cpp:367
+#10 0x00007f8d4b87d6db in start_thread (arg=0x7f8d3dc8c700) at pthread_create.c:463
+#11 0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 2 (Thread 0x7f8d3f6c2700 (LWP 1197)):
+#0  0x00007f8d4e63fbf9 in __GI___poll (fds=0x7f8d38014910, nfds=1, timeout=-1) at ../sysdeps/unix/sysv/linux/poll.c:29
+#1  0x00007f8d484c2439 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007f8d484c254c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007f8d4ef7fa9b in QEventDispatcherGlib::processEvents (this=0x7f8d38000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:425
+#4  0x00007f8d4ef23dea in QEventLoop::exec (this=this@entry=0x7f8d3f6c1d30, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007f8d4ed4eb8a in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007f8d51272e45 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5
+#7  0x00007f8d4ed59aab in QThreadPrivate::start (arg=0x7f8d514ead60) at thread/qthread_unix.cpp:367
+#8  0x00007f8d4b87d6db in start_thread (arg=0x7f8d3f6c2700) at pthread_create.c:463
+#9  0x00007f8d4e64c88f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 1 (Thread 0x7f8d550b8840 (LWP 1162)):
+[KCrash Handler]
+#6  0x00007f8d420db7ef in QtWaylandClient::QWaylandDataDevice::startDrag (this=0x559b8e94e250, mimeData=0x559b977ff6a0, icon=0x559b91af9200) at qwaylanddatadevice.cpp:114
+#7  0x00007f8d420dd820 in QtWaylandClient::QWaylandDrag::startDrag (this=0x559b8e9593e0) at qwaylanddnd.cpp:69
+#8  0x00007f8d4f4f3450 in QBasicDrag::drag (this=0x559b8e9593e0, o=<optimized out>) at kernel/qsimpledrag.cpp:212
+#9  0x00007f8d4f4eda24 in QDragManager::drag (this=0x559b9781e7d0, o=0x559b9001a160) at kernel/qdnd.cpp:117
+#10 0x00007f8d4f4edd17 in QDrag::exec (this=this@entry=0x559b9001a160, supportedActions=..., defaultDropAction=defaultDropAction@entry=Qt::IgnoreAction) at kernel/qdrag.cpp:282
+#11 0x00007f8d4f4eddc7 in QDrag::exec (this=this@entry=0x559b9001a160, supportedActions=..., supportedActions@entry=...) at kernel/qdrag.cpp:238
+#12 0x00007f8d183ded12 in DragHelper::startDragInternal (this=0x559b8f8f47d0, item=0x559b91b34a60, mimeType=..., mimeData=..., url=..., icon=...) at ./applets/taskmanager/plugin/draghelper.cpp:88
+#13 0x00007f8d4ef55642 in QObject::event (this=0x559b8f8f47d0, e=<optimized out>) at kernel/qobject.cpp:1251
+#14 0x00007f8d50582e8c in QApplicationPrivate::notify_helper (this=this@entry=0x559b8e93c210, receiver=receiver@entry=0x559b8f8f47d0, e=e@entry=0x559b91b37770) at kernel/qapplication.cpp:3727
+#15 0x00007f8d5058a45f in QApplication::notify (this=0x7ffd57e10860, receiver=0x559b8f8f47d0, e=0x559b91b37770) at kernel/qapplication.cpp:3486
+#16 0x00007f8d4ef25ab8 in QCoreApplication::notifyInternal2 (receiver=0x559b8f8f47d0, event=event@entry=0x559b91b37770) at kernel/qcoreapplication.cpp:1048
+#17 0x00007f8d4ef285fd in QCoreApplication::sendEvent (event=0x559b91b37770, receiver=<optimized out>) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:234
+#18 QCoreApplicationPrivate::sendPostedEvents (receiver=receiver@entry=0x0, event_type=event_type@entry=0, data=0x559b8e9316f0) at kernel/qcoreapplication.cpp:1745
+#19 0x00007f8d4ef28bb8 in QCoreApplication::sendPostedEvents (receiver=receiver@entry=0x0, event_type=event_type@entry=0) at kernel/qcoreapplication.cpp:1599
+#20 0x00007f8d4ef80453 in postEventSourceDispatch (s=0x559b8e9c7950) at kernel/qeventdispatcher_glib.cpp:276
+#21 0x00007f8d484c2287 in g_main_context_dispatch () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#22 0x00007f8d484c24c0 in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#23 0x00007f8d484c254c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#24 0x00007f8d4ef7fa7f in QEventDispatcherGlib::processEvents (this=0x559b8e945fb0, flags=...) at kernel/qeventdispatcher_glib.cpp:423
+#25 0x00007f8d420f2571 in QPAEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQt5WaylandClient.so.5
+#26 0x00007f8d4ef23dea in QEventLoop::exec (this=this@entry=0x7ffd57e10740, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#27 0x00007f8d4ef2cfa0 in QCoreApplication::exec () at kernel/qcoreapplication.cpp:1336
+#28 0x0000559b8d1a0f25 in main (argc=<optimized out>, argv=<optimized out>) at ./shell/main.cpp:212

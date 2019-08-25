@@ -1,0 +1,53 @@
+Application: Kate (kate), signal: Segmentation fault
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Current thread is 1 (Thread 0x7f2de3e8f900 (LWP 4821))]
+
+Thread 2 (Thread 0x7f2dc90ef700 (LWP 4823)):
+#0  0x00007f2dd87538c3 in g_main_context_prepare () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#1  0x00007f2dd87542bb in ?? () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007f2dd875449c in g_main_context_iteration () from /lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007f2ddf1310bb in QEventDispatcherGlib::processEvents (this=0x7f2dc40008c0, flags=...) at kernel/qeventdispatcher_glib.cpp:425
+#4  0x00007f2ddf0d85ba in QEventLoop::exec (this=this@entry=0x7f2dc90eec80, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#5  0x00007f2ddef0d5e4 in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#6  0x00007f2ddf578f35 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5
+#7  0x00007f2ddef18727 in QThreadPrivate::start (arg=0x7f2ddf7f1d60) at thread/qthread_unix.cpp:367
+#8  0x00007f2dda3a36ba in start_thread (arg=0x7f2dc90ef700) at pthread_create.c:333
+#9  0x00007f2dde51c41d in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:109
+
+Thread 1 (Thread 0x7f2de3e8f900 (LWP 4821)):
+[KCrash Handler]
+#6  0x0000000001184a70 in ?? ()
+#7  0x00007f2ddfe055fc in QWindowPrivate::setVisible (this=0x116fcd0, visible=visible@entry=false) at kernel/qwindow.cpp:401
+#8  0x00007f2de065c0bd in QWidgetWindow::setNativeWindowVisibility (this=this@entry=0x1306940, visible=visible@entry=false) at kernel/qwidgetwindow.cpp:205
+#9  0x00007f2de0636d3a in QWidgetPrivate::hide_sys (this=this@entry=0x120a9b0) at kernel/qwidget.cpp:8240
+#10 0x00007f2de063e62d in QWidgetPrivate::hide_helper (this=this@entry=0x120a9b0) at kernel/qwidget.cpp:8168
+#11 0x00007f2de0643428 in QWidget::setVisible (this=0x12ade70, visible=<optimized out>) at kernel/qwidget.cpp:8370
+#12 0x00007f2de063e9c8 in QWidgetPrivate::close_helper (this=0x120a9b0, mode=QWidgetPrivate::CloseNoEvent) at kernel/qwidget.cpp:8499
+#13 0x00007f2de063ef70 in QWidget::~QWidget (this=0x12ade70, __in_chrg=<optimized out>) at kernel/qwidget.cpp:1635
+#14 0x00007f2de39770f1 in KateTextPreview::~KateTextPreview (this=0x12ade70, __in_chrg=<optimized out>) at /workspace/build/src/view/katetextpreview.cpp:43
+#15 KateTextPreview::~KateTextPreview (this=0x12ade70, __in_chrg=<optimized out>) at /workspace/build/src/view/katetextpreview.cpp:45
+#16 0x00007f2de3967b58 in KateScrollBar::showTextPreview (this=0xdfaf30) at /workspace/build/src/view/kateviewhelpers.cpp:455
+#17 0x00007f2de3973e48 in KateScrollBar::mouseMoveEvent (this=0xdfaf30, e=<optimized out>) at /workspace/build/src/view/kateviewhelpers.cpp:352
+#18 0x00007f2de0643778 in QWidget::event (this=this@entry=0xdfaf30, event=event@entry=0x7ffe9408d970) at kernel/qwidget.cpp:9281
+#19 0x00007f2de06f3245 in QAbstractSlider::event (this=this@entry=0xdfaf30, e=e@entry=0x7ffe9408d970) at widgets/qabstractslider.cpp:956
+#20 0x00007f2de0794d2b in QScrollBar::event (this=0xdfaf30, event=0x7ffe9408d970) at widgets/qscrollbar.cpp:490
+#21 0x00007f2de060439c in QApplicationPrivate::notify_helper (this=<optimized out>, receiver=0xdfaf30, e=0x7ffe9408d970) at kernel/qapplication.cpp:3727
+#22 0x00007f2de060bdb3 in QApplication::notify (this=<optimized out>, receiver=0xdfaf30, e=0x7ffe9408d970) at kernel/qapplication.cpp:3203
+#23 0x00007f2ddf0da228 in QCoreApplication::notifyInternal2 (receiver=receiver@entry=0xdfaf30, event=event@entry=0x7ffe9408d970) at kernel/qcoreapplication.cpp:1048
+#24 0x00007f2de060afaf in QCoreApplication::sendEvent (event=<optimized out>, receiver=<optimized out>) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:234
+#25 QApplicationPrivate::sendMouseEvent (receiver=receiver@entry=0xdfaf30, event=event@entry=0x7ffe9408d970, alienWidget=alienWidget@entry=0xdfaf30, nativeWidget=0xad3820, buttonDown=buttonDown@entry=0x7f2de0d0d8d0 <qt_button_down>, lastMouseReceiver=..., spontaneous=true) at kernel/qapplication.cpp:2695
+#26 0x00007f2de065dabd in QWidgetWindow::handleMouseEvent (this=this@entry=0xb96ff0, event=event@entry=0x7ffe9408dd70) at kernel/qwidgetwindow.cpp:659
+#27 0x00007f2de06604cb in QWidgetWindow::event (this=0xb96ff0, event=0x7ffe9408dd70) at kernel/qwidgetwindow.cpp:280
+#28 0x00007f2de060439c in QApplicationPrivate::notify_helper (this=<optimized out>, receiver=0xb96ff0, e=0x7ffe9408dd70) at kernel/qapplication.cpp:3727
+#29 0x00007f2de060bab0 in QApplication::notify (this=0x7ffe9408e310, receiver=0xb96ff0, e=0x7ffe9408dd70) at kernel/qapplication.cpp:3486
+#30 0x00007f2ddf0da228 in QCoreApplication::notifyInternal2 (receiver=receiver@entry=0xb96ff0, event=event@entry=0x7ffe9408dd70) at kernel/qcoreapplication.cpp:1048
+#31 0x00007f2ddfdf93cf in QCoreApplication::sendSpontaneousEvent (event=0x7ffe9408dd70, receiver=0xb96ff0) at ../../include/QtCore/../../src/corelib/kernel/qcoreapplication.h:237
+#32 QGuiApplicationPrivate::processMouseEvent (e=0x11991f0) at kernel/qguiapplication.cpp:2082
+#33 0x00007f2ddfdfb415 in QGuiApplicationPrivate::processWindowSystemEvent (e=e@entry=0x11991f0) at kernel/qguiapplication.cpp:1817
+#34 0x00007f2ddfdd5e1b in QWindowSystemInterface::sendWindowSystemEvents (flags=...) at kernel/qwindowsysteminterface.cpp:1032
+#35 0x00007f2dce99642b in QPAEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQt5WaylandClient.so.5
+#36 0x00007f2ddf0d85ba in QEventLoop::exec (this=this@entry=0x7ffe9408dfe0, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#37 0x00007f2ddf0e16c4 in QCoreApplication::exec () at kernel/qcoreapplication.cpp:1336
+#38 0x00007f2ddfdeff8c in QGuiApplication::exec () at kernel/qguiapplication.cpp:1762
+#39 0x00007f2de06042f5 in QApplication::exec () at kernel/qapplication.cpp:2901
+#40 0x00000000004296e7 in main (argc=3, argv=<optimized out>) at /workspace/build/kate/main.cpp:639

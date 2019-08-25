@@ -1,0 +1,23 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+actor: AcceptanceTester
+
+modules:
+    enabled:
+        - WebDriver:
+            url: 'https://one2go.asia'
+            browser: chrome
+
+# TODO find out how to properly launch selenium server - not working with next options: 
+#        - Codeception\Extension\RunProcess:
+#            - java -jar ~/codecept/selenium-server-standalone-3.5.3.jar
+            
+        - \Helper\Acceptance
+        
+
+    
+    

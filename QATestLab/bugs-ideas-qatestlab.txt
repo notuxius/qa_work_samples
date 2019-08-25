@@ -1,0 +1,65 @@
+Name: Space character is missing in the notification email "Готово! Вы зарегистрированы на онлайн курс Группа 82 "Основы тестирования ПО" between text "Пароль:" and actual password.
+
+Description: Not sure what approach should be used here. From one side - all other fields in this email like - "phone:" "email:" "skype:" and "Логин:" have spaces between field name (phone:) and corresponding text (+380442226345) - but from the other (and i think more important) side - when initially log in into http://clients.qatestlab.com/ page - users may copy login field text with extra space after ":" sign and telephone number - and this may cause some issues.
+
+
+Impovement
+2) add copy buttons neer "Логин:" and "Пароль:" fields into "Готово! Вы зарегистрированы на онлайн курс Группа 82 "Основы тестирования ПО" between text "Пароль:" email. for more convenience.
+
+
+Impovement
+3) add ability to export schedule of courses into various calendars.
+
+
+email from issues went into spam in gmail
+
+
++3 in tel number upon login into http://clients.qatestlab.com/
+
+
+scroll quiz page to the question numbers upon passing the quiz
+
+
+do not show "Подтвердить ответ?" confirmation dialog
+
+
+in exams - display vidoes in lightbox like screenshots
+
+
+do not show popup jivosite widget every time user log in http://clients.qatestlab.com/ - thats may be annoing for students - show just once on first login - user sees where it minimized and can easely find help if he needs it.
+
+
+Add Linux alternatives to "Тест на знание правил курса" quiz in "Тест на знание правил курса" page - like LIbreOffice/OpenOffice Draw alongside with Visio and LIbreOffice/OpenOffice Writer alongside with Word.
+
+
+Additional info may appear near every exam on http://clients.qatestlab.com/exams page after finishing exam like - "Тест сдан" или "Тест не сдан", "Дата:", "Количество правильных ответов: 21/27"
+
+
+Button "Начать тест" may transform into "Перездать тест" for particular exam on http://clients.qatestlab.com/exams page after finishing that exam.
+
+
+missed word "при" in "Тест по лекции 1. Вводная часть. Что такое баг (дефект)" exam in 3rd question beetween text "назначается дефекту" and "наличии нескольких"
+
+
+Do not count attempt number for exam when student passed some percentage of exam - and the exam questions were changed by admins. Debatable - needs discussion.
+
+
+change loading spinner from React logo into QATestLab logo
+
+
+make transparent background for spinner
+
+
+Somewhat misleading text "*баги можно заводить в системе Mantis BugTracker, до окончания вебинаров (до 18.00 последнего дня курса)" in "Домашнее задание 1" exam in 2nd question. Additional info required - like "Обратите внимание - домашние задания для каждого вебинара будут находится в разделе "Тесты" только одну неделю после завершиния соответствующего вебинара" for 2nd question exam text.
+
+
+Mantis interface is in english language - Categories of issues in Mantis can be in english language too.
+
+
+
+
+
+
+
+
+

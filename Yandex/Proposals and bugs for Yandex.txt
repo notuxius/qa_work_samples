@@ -1,0 +1,35 @@
+Yandex http://www.yandex.ru :
+1. Looking for what you need on the Islands - find - then click again in the input field at the end of the line drop - down menu shows the same query with no additional options even if you just searched.
+2. Mail - Write a letter - write - Check spelling :
+there are no errors the field is not clickable and is in the spelling - although there is nothing to fix
+the error is - click on is not the right word - Change - change in the field - press Enter to accept the changes and continue to rule - a letter has already gone
+- just want to click somewhere on blank space on the letter to get out of test mode
+- when you check the spelling on the right, a scrollbar appears even if the letter is short and she does not need
+- when you change the word using the Edit menu - you can make order by pressing Esc where else you can get from this field and in that field on the right was a cross, or an arrow around itself to cancel the edits.
+3. On page beta.yandex - Other settings with drop down menus the settings icon (icon with a wrench) and the Settings icon with the username is duplicated:
+4. Drop - down menu with your username, you can make additional menu categories settings - Settings of the city, Setting the interface language.. - to quickly go to the right place. You can open it when you hover over the Settings or by hovering/clicking on the triangle.
+ - when clicking on the settings icon (icon with a wrench) once you go to the page all the settings or can fall menu with all the categories of settings. Above this menu can be frequent settings, separated from the rest.
+5. Icon services c rectangles you can write Services for clarity
+ when the links to the left at the top of the transition table is allocated first envelope icon and then reference how many new mails although they are there, they can be merged into one link (as an icon with your username) and Upload files. For accessibility (screen readers) and for people who use a mouse will be more convenient.
+6. When you click on the settings icon - it is dotted around the frame and a little lost style. It is not lost on the icon services.
+ icon services is not allocated a tab after the settings icon - the services are allocated in a sequential manner in the background after the icon with the login. Services even you can go with enter
+7. Yandex.ua - Personal settings - Add the widget:
+when you select widgets Ukraine. Kiev region (or Kiev) is lost, and when you select Widgets in Kiev region - Widgets Ukraine remain.
+8. Spell checking in mail doesn't know the word widget.
+9. Page link to itself in the top menu of some of the services are Search, Maps, Market, Pictures,
+and some not - Mail, news, Dictionaries, Blogs, Videos
+- when you enter a Video in short time
+when the content bottom have not loading:
+on the right appears to Login (in the mail) even if you have already entered, left, Yandex video link
+when the content loading:
+10. Yandex video - not the link
+to the right you are already logged in the mail
+a scrollbar appears and everything moves slightly to the left.
+11. I have a 15 inch screen and strip right there in Translation can also be done in Video that would not twitch.
+for example directly set the height of the page, or to first load the list and then preview the video
+12. If the service of selected Ukrainian Translation - the language in which to translate in the search of clues, they can be Ukrainian,
+also in the dictionary - language translation of Ukrainian
+- Video service under the search box, where for Example - when to load the content one link and when it loaded the other, do not have time to click or even read
+- spell checking in mail doesn't know the word Market is logged in - even though they are not Russian, and loading.
+13. If you yandex.ua and you are logged into the mail when the results of search results outside service Mail after some time there, the number of unread and shifts everything else to the right is a bit distracting and hinders quick navigation services. For example did you see that the search in the first results is nothing new/nothing is given and you want to go to the Dictionaries and can you get on the news - especially important on ancient computers.
+14. On services in addition to Search for example the Market can not see how you have a new incoming. For all services near the Mail or by login on to show how many incoming and new messages be added asynchronously notification in the mail.

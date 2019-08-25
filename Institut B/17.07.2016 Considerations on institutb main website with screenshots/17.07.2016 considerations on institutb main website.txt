@@ -1,0 +1,9 @@
+Hi Alex, i have some considerations for your main website - 'http://institutb.ru/'. 
+
+1. Don't show 'Прямой эфир / LIVE' part of site when there is no countdown on it - i.e. 'Начало через: 0 0 0'. Screenshot #1
+2. Protruding youtube video that inserted in restroom - 'УБОРНАЯ' section of the site - it creates horizontal scrollbar and empty space over the entire height of this section. Screenshots #2, #3.
+3. Maybe move up active voting section - 'АКТИВНОЕ ГОЛОСОВАНИЕ' and make it full width like 'ПРЯМОЙ ЭФИР / LIVE'. This move is for the first time of the site - to know what the audience wants, additionally make more votes on every resource of the institute, i think on weekly basis is enough (or even daily).
+4. Make new faculties - 'НОВЫЕ ФАКУЛЬТАТИВЫ' and popular faculties - 'ПОПУЛЯРНЫЕ ФАКУЛЬТАТИВЫ' section of site full width - they are mess now.
+5. Redo top 10 users of site 'ТОП 10 ПОЛЬЗОВАТЕЛЕЙ' section into endless list without white space between last and first user. That is after 'drozd697 I Drozd Lesnoy' user immediately goes 'Сиддхартха_Гаутамович_Шак Сиддхартха Гаутамович Шакьямунев' without any space. Maybe make top 33 users instead). Screenshots #3, #4.
+
+These are my thoughts at first glance. If you're interested in collaboration - reply to me. Thanks.

@@ -1,0 +1,25 @@
+Hi.
+
+1. On screen 1366 by 768 - website creates empty space with horizontal scroll and some text doesn't fit. 
+2. Rename 'Netrunner Rolling' string in syslinux into 'Nurunner'. 
+3. Don't show yakuake notification about hotkey (F12) and notification about disabling of touchpad on autostart. On notebook from 2010 (dual core celeron) - notifications appearing in ugly way on top of the screen and overlaping each other upon startup (if usb mouse is plugged in). 
+4. Don't autostart kde im subsystem by default. 
+5. Set Yakuake to 100% width + show duration to 0ms by default, set hotkey for opening/retracting from 'F12' to 'Alt' + '`' (tilda). 'F12' is default for 'Firefox Developer Tools'. 
+6. Show 'Battery and Brightness' in system tray by default (not in 'Extra Items' like now) for quick and convenient change of brightness by mouse (or touchpad) scrolling (like in sound), hide 'Clipboard' in 'Extra Items'. 
+7. Remove xine, add mpv (SMPlayer with mpv for 'Media Player' applet support and disable auto open smplayer's website on it's first launch). 
+8. Add fastest mirror detection and synchronizing of databases upon connecting to internet. 
+9. Change keyboard delay to 250ms. 
+10. Make readme offline first - a simple text file or offline html page or with offline/online detection like in archbang. Add password, info about updating system, installing software etc (or links to info on arch, manjaro wikis). 
+11. Add some initial configuration software like 'Kaptan' desktop configurator from PiSi linux (i tried it in KaOS linux https://github.com/KaOSx/kaptan), but not launch it by default. 
+12. Disable 'Discover', enable octopi for notifying of updates (remove 'Discover' at all). 
+13. Maybe disable plymouth by default. If it's goona stay enabled - examine 'plymouth: could not start boot splash' message at startup - it shows when you press for example right key upon startup - you go to systemd messages, but if you press it once again - splash boot screen doesn't showing again. 
+14. Give release a name - it's showing empty string on the bottom of 'About System' window next to 'OS Version'. 
+15. Put a shortcut for 'Octopi' on desktop. 
+16. Change link in 'My Computer' from 'About System' to 'Dolphin' (especially for windows switchers) - 'Network' icon doesn't launch network info - it launches 'Dolphin' - i think it's inconsistent. 
+17. Add eng lang packs for gimp, firefox, thunderbird.., spell checkers (aspell, hunspell, vim-spell-en), hyphenation/justification (hyphen) and gimp help (gimp-help-en) by default (plus global lang pack for 'qt5-translations'). 
+18. Replace 'SUSE Studio Imagewriter' with 'ISO Writer' - https://github.com/KaOSx/isowriter - it's more minimal and without branding of other distro. 
+19. Vokoscreen has new version (2.5.0), aur/vokoscreen depends on qt5. Test vokoscreen for recording/playing/editing on live system. 
+20. Add 'ncdu', 'htop', 'vim' terminal applications and maybe something from this: https://linuxaria.com/article/10-programs-terminal and http://www.unixlore.net/articles/top-30-gui-replacing-linux-console-apps.html. Plus add 'vim' to $VISUAL environmental variable for quick editing PKGBUILDs in yaourt.
+21. Think about voting on apps and settings, explore https://velt.io/community/categories/voting.
+ 
+I really like this distro, thanks for keeping it alive. I will be investigating it further.

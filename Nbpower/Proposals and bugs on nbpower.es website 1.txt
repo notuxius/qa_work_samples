@@ -1,0 +1,30 @@
+Proposals and bugs on nbpower.es website.
+
+1. In Firefox feedback widget has a little trembling on the screen when you move it on any website's page (in Chrome-based - there's a smooth movement of widget - a zopim bug).
+2. When you open 'Fuente de alimentacion' section - http://nbpower.es/Fuente-de-alimentaci%C3%B3n - there are no visible products in the main part of the site and when you open 'Bateria de laptop' section - http://nbpower.es/Bateria-de-laptop - there are four visible products from Asus manufacturer on the page and they are missing in refined search 'Refinar Busqueda' in 'Asus' category.
+3. HTML symbols (&nbsp;) in products descriptions on any website page with products list, for example - 'Las imágenes son para obtener información Capacidad: 4400mah El número de células:&nb..' - here it's '&nb..' at the end of description - &nbsp; with ellipsis - change it to more seo frendly.
+4. Add some most (fifteen items) popular products into 'Fuente de alimentacion' section - http://nbpower.es/Fuente-de-alimentaci%C3%B3n - for now it's blank.
+5. Add some most (fifteen items) popular products into 'Bateria de laptop' section - http://nbpower.es/Bateria-de-laptop - replace four inappropriate products there.
+6. Add more SEO keywords for brands in the left side of the site. For example when you go here - http://nbpower.es/Bateria-de-laptop/Bateria-hp - there is only 'Hewlett Packard' brand name - change it to 'Bateria de laptop Hewlett Packard' or something like this.
+7. Add more SEO keywords for product categories in the left side of the site. For example on this page http://nbpower.es/Fuente-de-alimentaci%C3%B3n - now it's 'Fuente de alimentación' - change it to - 'Seleccionar y comprar una fuente de alimentación'. And same for http://nbpower.es/Bateria-de-laptop page. 
+8. 'Site Map' string not translated in spanish lang here http://nbpower.es/index.php?route=information/sitemap but 'Mapa' in link in footer is translated.
+9. Make instagram account for NBPower, youtube channel, facebook, twitter and google+ pages and some popular in Spain social networks and resources.
+10. Add more slides to main page, 5-6 slides will be enought. Increase quality of pictures in slider (test them on retina screens) or restyle them completely.
+11. Add more information about what shop is selling into site - that you can say about it's niche after two seconds at first sight (background with lightnings, slogan below logo like 'We help you to charge your life' or 'Charge yourself for achievements' or something like this, add more comprehensive slider pictures with batteries and chargers - not with mac notebooks (plus site don't sells mac batteries or chargers) - it's more clearer for customers).
+12. Translate site in english - for international users that live in Spain.
+13. Add Sony batteries into shop (there are just Sony power supplies but all other manufacturers have betteries and chargers presented).
+14. Add google map into site with shop location.
+15. Add some fixed widgets to the left side of the page - cause know when you scroll for example this page - http://nbpower.es/Bateria-de-laptop/Bateria-asus - there is a lot of empty space on the left side, especcialy when you select to show 100 products per page.
+16. Add upsale/additional accessories for products below product description - cause now it's only Asus and Lenovo batteries in 'Más Vendido' section, even in chargers part.
+17. Think about and add some advantages for customers relative to competators - like go green/recycling information on site, think about collaboration with batteries/chargers spanish recycling companies.
+18. Add information about best battery usage/saving battery for longer time (seo).
+19. Are batteries/chargers certified? If so - write about it near accepted payments 'Se aceptan pagos:' section in footer (or somewhere else). 
+20. Show more (eight, twelve) most sold 'Destacado' products on homepage.
+21. Change best selling 'Más Vendido' products on every product page to four (or to eight, or make it same amount as in feautered 'Destacado' section in home page, or display feautered 'Destacado' products in best seller 'Más Vendido' products) - cause there're only two best selling 'Más Vendido' products now.
+22. Increase quality of site's logo picture - make it hd.
+23. Remove lines from tables in all products descriptions - leave just text - table {border: none;} - it will look better.
+24. No weight 'Peso' and dimensions 'Dimensiones (L x W x H)' info on any products compare page.
+25. Increase font size and space between items at the bottom of homepage in 'Información', 'Servicio al Cliente', 'Mi Cuenta' and 'NBPower' sections on mobile version of the site - cause telephone number, email address and section's items are to small and it's hard to get into them on mobile (480px width).
+26. Add some special products - 'Ofertas Especiales' http://nbpower.es/index.php?route=product/special .
+27. Change text in products descriptions - 'Batería del ordenador portátil (batería recargable) Asus A42-K52 6 cell 4400mah 10.8V se conviene para sustituir la batería usada...' from one template (like now) to at least 5-7 teamplates.
+28. Default language for some messages (like 'we appologies for waiting..') in zopim is english, but the site and the zopim widget is in spanish - those message will be unclear for spanish speaking customers.

@@ -1,0 +1,164 @@
+Flags:
+C - Confirming of already reported issue
+N - Not confirming of already reported issue
+S - Support/moderation providing
+D - Duplicates marking
+R - Resolving/closing the issue
+O - Opening the issue again
+I - Investigating/informed about the issue
+W - Wayland issues
+
+Qt - WebEngine:
+https://bugreports.qt.io/browse/QTBUG-68015 IW
+https://bugreports.qt.io/browse/QTBUG-68479 IW
+
+plasmashell - general:
+https://bugs.kde.org/show_bug.cgi?id=395661 IW
+https://bugs.kde.org/show_bug.cgi?id=395727 IW
+https://bugs.kde.org/show_bug.cgi?id=395757 IW
+https://bugs.kde.org/show_bug.cgi?id=395362 IW
+
+plasmashell - generic-wayland:
+https://bugs.kde.org/show_bug.cgi?id=395631 SW
+https://bugs.kde.org/show_bug.cgi?id=395692 SW
+https://bugs.kde.org/show_bug.cgi?id=395290 CW
+https://bugs.kde.org/show_bug.cgi?id=395780 IW
+https://bugs.kde.org/show_bug.cgi?id=395789 W
+https://bugs.kde.org/show_bug.cgi?id=395825 IW
+https://bugs.kde.org/show_bug.cgi?id=395886 IW
+https://bugs.kde.org/show_bug.cgi?id=395816 IW
+https://bugs.kde.org/show_bug.cgi?id=395919 CSW
+https://bugs.kde.org/show_bug.cgi?id=395916 CW
+https://bugs.kde.org/show_bug.cgi?id=396315 IW
+
+plasmashell - Panel:
+https://bugs.kde.org/show_bug.cgi?id=395753 IW
+
+plasmashell - Task Manager:
+https://bugs.kde.org/show_bug.cgi?id=396316 IW
+
+kdeplasmaaddons - General:
+https://bugs.kde.org/show_bug.cgi?id=395768 IW
+
+Breeze - window decoration:
+https://bugs.kde.org/show_bug.cgi?id=395318 SW
+
+plasmashell - Application Launcher (Kickoff):
+https://bugs.kde.org/show_bug.cgi?id=394614 SW
+
+krdc - general:
+https://bugs.kde.org/show_bug.cgi?id=395693 DW
+
+krdc - RDP:
+https://bugs.kde.org/show_bug.cgi?id=377911 IW
+
+plasmashell - Calendar:
+https://bugs.kde.org/show_bug.cgi?id=395956 CW
+
+kate - kwrite:
+https://bugs.kde.org/show_bug.cgi?id=395940 IW
+
+KScreen - common:
+https://bugs.kde.org/show_bug.cgi?id=394609 SW
+
+frameworks-kio - general:
+https://bugs.kde.org/show_bug.cgi?id=388991 I
+
+frameworks-kwayland - server:
+https://bugs.kde.org/show_bug.cgi?id=395707 IW
+
+kwayland-integration - general:
+https://bugs.kde.org/show_bug.cgi?id=395369 IW
+https://bugs.kde.org/show_bug.cgi?id=394765 SW
+
+Spectacle - General:
+https://bugs.kde.org/show_bug.cgi?id=387597 IW
+
+telepathy - accounts-kcm:
+https://bugs.kde.org/show_bug.cgi?id=364111 IW
+
+dolphin - general:
+https://bugs.kde.org/show_bug.cgi?id=388259 SW
+https://bugs.kde.org/show_bug.cgi?id=395187
+https://bugs.kde.org/show_bug.cgi?id=395849 IW
+
+systemsettings - general:
+https://bugs.kde.org/show_bug.cgi?id=395439 DW
+https://bugs.kde.org/show_bug.cgi?id=393569 IW
+https://bugs.kde.org/show_bug.cgi?id=395492 IW
+https://bugs.kde.org/show_bug.cgi?id=395351 CW
+https://bugs.kde.org/show_bug.cgi?id=395335 IW
+https://bugs.kde.org/show_bug.cgi?id=395787
+https://bugs.kde.org/show_bug.cgi?id=395845 W
+https://bugs.kde.org/show_bug.cgi?id=395822 SW
+https://bugs.kde.org/show_bug.cgi?id=395838 IW
+https://bugs.kde.org/show_bug.cgi?id=394899 IW
+https://bugs.kde.org/show_bug.cgi?id=396314 SW
+
+systemsettings - kcm_mouse:
+https://bugs.kde.org/show_bug.cgi?id=395681 IW
+
+Discover - discover:
+https://bugs.kde.org/show_bug.cgi?id=395762 IW
+
+kwin - compositing:
+https://bugs.kde.org/show_bug.cgi?id=395421 I
+
+kwin - wayland-generic:
+https://bugs.kde.org/show_bug.cgi?id=395650 IW
+https://bugs.kde.org/show_bug.cgi?id=395690 CW
+https://bugs.kde.org/show_bug.cgi?id=395368 IW
+https://bugs.kde.org/show_bug.cgi?id=395105 IW
+https://bugs.kde.org/show_bug.cgi?id=395970 IW
+
+kwin - platform-wayland:
+https://bugs.kde.org/show_bug.cgi?id=394803 IW
+
+kwin - appmenu:
+https://bugs.kde.org/show_bug.cgi?id=395179 I
+
+kwin - general:
+https://bugs.kde.org/show_bug.cgi?id=395732 IW
+
+kwin - input:
+https://bugs.kde.org/show_bug.cgi?id=383410 IW
+https://bugs.kde.org/show_bug.cgi?id=395818 SW
+
+kwin - effects-various:
+https://bugs.kde.org/show_bug.cgi?id=384462 IW
+
+kwin - platform-wayland:
+https://bugs.kde.org/show_bug.cgi?id=395573 NSW
+
+kwin - platform-drm:
+https://bugs.kde.org/show_bug.cgi?id=394656 IW
+
+kwin - platform-x11-standalone:
+https://bugs.kde.org/show_bug.cgi?id=395632 I
+
+kdiff3 - application:
+https://bugs.kde.org/show_bug.cgi?id=395686 IW
+
+kajongg - general:
+https://bugs.kde.org/show_bug.cgi?id=395770 IW
+
+kmail2 - general:
+https://bugs.kde.org/show_bug.cgi?id=395678 NSW
+
+kontact - general:
+https://bugs.kde.org/show_bug.cgi?id=395394 SW
+
+konversation - general:
+https://bugs.kde.org/show_bug.cgi?id=395767 W
+
+konversation - inputline:
+https://bugs.kde.org/show_bug.cgi?id=395313 CSW
+
+pimsettingsexplorer - general:
+https://bugs.kde.org/show_bug.cgi?id=395320 IW
+
+yakuake - general:
+https://bugs.kde.org/show_bug.cgi?id=395380 SW
+
+Manjaro Tools:
+https://gitlab.manjaro.org/tools/development-tools/manjaro-tools/issues/296

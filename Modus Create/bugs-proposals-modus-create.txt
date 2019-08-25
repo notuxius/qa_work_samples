@@ -1,0 +1,111 @@
+I think there has to be more clear explanation where to send results from QA assignment.
+
+
+Description of the app:
+Application is meant to calculate cost of parking with ability to select type of parking and time and date ranges for parking.
+
+
+Features proposals list:
+1. Ability to select current date and time in date and time fields.
+
+2. Ability to remember 'Choose a Lot' dropdown state in cookies.
+
+3. Transform date and time text fields into more suitable - like for example on this page - http://www.html5tutorial.info/html5-date.php - in '5. Date and Time (<input type="datetime"/>)' section - cause there are a lot of bugs with this type of field - like:
+	1) you can enter time in incorrect format;
+	2) more than 12 hours can be entered in time fields;
+	3) more than 60 minutes can be entered in time fields;
+	4) incorrect date can be entered - like '2/30/2017';
+	5) almost anything can be entered in date and time fields - like 0, 1, 999999999 (which cause hanging of the site), non-digit symbols;
+	6) both entry and leaving date fields are permitting to enter date before current date;
+	7) both entry and leaving time fields are permitting to enter time before current time.
+	
+4. Entry date and time could be prefilled with current date and time.
+
+5. There can be quick date/time shifters in form - like calculate for +1 hour + 30 min + 2 hours + 15 min.
+
+6. If user firstly selects entry date/time - leaving date/time should start from entry date/time.
+
+7. Remember states for 'AM' and 'PM' radio buttons and 'Choose a Lot' dropdown after pressing 'Calculate' button (date/time values are remembered).
+
+8. Change style of line under 'PARKING CALCULATOR' - to match styling of other lines on page - screenshot - https://www.dropbox.com/s/8h534ni1arkkguo/change-style-of-line.png?dl=0 .
+
+9. Display more descriptive error messages in 'COST' field and highlight errors in in form feilds.
+
+10. If user selects less then one hour date/time range - hint user with explanations that cost is displaying for one hour - not for selected minutes or display question mark near 'COST' field text with explanations after hovering/clicking on it.
+
+11. Add favicon.
+
+12. Focus 'Choose a Lot' dropdown on site loading - for quicker keyboard navigation.
+
+
+Bugs:
+1. 404 error for http://adam.goucher.ca/parkcalc/NavImages/spacer.gif file in site resources.
+
+2. Inconsistent naming of fields names in 'COST' error message - screenshot - https://www.dropbox.com/s/adh7qe8kwtdpx09/inconsistent-naming-of-fields-names.png?dl=0 .
+
+3. Title: 12-hour format time in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields is transforming into 24-hour format time when toggling PM radio button.
+Steps to reproduce: 
+	1) select identical date in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields;
+	2) select any time in 'Choose Entry Date and Time' field except '12:00';
+	3) select PM radio button;
+	4) press 'Calculate' button.
+Expected result: same time is displayed before toggling PM radio button.
+Actual result: time in 24-hour format is displayed instead of 12-hour format.
+Additional info: when selecting '00:00' time - it's changing into '12:00'.
+Device or Environment:
+	Browser: Yandex Browser 17.4.1 (based on Chromium);
+	OS: Manjaro Linux 17.0.2 (based on Arch Linux).
+
+4. Title: Cost for 'Short-Term Parking' for (0 Days, 0 Hours, 0 Minutes) time.
+Steps to reproduce: 
+1) in 'Choose a Lot' dropdown select 'Short-Term Parking';
+2) select identical date and time in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields;
+3) press 'Calculate' button.
+Expected result: error message with text something like 'Entry and leaving date and time could not be identical'.
+Actual result: '$2.00' text is displayed in 'COST' field.
+Device or Environment:
+	Browser: Yandex Browser 17.4.1 (based on Chromium);
+	OS: Manjaro Linux 17.0.2 (based on Arch Linux).
+	
+5. Title: Cost for 'Valet Parking' for (0 Days, 0 Hours, 0 Minutes) time.
+Steps to reproduce: 
+	1) in 'Choose a Lot' dropdown select 'Valet Parking';
+	2) select identical date and time in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields;
+	3) press 'Calculate' button.
+Expected result: error message with text something like 'Entry and leaving date and time could not be identical'.
+Actual result: '$12.00' text is displayed in 'COST' field.
+Device or Environment:
+	Browser: Yandex Browser 17.4.1 (based on Chromium);
+	OS: Manjaro Linux 17.0.2 (based on Arch Linux)'
+	
+6. Title: '(-1 Days, 23 Hours, 0 Minutes)' time is displayed in 'COST' field when selecting same entry and leaving dates and selecting leaving time one hour before entry time.
+Steps to reproduce: 
+	1) select identical date in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields;
+	2) select any time in 'Choose Entry Date and Time' field;
+	3) in 'Choose Leaving Date and Time' field - select time one hour before time in 'Choose Entry Date and Time' field;
+	4) press 'Calculate' button.
+Expected result: error message 'ERROR! YOUR EXIT DATE OR TIME IS BEFORE YOUR ENTRY DATE OR TIME'.
+Actual result: '(-1 Days, 23 Hours, 0 Minutes)' text is displayed in 'COST' field.
+Device or Environment:
+	Browser: Yandex Browser 17.4.1 (based on Chromium);
+	OS: Manjaro Linux 17.0.2 (based on Arch Linux).
+
+7. Title: After deleting text with time in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields - ':00' text is prefilled after loading of the page - but calculation is working and errors are not displayed.
+Steps to reproduce: 
+	1) delete text with time in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields;
+	2) press 'Calculate' button.
+Expected result: error message with text something like 'Time fields could not be empty'.
+Actual result: cost is calculating for '(0 Days, 0 Hours, 0 Minutes)' time range.
+Device or Environment:
+	Browser: Yandex Browser 17.4.1 (based on Chromium);
+	OS: Manjaro Linux 17.0.2 (based on Arch Linux).
+
+8. Title: After deleting text with date in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields - empty date field is displayed after loading of the page - but calculation is working and errors are not displayed.
+Steps to reproduce: 
+	1) delete text with date in 'Choose Entry Date and Time' and 'Choose Leaving Date and Time' fields;
+	2) press 'Calculate' button.
+Expected result: error message with text something like 'Date fields could not be empty'.
+Actual result: cost is calculating for '(0 Days, 0 Hours, 0 Minutes)' time range.
+Device or Environment:
+	Browser: Yandex Browser 17.4.1 (based on Chromium);
+	OS: Manjaro Linux 17.0.2 (based on Arch Linux).

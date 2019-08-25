@@ -1,0 +1,31 @@
+Application: Kate (kate), signal: Segmentation fault
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Current thread is 1 (Thread 0x7f1ea019a800 (LWP 2095))]
+
+Thread 2 (Thread 0x7f1e85fe3700 (LWP 2128)):
+#0  0x00007f1e9468fd79 in g_mutex_lock () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#1  0x00007f1e946499a3 in g_main_context_prepare () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#2  0x00007f1e9464a36b in ?? () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#3  0x00007f1e9464a54c in g_main_context_iteration () from /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+#4  0x00007f1e9b420a9b in QEventDispatcherGlib::processEvents (this=0x7f1e80000b20, flags=...) at kernel/qeventdispatcher_glib.cpp:425
+#5  0x00007f1e9b3c4dea in QEventLoop::exec (this=this@entry=0x7f1e85fe2d70, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#6  0x00007f1e9b1efb8a in QThread::exec (this=<optimized out>) at thread/qthread.cpp:525
+#7  0x00007f1e9b868e45 in ?? () from /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5
+#8  0x00007f1e9b1faaab in QThreadPrivate::start (arg=0x7f1e9bae0d60) at thread/qthread_unix.cpp:367
+#9  0x00007f1e965cd6db in start_thread (arg=0x7f1e85fe3700) at pthread_create.c:463
+#10 0x00007f1e9aaf288f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+Thread 1 (Thread 0x7f1ea019a800 (LWP 2095)):
+[KCrash Handler]
+#6  0x000055aa204bc730 in ?? ()
+#7  0x00007f1e9b3cfdc9 in QMetaObject::cast (this=0x7f1e9cf7df80 <QWidgetWindow::staticMetaObject>, obj=obj@entry=0x55aa20078fa0) at kernel/qmetaobject.cpp:366
+#8  0x00007f1e9b3cfe05 in QMetaObject::cast (this=<optimized out>, obj=obj@entry=0x55aa20078fa0) at kernel/qmetaobject.cpp:355
+#9  0x00007f1e9c8b6579 in qobject_cast<QWidgetWindow*> (object=0x55aa20078fa0) at ../../include/QtCore/../../src/corelib/kernel/qobject.h:504
+#10 QApplicationPrivate::notifyActiveWindowChange (this=<optimized out>, previous=<optimized out>) at kernel/qapplication.cpp:2186
+#11 0x00007f1e9c0b6ce5 in QGuiApplicationPrivate::processActivatedEvent (e=<optimized out>) at kernel/qguiapplication.cpp:2309
+#12 0x00007f1e9c0b6f4d in QGuiApplicationPrivate::processWindowSystemEvent (e=e@entry=0x55aa2032b940) at kernel/qguiapplication.cpp:1838
+#13 0x00007f1e9c08ff0b in QWindowSystemInterface::sendWindowSystemEvents (flags=...) at kernel/qwindowsysteminterface.cpp:1032
+#14 0x00007f1e8ab7957b in QPAEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /usr/lib/x86_64-linux-gnu/libQt5WaylandClient.so.5
+#15 0x00007f1e9b3c4dea in QEventLoop::exec (this=this@entry=0x7ffe4e624690, flags=..., flags@entry=...) at kernel/qeventloop.cpp:214
+#16 0x00007f1e9b3cdfa0 in QCoreApplication::exec () at kernel/qcoreapplication.cpp:1336
+#17 0x000055aa1ec77a61 in main (argc=<optimized out>, argv=<optimized out>) at ./kate/main.cpp:639

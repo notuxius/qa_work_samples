@@ -1,0 +1,40 @@
+Using Manjaro Budgie 16.06-RC and Budgie Desktop 10.2.5
+
+
+BUGS:
+1)When animations are disabled in Tweak Tool (gnome-tweak-tool) -> Appearance - Budgie Menu not showing when clicking on it and when hotkey is pressed
+2)Up and Down arrows on 'Raven -> Budgie Settings -> Panel -> Applets' changes the current selected applet but not the button to the down and right (button with three horizontal lines that enters the settings of currently selected applet) - it allways shows the settings of the applet that selected with mouse not with keyboard. It should show settings of the applet selected by keyboard when you mouse click on button with three horizontal lines, selecting the applet and pressing Return, and on double clicking on the applet
+
+
+PROPOSALS:
+1)Ctl + mouse scroll up/down on desktop should increase/dicrease icons size
+2)Scrolling on battery icon on Status Indicator applet should increase/dicrease brightness level (like scrolling on sound icon on Status Indicator applet for sound) and play test sound for orienting in current sound level when there is no application that vocalizes sound
+3)Hovering over sound icon on Status Indicator applet should display tooltip with output device name and sound level percentage (like now but with device name) (and maybe input device name and it's sound level)
+4)Hovering over sound icon on Status Indicator applet should display tooltip with battery (device) name and after it percentage and time until discharge (like now but with device (or devices like wireless mouse, etc. if there are any) name instead of the text 'Battery remaining') 
+5)Hovering over power button icon on Status Indicator applet should display tooltip like 'End this session..'
+6)Right clicking on the power button icon on Status Indicator applet should display dropdown menu with Logout, Restart and Shutdown items
+7)Left clicking on the Clock applet should display calendar
+8)Right clicking on Notifications applet should display dropdown menu with 'Clear all notifications' item and disable it when there are no notifications
+9)Clear all notifications button in 'Raven -> Notifications' should be inactive (not clickable) when there are no notifications
+10)Tooltip on the Notifications applet and text inside 'Raven -> Notifications' can be consistent like 'No new notifications' (now the texts are 'No new notifications' inside 'Raven -> Notifications' and 'No unread notifications' on the tooltip on Notifications applet)
+11)Drug and drop functionality for reordering in 'Raven -> Budgie Setting -> Panel -> Applets' list items
+12)Display prev, pause/play and next buttons in the titles of the players widgets in 'Raven -> Applets' (not at the bottom of the widget like now) - for controlling players even when player's widget is rolled-up and disable prev and next buttons when there is only one file in player's playlist
+13)Right clicking on the sound icon on Status Indicator applet should display dropdown menu with output and input device list and ability to switch devices by clicking on them
+14)Middle click on sound icon on Status Indicator applet should mute sound
+15)Right click on battery icon on Status Indicator applet should display dropdown menu with battery devices and selecting one will display it's battery status (replacing current if different) in this battery icon by default (even after restart)
+16)Separate Lock Screen applet that locks screen immediately
+17)Double click on calendar date in 'Raven -> Applets' should display Calendar (gnome-calendar) with New Event menu on that date (and make currend date (date in the header - 05/31/2016 and a calendar icon before it) a link to Calendar with New Event menu on current date)
+18)Double clicking on widget headers in 'Raven -> Applets' should roll-up and roll-down their contents like triangle to the right do
+18)Add tooltip on the Clock applet with current date
+19)Add tooltip (like 'Вudgie Menu' (cap)) on the Budgie Menu applet
+20)Right click on the Budgie Menu applet should display dropdown menu with 'Budgie Menu Settings' item - a link to 'Raven -> Budgie Settings -> Panel -> Applets -> Budgie menu'
+21)Right click on the Icon Task List applet should display dropdown menu with 'Icon Task List Settings' item - a link to 'Raven -> Budgie Settings -> Panel -> Applets -> Icon Task List'
+22)Hovering and scrolling up/down on application window icon in Icon Task List applet should restore/minimize that application's window (it should depend on panel position - if panel is at the Top - scrolling up with minimize it and scrolling down will restore it, if panel is at the Bottom - scrolling down will minimize it and scrolling up will restore it)
+23)Add 'Safely Remove Drive' to the right click menu on the desktop icons of the removable devices
+24)Ability to group similar icons in Icon Task List applet like Firefox window icon and Library window icon (stack on each other etc.) and appropriate setting in 'Raven -> Budgie Settings -> Panel -> Applets -> Icon Task List'
+
+
+ADDITIONAL:
+Website -> https://solus-project.com/budgie/:
+There is no space after 'to as Raven.' in the text:
+'Budgie ships with an applet, notification and customization center referred to as Raven.Raven enables you to:'
