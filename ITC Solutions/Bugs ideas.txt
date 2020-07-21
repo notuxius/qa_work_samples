@@ -1,0 +1,126 @@
+Situation:
+Локализация причины:
+Проверить вкладку 'Network' в DevTools - нет ли там ошибок.
+Проверить спам папку у ответственного лица.
+Проверить происходит ли отправка заявления ответственному лицу, даже если страница успешной отправки не отображается.
+Проверить наличие интернета.
+Проверить правила файрвола (если такие есть, особенно если приложение запускается в первый раз).
+Использовать другой браузер.
+Использовать другую машину.
+Отправить заявление напрямую ответственному лицу, например, с помощью CLI приложения.
+Подождать 1-2 минуты - возможно заявление приходит с задержкой.
+
+Репорт:
+Страница успешной отправки не отображается при нажатии на кнопку 'Передать заявление ответственному'. И второй - Заявление не направляется ответственному лицу со страницы ... при нажатии на кнопку 'Передать заявление ответственному' (если такое происходит).
+
+
+Login form:
+It’s a security flaw that password doesn’t support symbols and is only 12 symbols max.
+There should be a minimum length for passwords.
+It’s strange that username has a 256 size limit - considering that for example, MySQL VARCHAR has 255 max size limit on older versions and it’s a little bit overkill for username length - it would be better to use this limit in the password field.
+	Checklist:
+	Username/Password:
+		Positive:
+		1 symbol.
+		50/6 symbols.
+		255/11 symbols.
+256/12 symbols.
+Numeric symbols.
+Alpha symbols.
+Alphanumeric symbols.
+Maximum field length.
+Encrypted credentials DB storing.
+		
+		Negative:
+		0 symbols.
+		257/13 symbols.
+Non-alphanumeric symbols.
+Empty space.
+Wrong UPPER/lower case.
+Inactive/disabled credentials.
+Wrong credentials login attempts regulation.
+Empty space before credentials.
+XSS/SQL injection resistance.
+Passwords are displayed with asterisks/bullets.
+Error for ‘Username’ and ‘Password’ fields is displayed after any wrong credentials login.
+
+Submit:
+Positive:
+	Active if there is no single error.
+Active if there are no errors.
+	Submitting form to the server.
+	Loading of the main page after form submitting with correct values.
+UX - Submit with the ‘Enter’ key.
+
+Negative:
+	Disabled if there is a single error.
+Disabled if there are errors.
+	Username errors handling - error message.
+	Password errors handling - error message.
+Handling of both username and password errors upon single submit  - error message.
+Handling of error communicating with the server.
+
+Help:
+Load of help page.
+
+General:
+	Load of login page.
+	Navigation with keyboard.
+	ARIA compliance.
+	UX - focus on first (Username) field after page load.
+	Fallback/handling of disabled cookies/JS.
+	No security information is displayed in login page source code.
+	Passwords cannot be copied from its field.
+
+
+Apps’ builds:
+Правильное название ОС от Apple - macOS (с маленькой 'm').
+Пары macOS и IE и Windows и Safari не включены:
+Pairwise:
+Web А, Windows 8, Internet Explorer
+Web А, macOS, Safari
+Web А, Windows 10, Firefox
+Web B, Windows 10, Internet Explorer
+Web B, macOS, Firefox
+Web B, Windows 8, Firefox
+
+Regular:
+Web А, Windows 8, Internet Explorer
+Web А, Windows 8, Firefox
+Web А, Windows 10, Internet Explorer
+Web А, Windows 10, Firefox
+Web А, macOS, Firefox
+Web А, macOS, Safari
+Web B, Windows 8, Internet Explorer
+Web B, Windows 8, Firefox
+Web B, Windows 10, Internet Explorer
+Web B, Windows 10, Firefox
+Web B, macOS, Firefox
+Web B, macOS, Safari
+
+
+API:
+Подключился к базе данных в нужную таблицу и использовал например SELECT, WHERE.
+Если сущности в БД могут взаимодействовать с API - сделать GET, POST запросы с необходимыми параметрами, с частью параметров и без них.
+
+
+UI:
+‘Cancel’ button is selected by default - is it ok?
+No access key for ‘Orientation’ tab (letter underline for Alt+letter shortcut activation).
+The interface is outdated.
+The ACME logo isn’t aligned with the rest of the interface text from the right side.
+Typos in words: Autoscrll, Alternatc.
+‘Device Setup is missing trailing quote symbol “‘”
+Two keyboard focuses - one on the ‘Device Setup’ button and one on the ‘Cancel’ button.
+Two ‘O’ and ‘D’ access keys for ‘Devices’/’Devices Setup’ and ‘Pointers/Motion’.
+No 3rd button assignment is depicted on the mouse picture.
+Too much indentation between ‘of your device.’ and Change these assignments’ text.
+‘Change these assignments’ text should be replaced with 'To change these assignments' or 'For changing these assignments'.
+The 3rd assignment is using the '.' dot symbol instead of ':' colon.
+No assignment for trackball.
+The 1st assignment depiction is located right on the mouse button itself, while the 2nd one inconsistently is not located on the mousewheel, but is taken out from the wheel location and is using a pointer to the wheel.
+It’s good practice to justify interface text from the left and right sides pixel perfectly - for decreasing cognitive load.
+
+
+Task notes:
+In the test task text in 'Текcтовое поле ввода' part - the ‘c’ letter is in english language not in russian.
